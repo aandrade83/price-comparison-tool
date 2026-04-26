@@ -10,9 +10,10 @@ function fmt(n: number): string {
 function QualityBadge({ quality }: { quality: string | null }) {
   if (!quality) return null;
   const cfg: Record<string, { label: string; cls: string }> = {
-    HIGH:   { label: 'HIGH', cls: 'bg-green-400/10 text-green-400 ring-green-400/20' },
-    MEDIUM: { label: 'MED',  cls: 'bg-amber-400/10 text-amber-400 ring-amber-400/20' },
-    LOW:    { label: 'LOW',  cls: 'bg-red-500/10   text-red-400   ring-red-500/20'   },
+    EXACT:      { label: 'EXACT MATCH',     cls: 'bg-green-400/10 text-green-400 ring-green-400/20' },
+    HIGH:       { label: 'HIGH CONFIDENCE', cls: 'bg-blue-400/10  text-blue-400  ring-blue-400/20'  },
+    SUBSTITUTE: { label: 'SUBSTITUTE',      cls: 'bg-amber-400/10 text-amber-400 ring-amber-400/20' },
+    LOW:        { label: 'LOW',             cls: 'bg-red-500/10   text-red-400   ring-red-500/20'   },
   };
   const c = cfg[quality];
   if (!c) return null;
@@ -68,11 +69,11 @@ export default async function Page({
     .limit(50);
 
   // Summary counts
-  const highCount    = allRows.filter(r => r.walmartQuality === 'HIGH').length;
-  const medCount     = allRows.filter(r => r.walmartQuality === 'MEDIUM').length;
-  const lowCount     = allRows.filter(r => r.walmartQuality === 'LOW').length;
-  const trustedCount = highCount + medCount;
-  const aldiCount    = allRows.filter(r => r.aldiPrice !== null).length;
+  const exactCount = allRows.filter(r => r.walmartQuality === 'EXACT').length;
+  const highCount  = allRows.filter(r => r.walmartQuality === 'HIGH').length;
+  const subCount   = allRows.filter(r => r.walmartQuality === 'SUBSTITUTE').length;
+  const lowCount   = allRows.filter(r => r.walmartQuality === 'LOW').length;
+  const aldiCount  = allRows.filter(r => r.aldiPrice !== null).length;
 
   // Filter for display
   const rows = showLowMatches
@@ -80,11 +81,11 @@ export default async function Page({
     : allRows.filter(r => r.walmartQuality !== 'LOW');
 
   const summaryCards = [
-    { label: 'Products Processed',    value: allRows.length, valCls: 'text-white'     },
-    { label: 'Trusted Matches',       value: trustedCount,   valCls: 'text-green-400' },
-    { label: 'High Confidence',       value: highCount,      valCls: 'text-green-400' },
-    { label: 'Medium Confidence',     value: medCount,       valCls: 'text-amber-400' },
-    { label: 'Aldi Matches',          value: aldiCount,      valCls: 'text-[#e8334a]' },
+    { label: 'Products Processed', value: allRows.length, valCls: 'text-white'     },
+    { label: 'Exact Matches',      value: exactCount,     valCls: 'text-green-400' },
+    { label: 'High Confidence',    value: highCount,      valCls: 'text-blue-400'  },
+    { label: 'Substitutes',        value: subCount,       valCls: 'text-amber-400' },
+    { label: 'Aldi Matches',       value: aldiCount,      valCls: 'text-[#e8334a]' },
   ];
 
   return (
@@ -324,7 +325,7 @@ export default async function Page({
               <div className="flex items-center gap-4 text-[11px] font-mono text-slate-700 uppercase tracking-widest">
                 <span className="flex items-center gap-1.5">
                   <span className="h-1.5 w-1.5 rounded-full bg-[#4a9eff]" />
-                  walmart: {trustedCount} trusted · {highCount} high · {medCount} med
+                  walmart: {exactCount} exact · {highCount} high · {subCount} sub
                 </span>
                 <span className="flex items-center gap-1.5">
                   <span className="h-1.5 w-1.5 rounded-full bg-[#e8334a]" />

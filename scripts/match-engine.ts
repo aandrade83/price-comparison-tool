@@ -1,27 +1,31 @@
 /**
- * Shared product match-scoring engine.
+ * Shared product match-scoring engine v2.
  *
- * Scoring weights (user-spec):
- *   Brand exact match  +40
- *   Brand known diff   -20   (both known non-private brands, different)
- *   Category exact     +25
- *   Category compat    +10
- *   Variant match      +15   (per matching variant word)
- *   Variant conflict   -20   (per conflicting variant, e.g. pepperoni vs hawaiian)
- *   Size ≤10%          +15
- *   Size 11-50%        +5
- *   Size >50%          -10
- *   Keyword match      +10   (capped at 2 → max +20)
+ * Weights:
+ *   Brand exact       +40    (both brands confirmed same)
+ *   Brand mismatch    -20    (both confirmed different non-private)
+ *   Category exact    +30    (same product type)
+ *   Category compat   +5     (related but not same, e.g. choc_wafer ~ choc_bar)
+ *   Variant match     +15    (pepperoni, chicken, strawberry, etc.)
+ *   Variant conflict  -20    (SAL has a variant word that comp doesn't)
+ *   Size ≤10%         +15
+ *   Size 11-50%       +5
+ *   Size >50%         -5
+ *   Keyword overlap   +10    (capped at 2 matches → max +20)
  *
  * Confidence thresholds:
  *   EXACT      ≥ 95   same brand + category + variant + size
- *   HIGH       ≥ 80   same brand + category (variant or size may differ slightly)
- *   SUBSTITUTE ≥ 60   different/private brand + same category + type match
- *   LOW        ≥ 20   weak or partial match
- *   REJECT      < 20  or category mismatch
+ *   HIGH       ≥ 80   same brand + category (slight variant/size tolerance)
+ *   SUBSTITUTE ≥ 50   different/private brand, same category + comparable type
+ *   LOW        ≥ 25   weak signal — hidden by default
+ *   REJECT      < 25  or category conflict
+ *
+ * Special rule:
+ *   If comp brand is private-label and SAL brand is a national brand,
+ *   confidence is capped at SUBSTITUTE (never HIGH or EXACT).
  */
 
-// ── Types ─────────────────────────────────────────────────────────────────────
+// ── Types ──────────────────────────────────────────────────────────────────────
 
 export type Confidence = 'EXACT' | 'HIGH' | 'SUBSTITUTE' | 'LOW' | 'REJECT';
 
@@ -42,19 +46,19 @@ export interface ProductRef {
 const W = {
   BRAND_EXACT:       40,
   BRAND_MISMATCH:   -20,
-  CAT_EXACT:         25,
-  CAT_COMPAT:        10,
+  CAT_EXACT:         30,
+  CAT_COMPAT:         5,
   VARIANT:           15,
   VARIANT_CONFLICT: -20,
   SIZE_CLOSE:        15,  // ≤10%
   SIZE_OK:            5,  // 11-50%
-  SIZE_FAR:         -10,  // >50%
-  KW:                10,  // per keyword, capped at 2 matches
+  SIZE_FAR:          -5,  // >50%
+  KW:                10,  // per keyword, capped at 2 → max +20
 } as const;
 
-const THR = { EXACT: 95, HIGH: 80, SUBSTITUTE: 60, LOW: 20 } as const;
+const THR = { EXACT: 95, HIGH: 80, SUBSTITUTE: 50, LOW: 25 } as const;
 
-// ── Stop words ────────────────────────────────────────────────────────────────
+// ── Stop words ─────────────────────────────────────────────────────────────────
 
 const STOP = new Set([
   'the','a','an','of','in','and','with','for','by','from','its',
@@ -74,15 +78,19 @@ const STOP = new Set([
   'brand','brands','company','corp','inc',
   'farm','farms','town','country','golden','happy','friendly',
   'nature','simply','specially','selected',
+  // Noise words that leak from product names into keyword matching
+  'art','burger','flavor','flavored','flavors','variety',
 ]);
 
-// ── Text helpers ──────────────────────────────────────────────────────────────
+// ── Text helpers ───────────────────────────────────────────────────────────────
 
 export function norm(s: string): string {
   return s
     .replace(/[®™©!]/g, '')
     .replace(/\([^)]*\)/g, '')
     .replace(/\bFL\.?\s*OZ\b/gi, 'oz')
+    .replace(/\bBBQ\b/gi, 'barbecue')   // normalize abbreviation
+    .replace(/\bMac\s*&\s*Cheese\b/gi, 'macaroni and cheese')
     .replace(/,/g, ' ').replace(/&/g, 'and')
     .replace(/\s+/g, ' ').toLowerCase().trim();
 }
@@ -108,7 +116,7 @@ export function coreWords(name: string, brand: string | null): string[] {
     .filter(w => { if (seen.has(w)) return false; seen.add(w); return true; });
 }
 
-// ── Size parsing ──────────────────────────────────────────────────────────────
+// ── Size parsing ───────────────────────────────────────────────────────────────
 
 function parseOz(name: string, size: string | null): number | null {
   const text = ((size ?? '') + ' ' + name).toLowerCase();
@@ -121,7 +129,7 @@ function parseOz(name: string, size: string | null): number | null {
   return null;
 }
 
-// ── Category detection ────────────────────────────────────────────────────────
+// ── Category detection ─────────────────────────────────────────────────────────
 
 const CAT_RULES: { cat: string; re: RegExp }[] = [
   // Beverages
@@ -130,8 +138,8 @@ const CAT_RULES: { cat: string; re: RegExp }[] = [
   { cat: 'juice_drink',     re: /\bjuice\s+(?:drink|cocktail)\b/i },
   { cat: 'probiotic_soda',  re: /\bprobiotic\s+soda\b/i },
   { cat: 'energy_drink',    re: /\benergy\s+drink\b/i },
-  // Chocolate (before candy — "milk chocolate candy bar" must be choc_bar not candy)
-  { cat: 'choc_wafer',      re: /\b(?:crisp\s+wafers?\s+in|chocolate.{0,20}wafers?|wafers?.{0,20}chocolate|kit\s*kat)\b/i },
+  // Chocolate (before candy — "milk chocolate candy bar" → choc_bar not candy)
+  { cat: 'choc_wafer',      re: /\b(?:crisp\s+wafers?\s+in\b|chocolate.{0,20}wafers?|wafers?.{0,20}chocolate|kit\s*kat)\b/i },
   { cat: 'choc_bar',        re: /\b(?:milk|dark|white)\s+chocolate(?:\s+(?:extra\s+large\s+)?(?:candy\s+)?bar)?\b/i },
   { cat: 'hazelnut_spread', re: /\bhazelnut\s+spread\b/i },
   // Candy (after chocolate)
@@ -143,7 +151,7 @@ const CAT_RULES: { cat: string; re: RegExp }[] = [
   { cat: 'shells_cheese',   re: /\bshells?\s+(?:pasta\s+)?(?:and|&|n)\s*cheese\b/i },
   { cat: 'velveeta',        re: /\bvelveeta\b/i },
   // Sauces / condiments
-  { cat: 'bbq_sauce',       re: /\b(?:barbecue|bbq)\s+sauce\b/i },
+  { cat: 'barbecue_sauce',  re: /\bbarbecue\s+sauce\b/i },   // after norm() converts BBQ→barbecue
   { cat: 'ketchup',         re: /\bketchup\b/i },
   { cat: 'pasta_sauce',     re: /\bpasta\s+sauce\b/i },
   { cat: 'tomato_sauce',    re: /\btomato\s+sauce\b/i },
@@ -158,21 +166,24 @@ const CAT_RULES: { cat: string; re: RegExp }[] = [
   { cat: 'potato_chips',    re: /\bpotato\s+(?:chips?|crisps?)\b/i },
   { cat: 'chips',           re: /\bchips?\b/i },
   // Spreads / dairy
-  { cat: 'butter_spread',   re: /\bvegetable\s+oil\s+spread|i\s+can.t\s+believe\b/i },
+  { cat: 'butter_spread',   re: /\bvegetable\s+oil\s+spread\b|i\s+can.t\s+believe\b|tastes?\s+like\s+butter\b|margarine\b/i },
   { cat: 'amer_cheese',     re: /\bamerican\s+cheese\s+slices?\b/i },
   // Grains / breakfast
-  { cat: 'cereal',          re: /\bcereal\b/i },
+  { cat: 'cereal',          re: /\bcereal\b|\bgranola\b|\bfrosted\s+flakes\b|\bbran\s+flakes\b|\bcorn\s+flakes\b/i },
   { cat: 'syrup',           re: /\b(?:pancake\s+)?syrup\b/i },
   // Staples
   { cat: 'mashed_potato',   re: /\bmashed\s+potat/i },
   { cat: 'pigeon_peas',     re: /\bpigeon\s+peas?\b/i },
   { cat: 'canned_meat',     re: /\bcanned\s+meat\b/i },
   { cat: 'salami',          re: /\bsalami\b/i },
+  // Pet
+  { cat: 'dog_food',        re: /\bdog\s+(?:food|chow|treats?|kibble)\b|\bpet\s+food\b/i },
   // Non-food
   { cat: 'dish_soap',       re: /\bdish\s+(?:soap|liquid|detergent)\b/i },
   { cat: 'tire_product',    re: /\btire\b/i },
 ];
 
+// Compatible category pairs (same product family, interchangeable)
 const COMPAT = new Set([
   'pasta_sauce|tomato_sauce', 'tomato_sauce|pasta_sauce',
   'mac_cheese|shells_cheese', 'shells_cheese|mac_cheese',
@@ -188,20 +199,22 @@ const COMPAT = new Set([
 ]);
 
 export function detectCat(name: string): string | null {
-  for (const { cat, re } of CAT_RULES) if (re.test(name)) return cat;
+  // Run category detection on norm()-processed name so BBQ→barbecue etc. is applied
+  const n = norm(name);
+  for (const { cat, re } of CAT_RULES) if (re.test(n)) return cat;
   return null;
 }
 
 function catsOk(a: string | null, b: string | null): boolean {
-  if (!a || !b) return true;
+  if (!a || !b) return true;   // unknown category = don't reject
   if (a === b) return true;
   return COMPAT.has(`${a}|${b}`);
 }
 
-// ── Private-label brand set ───────────────────────────────────────────────────
+// ── Private-label brand set ────────────────────────────────────────────────────
 
 const PRIVATE_LABELS = new Set([
-  // Aldi
+  // Aldi private labels
   "mama cozzi's pizza kitchen","mama cozzi's","mama cozzis",
   "chef's cupboard","chefs cupboard","nature's nectar","natures nectar",
   "millville","park street deli","clancy's","clancys",
@@ -224,7 +237,7 @@ const PRIVATE_LABELS = new Set([
   "belavi","lacura","flavorables","simms",
   "oh snap!","oh snap","rainier fruit company",
   "philly gourmet","bob evans farms","aldi",
-  // Walmart
+  // Walmart private labels
   "great value","equate","george","mainstays","better goods",
   "sam's choice","marketside","parent's choice","parents choice",
   "ol' roy","ol roy",
@@ -235,28 +248,21 @@ export function isPrivateLabel(brand: string | null): boolean {
   return PRIVATE_LABELS.has(brand.toLowerCase().trim());
 }
 
-// ── Variant words ─────────────────────────────────────────────────────────────
-// These words define the product variant; conflicts → heavy penalty
+// ── Variant words (define the specific product) ───────────────────────────────
 
 const VARIANT_WORDS = [
-  // Proteins (mutually exclusive)
+  // Proteins (mutually exclusive within a category)
   'chicken','beef','pork','seafood','shrimp','turkey','tuna','fish','ham',
   'lamb','lobster','crab','clam','salmon',
-  // Pizza toppings
+  // Pizza / sandwich toppings
   'pepperoni','sausage','supreme','hawaiian','veggie',
   // Sauce variants
   'marinara','alfredo','arrabbiata',
   // Flavor identifiers
   'strawberry','watermelon','cherry','grape','lemon','lime','orange','mango',
   'vanilla','cinnamon','maple','buttermilk',
-  // Product sub-type
+  // Dairy type
   'whole','skim','lowfat',
-];
-
-const VARIANT_BONUS_WORDS = [
-  'pepperoni','sausage','supreme','hawaiian','veggie','chicken','beef',
-  'strawberry','watermelon','maple','original','classic',
-  'four cheese','three cheese',
 ];
 
 function variantIn(word: string, text: string): boolean {
@@ -265,21 +271,19 @@ function variantIn(word: string, text: string): boolean {
 
 export function variantScore(nameA: string, nameB: string): { bonus: number; conflict: number } {
   let bonus = 0, conflict = 0;
+  const normA = norm(nameA), normB = norm(nameB);
   for (const w of VARIANT_WORDS) {
-    const inA = variantIn(w, nameA);
-    const inB = variantIn(w, nameB);
+    const inA = variantIn(w, normA);
+    const inB = variantIn(w, normB);
     if (inA && inB)  bonus++;
-    if (inA && !inB) conflict++;
+    if (inA && !inB) conflict++;    // SAL specifies a variant comp doesn't have
   }
   return { bonus, conflict };
 }
 
 // ── Main scoring function ─────────────────────────────────────────────────────
 
-export function scoreProducts(
-  sal:  ProductRef,
-  comp: ProductRef,
-): MatchScore {
+export function scoreProducts(sal: ProductRef, comp: ProductRef): MatchScore {
   const notes: string[] = [];
   let pts = 0;
 
@@ -300,9 +304,9 @@ export function scoreProducts(
     pts -= 2; notes.push(`cat:comp_only(${catB})(-2)`);
   }
 
-  // ── 2. Keyword overlap (hard floor: ≥ 1 shared word) ─────────────────
-  const salWords  = coreWords(sal.name, sal.brand);
-  const compText  = norm(comp.name + ' ' + (comp.brand ?? ''));
+  // ── 2. Keyword overlap (hard requirement: ≥ 1) ───────────────────────
+  const salWords = coreWords(sal.name, sal.brand);
+  const compText = norm(comp.name + ' ' + (comp.brand ?? ''));
   let kwCount = 0;
   for (const w of salWords) if (wordIn(w, compText)) kwCount++;
 
@@ -316,6 +320,7 @@ export function scoreProducts(
   // ── 3. Brand matching ─────────────────────────────────────────────────
   const bA = sal.brand?.toLowerCase().trim() ?? null;
   const bB = comp.brand?.toLowerCase().trim() ?? null;
+  let compIsPrivate = false;
 
   if (bA && bB) {
     const same = bA === bB || bA.includes(bB) || bB.includes(bA);
@@ -323,51 +328,40 @@ export function scoreProducts(
       pts += W.BRAND_EXACT;
       notes.push(`brand:exact(+${W.BRAND_EXACT})`);
     } else if (isPrivateLabel(bB)) {
-      // Private-label substitute: no brand bonus, no penalty
+      compIsPrivate = true;
       notes.push('brand:private_label(+0)');
     } else {
-      // Known brand mismatch
       pts += W.BRAND_MISMATCH;
       notes.push(`brand:mismatch(${W.BRAND_MISMATCH})`);
     }
+  } else if (bA && !bB) {
+    // Competitor brand unknown — check if SAL brand appears in comp name
+    const compNorm = norm(comp.name);
+    const bAn = norm(bA);
+    if (bAn.split(/\s+/).some(t => t.length >= 3 && compNorm.includes(t))) {
+      pts += W.BRAND_EXACT;
+      notes.push(`brand:found_in_name(+${W.BRAND_EXACT})`);
+    }
+    // Otherwise neutral (no bonus, no penalty)
   }
-  // No SAL brand → neutral (unbranded/generic SAL product)
 
   // ── 4. Variant score ──────────────────────────────────────────────────
   const { bonus, conflict } = variantScore(sal.name, comp.name);
-  if (bonus > 0) {
-    const vPts = bonus * W.VARIANT;
-    pts += vPts;
-    notes.push(`variant:match(+${vPts})`);
-  }
-  if (conflict > 0) {
-    const cPts = conflict * W.VARIANT_CONFLICT;
-    pts += cPts;
-    notes.push(`variant:conflict(${cPts})`);
-  }
+  if (bonus > 0)    { const p = bonus   * W.VARIANT;           pts += p; notes.push(`variant:match(+${p})`); }
+  if (conflict > 0) { const p = conflict * W.VARIANT_CONFLICT; pts += p; notes.push(`variant:conflict(${p})`); }
 
   // ── 5. Size matching ──────────────────────────────────────────────────
   const ozA = parseOz(sal.name, sal.size);
   const ozB = parseOz(comp.name, comp.size);
-
   if (ozA && ozB) {
     const ratio = Math.max(ozA, ozB) / Math.min(ozA, ozB);
-    if (ratio <= 1.10) {
-      pts += W.SIZE_CLOSE;
-      notes.push(`size:close(${ozA.toFixed(1)}≈${ozB.toFixed(1)}oz)(+${W.SIZE_CLOSE})`);
-    } else if (ratio <= 1.50) {
-      pts += W.SIZE_OK;
-      notes.push(`size:ok(+${W.SIZE_OK})`);
-    } else {
-      pts += W.SIZE_FAR;
-      notes.push(`size:far(${ozA.toFixed(1)} vs ${ozB.toFixed(1)}oz)(${W.SIZE_FAR})`);
-    }
+    if (ratio <= 1.10)      { pts += W.SIZE_CLOSE; notes.push(`size:close(${ozA.toFixed(1)}≈${ozB.toFixed(1)}oz)(+${W.SIZE_CLOSE})`); }
+    else if (ratio <= 1.50) { pts += W.SIZE_OK;    notes.push(`size:ok(+${W.SIZE_OK})`); }
+    else                    { pts += W.SIZE_FAR;   notes.push(`size:far(${ozA.toFixed(1)} vs ${ozB.toFixed(1)}oz)(${W.SIZE_FAR})`); }
   }
 
-  // ── 6. Reject if still deeply negative ───────────────────────────────
-  if (pts < 0) {
-    return { confidence: 'REJECT', points: pts, notes };
-  }
+  // ── 6. Reject if net negative ─────────────────────────────────────────
+  if (pts < 0) return { confidence: 'REJECT', points: pts, notes };
 
   // ── 7. Map to confidence level ────────────────────────────────────────
   let confidence: Confidence;
@@ -376,6 +370,13 @@ export function scoreProducts(
   else if (pts >= THR.SUBSTITUTE) confidence = 'SUBSTITUTE';
   else if (pts >= THR.LOW)        confidence = 'LOW';
   else                            confidence = 'REJECT';
+
+  // Business rule: private-label competitor cannot rank EXACT or HIGH
+  // (exact/high require same brand — private labels are always substitutes)
+  if (compIsPrivate && bA && (confidence === 'EXACT' || confidence === 'HIGH')) {
+    confidence = 'SUBSTITUTE';
+    notes.push('capped:SUBSTITUTE(private_label)');
+  }
 
   return { confidence, points: pts, notes };
 }
