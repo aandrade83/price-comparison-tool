@@ -27,10 +27,11 @@ function QualityBadge({ quality }: { quality: string | null }) {
 export default async function Page({
   searchParams,
 }: {
-  searchParams: Promise<{ showLow?: string }>
+  searchParams: Promise<{ showWalmartLow?: string; showAldiLow?: string }>
 }) {
-  const { showLow } = await searchParams;
-  const showLowMatches = showLow === '1';
+  const { showWalmartLow, showAldiLow } = await searchParams;
+  const showLowMatches  = showWalmartLow === '1';  // kept for backward-compat row filter
+  const showAldiLowMatches = showAldiLow === '1';
 
   const walmartPrices = alias(competitorPrices, 'walmart_prices');
   const aldiPrices    = alias(competitorPrices, 'aldi_prices');
@@ -69,11 +70,27 @@ export default async function Page({
     .limit(50);
 
   // Summary counts
-  const exactCount = allRows.filter(r => r.walmartQuality === 'EXACT').length;
-  const highCount  = allRows.filter(r => r.walmartQuality === 'HIGH').length;
-  const subCount   = allRows.filter(r => r.walmartQuality === 'SUBSTITUTE').length;
-  const lowCount   = allRows.filter(r => r.walmartQuality === 'LOW').length;
-  const aldiCount  = allRows.filter(r => r.aldiPrice !== null).length;
+  const exactCount    = allRows.filter(r => r.walmartQuality === 'EXACT').length;
+  const highCount     = allRows.filter(r => r.walmartQuality === 'HIGH').length;
+  const subCount      = allRows.filter(r => r.walmartQuality === 'SUBSTITUTE').length;
+  const walmartLow    = allRows.filter(r => r.walmartQuality === 'LOW').length;
+  const aldiLow       = allRows.filter(r => r.aldiQuality === 'LOW').length;
+  const lowCount      = walmartLow + aldiLow;
+  const aldiCount     = allRows.filter(r => r.aldiPrice !== null && r.aldiQuality !== 'LOW').length;
+
+  // URL helpers for independent store toggles
+  const walmartToggle = (() => {
+    const p = new URLSearchParams();
+    if (!showLowMatches)     p.set('showWalmartLow', '1');
+    if (showAldiLowMatches)  p.set('showAldiLow', '1');
+    const q = p.toString(); return q ? `/?${q}` : '/';
+  })();
+  const aldiToggle = (() => {
+    const p = new URLSearchParams();
+    if (showLowMatches)       p.set('showWalmartLow', '1');
+    if (!showAldiLowMatches)  p.set('showAldiLow', '1');
+    const q = p.toString(); return q ? `/?${q}` : '/';
+  })();
 
   // Filter for display
   const rows = showLowMatches
@@ -142,25 +159,51 @@ export default async function Page({
           </div>
         ) : (
           <>
-            {/* Controls bar */}
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2 text-[11px] font-mono text-slate-600 uppercase tracking-widest">
-                <span className="h-1.5 w-1.5 rounded-full bg-[#4a9eff]" />
-                Walmart #5229 · Wyncote PA · 2.1 mi
+            {/* Controls bar — one row per store */}
+            <div className="space-y-2">
+
+              {/* Walmart row */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 text-[11px] font-mono text-slate-600 uppercase tracking-widest">
+                  <span className="h-1.5 w-1.5 rounded-full bg-[#4a9eff]" />
+                  Walmart #5229 · Wyncote PA · 2.1 mi
+                </div>
+                <a
+                  href={walmartToggle}
+                  className={`flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-widest transition-colors ${
+                    showLowMatches
+                      ? 'border-red-500/30 bg-red-500/5 text-red-400 hover:bg-red-500/10'
+                      : 'border-[#192235] bg-[#0a0f1a] text-slate-500 hover:border-[#243050] hover:text-slate-400'
+                  }`}
+                >
+                  <span className={`h-1.5 w-1.5 rounded-full ${showLowMatches ? 'bg-red-400' : 'bg-slate-700'}`} />
+                  {showLowMatches
+                    ? 'Hide low confidence'
+                    : `Show low confidence (${walmartLow})`}
+                </a>
               </div>
-              <a
-                href={showLowMatches ? '/' : '/?showLow=1'}
-                className={`flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-widest transition-colors ${
-                  showLowMatches
-                    ? 'border-red-500/30 bg-red-500/5 text-red-400 hover:bg-red-500/10'
-                    : 'border-[#192235] bg-[#0a0f1a] text-slate-500 hover:border-[#243050] hover:text-slate-400'
-                }`}
-              >
-                <span className={`h-1.5 w-1.5 rounded-full ${showLowMatches ? 'bg-red-400' : 'bg-slate-700'}`} />
-                {showLowMatches
-                  ? `Hide low confidence matches`
-                  : `Show low confidence matches (${lowCount})`}
-              </a>
+
+              {/* Aldi row */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 text-[11px] font-mono text-slate-600 uppercase tracking-widest">
+                  <span className="h-1.5 w-1.5 rounded-full bg-[#e8334a]" />
+                  Aldi · 6119 N Broad St · Philadelphia PA · 0.9 mi
+                </div>
+                <a
+                  href={aldiToggle}
+                  className={`flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-widest transition-colors ${
+                    showAldiLowMatches
+                      ? 'border-red-500/30 bg-red-500/5 text-red-400 hover:bg-red-500/10'
+                      : 'border-[#192235] bg-[#0a0f1a] text-slate-500 hover:border-[#243050] hover:text-slate-400'
+                  }`}
+                >
+                  <span className={`h-1.5 w-1.5 rounded-full ${showAldiLowMatches ? 'bg-red-400' : 'bg-slate-700'}`} />
+                  {showAldiLowMatches
+                    ? 'Hide low confidence'
+                    : `Show low confidence (${aldiLow})`}
+                </a>
+              </div>
+
             </div>
 
             {/* Table */}
@@ -195,7 +238,8 @@ export default async function Page({
                     const wRaw      = row.walmartPrice !== null ? parseFloat(row.walmartPrice) : null;
                     const walmart   = wRaw !== null && !isLow ? wRaw : null;
                     const aRaw      = row.aldiPrice !== null ? parseFloat(row.aldiPrice) : null;
-                    const aldi      = aRaw;
+                    const aldiIsLow = row.aldiQuality === 'LOW';
+                    const aldi      = aRaw !== null && (!aldiIsLow || showAldiLowMatches) ? aRaw : null;
                     const cost      = row.activeCost != null ? parseFloat(row.activeCost) : null;
                     const pctW      = cost && walmart !== null ? ((walmart - cost) / cost) * 100 : null;
                     const pctA      = cost && aldi !== null ? ((aldi - cost) / cost) * 100 : null;
@@ -334,7 +378,7 @@ export default async function Page({
                 {lowCount > 0 && (
                   <span className="flex items-center gap-1.5">
                     <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
-                    {lowCount} low{showLowMatches ? ' (visible)' : ' (hidden)'}
+                    {walmartLow}w + {aldiLow}a low{showLowMatches ? ' (visible)' : ' (hidden)'}
                   </span>
                 )}
               </div>
