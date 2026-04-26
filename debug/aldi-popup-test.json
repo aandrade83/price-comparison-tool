@@ -1,0 +1,51 @@
+{
+  "testedAt": "2026-04-25T20:36:11.638Z",
+  "zipcode": "19138",
+  "baseUrl": "https://www.instacart.com/store/aldi/storefront?postal_code=19138",
+  "initialPopup": {
+    "detected": true,
+    "details": "dialog/modal visible: DIV class=\"ReactModalPortal\" | dialog/modal visible: DIV class=\"ReactModal__Content ReactModal__Content--after-open AuthModal__Content\" | email input visible — signup/login form active"
+  },
+  "dismissal": [
+    {
+      "strategy": "Escape key",
+      "worked": false,
+      "detail": "still blocked"
+    },
+    {
+      "strategy": "Click outside (10,10)",
+      "worked": false,
+      "detail": "still blocked"
+    },
+    {
+      "strategy": "Remove modal from DOM (removed 1 elements)",
+      "worked": true,
+      "detail": "cleared"
+    }
+  ],
+  "popupCleared": true,
+  "searchResults": [
+    {
+      "query": "milk",
+      "found": false,
+      "products": [],
+      "itemCount": 28
+    },
+    {
+      "query": "bread",
+      "found": true,
+      "products": [
+        {
+          "name": "L'oven Fresh Marble Rye Bread",
+          "price": "$3.65",
+          "size": "24 oz",
+          "url": "https://www.instacart.com/store/aldi/storefront?postal_code=19138"
+        }
+      ],
+      "itemCount": 28
+    }
+  ],
+  "verdict": "D) Need alternate source — Instacart automation unreliable",
+  "verdictCode": "D",
+  "recommendation": "Consider: Flipp API for Aldi weekly ads, direct Aldi.us product catalog, or manual price entry for the ~30 core Aldi products that map to SAL items."
+}

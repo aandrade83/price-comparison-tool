@@ -1,0 +1,1 @@
+ALTER TABLE "products" ADD COLUMN "active_cost" numeric(10, 2);

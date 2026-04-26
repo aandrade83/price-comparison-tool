@@ -1,0 +1,1277 @@
+{
+  "storefrontPlacements": [
+    {
+      "__typename": "ContentManagementCardListsSimple",
+      "id": "1079070",
+      "title": null,
+      "subtitle": null,
+      "iconUrl": null,
+      "cta": null,
+      "dataQuery": {
+        "id": "69fe11e0",
+        "__typename": "ContentManagementDataQueriesOrderStatus"
+      },
+      "visibility": null,
+      "visibilityConditions": [],
+      "viewSection": {
+        "id": "card_list_response_backed:dd6a67f7:card_list:474229",
+        "nextRetailersString": "Next retailers",
+        "previousRetailersString": "Previous retailers",
+        "viewAllString": "View all",
+        "debugProperties": null,
+        "trackingProperties": {
+          "element_type": "card",
+          "element_details": {
+            "element_id": "1079070",
+            "element_value": "OrderStatus",
+            "carousel_request_id": null,
+            "element_type": "card_list"
+          },
+          "section_details": {
+            "format": "card",
+            "section_content_type": "item",
+            "preferred_placement": false
+          },
+          "section_type": "order_status",
+          "cm_placement_id": "1079070",
+          "cm_placement_type": "card_list",
+          "cm_placement_layout": "shop_content_page",
+          "source_type": "card_list",
+          "contentmanagementview___layouts___cardlistresponsebacked___cardlist": "64a30cef-4ae0-42c5-b8ed-3af11cb4c399"
+        },
+        "clickTrackingEventName": "home.engagement",
+        "loadTrackingEventName": "home.load",
+        "viewTrackingEventName": "home.display",
+        "activeCartBackgroundColor": null,
+        "activeCartTextColor": null,
+        "__typename": "CardListResponseBackedCardListSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079057",
+      "title": "",
+      "dataQuery": {
+        "id": "155e3946",
+        "operation": "slotCampaignPlacement",
+        "slotId": "19490367988001296",
+        "adsEnabled": null,
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotCampaignPlacement"
+      },
+      "settings": {
+        "numOfCardsLarge": 1,
+        "numOfCardsSmall": 1,
+        "maxNumOfCards": 1,
+        "cardHeightPixelSmall": 100,
+        "cardWidthPixelSmall": 400,
+        "cardHeightPixelLarge": 200,
+        "cardWidthPixelLarge": 800,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 5,
+        "fullScreenWidth": false,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "progressBar",
+        "carouselType": "secondary",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079057",
+            "placement_id": "1079057",
+            "element_value": "SlotCampaignPlacement"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079057",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "1d22f4f7-ea66-4d14-893a-ffc756f171d4"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079058",
+      "title": "",
+      "dataQuery": {
+        "id": "817bdf39",
+        "operation": "slotCampaignPlacement",
+        "slotId": "19531416926010344",
+        "adsEnabled": null,
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotCampaignPlacement"
+      },
+      "settings": {
+        "numOfCardsLarge": 1,
+        "numOfCardsSmall": 1,
+        "maxNumOfCards": 1,
+        "cardHeightPixelSmall": 150,
+        "cardWidthPixelSmall": 375,
+        "cardHeightPixelLarge": 283,
+        "cardWidthPixelLarge": 1600,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 5,
+        "fullScreenWidth": true,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "progressBar",
+        "carouselType": "hero",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079058",
+            "placement_id": "1079058",
+            "element_value": "SlotCampaignPlacement"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079058",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "c64b98bf-e307-4ad7-a44b-6defb80ffcbb"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079073",
+      "title": "Featured Pages",
+      "dataQuery": {
+        "id": "d8eb2808",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004552",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 3,
+        "numOfCardsSmall": 0,
+        "maxNumOfCards": 20,
+        "cardHeightPixelSmall": 0,
+        "cardWidthPixelSmall": 0,
+        "cardHeightPixelLarge": 0,
+        "cardWidthPixelLarge": 0,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 0,
+        "fullScreenWidth": false,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "dot",
+        "carouselType": "imageTile",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079073",
+            "placement_id": "1079073",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079073",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "e34600f0-104d-4697-973d-71431e5e1028"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementItemListsItemList",
+      "id": "1079071",
+      "title": "Buy It Again",
+      "subTitle": null,
+      "disclaimer": null,
+      "cta": "View All",
+      "ctaVisibilityMin": null,
+      "selectable": null,
+      "iconUrl": null,
+      "itemListPlacementLoadId": null,
+      "dataQuery": {
+        "__typename": "ContentManagementDataQueriesYourItemsCategory",
+        "id": "all",
+        "pageSource": "storefront",
+        "accountType": null,
+        "data": null
+      },
+      "viewSection": {
+        "autoOrderCtaVariant": "hide",
+        "partnershipsIcMultiRetailerPageAtcRedirectVariant": "false",
+        "trackingProperties": {
+          "product_flow": "store",
+          "source_type": "shop_content_page",
+          "source_value": "dynamic_list_buy_it_again",
+          "api_version": "4",
+          "element_details": {
+            "element_type": "item_list",
+            "element_id": "1079071",
+            "element_value": "Buy It Again"
+          },
+          "cm_placement_id": "1079071",
+          "cm_placement_type": "item_list",
+          "cm_placement_layout": "shop_content_page",
+          "section_type": "item_forward_carousel",
+          "placement_id": "1079071",
+          "placement_type": "item_list",
+          "content_intent_id": "mixed-7810466095229604379",
+          "contentmanagementview___layouts___itemlistresponsebacked___itemlist": "383208c4-28d2-46a5-ae0a-8ae75b5505f7"
+        },
+        "debugProperties": null,
+        "addString": "Added to your {retailer_name} cart",
+        "viewString": "View",
+        "coverImage": null,
+        "titleFormattedAttributesString": {
+          "id": "a4de425d",
+          "sections": [
+            {
+              "id": "2d5d20e3",
+              "name": null,
+              "text": "Buy It Again",
+              "styles": {
+                "id": "14cb5fe5",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "titleMedium",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "modalTitleFormattedAttributesString": {
+          "id": "7f027c2e",
+          "sections": [
+            {
+              "id": "ed0790dd",
+              "name": null,
+              "text": "Buy It Again",
+              "styles": {
+                "id": "1e6d0fcb",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "subtitle",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "__typename": "ItemListResponseBackedItemListSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079074",
+      "title": null,
+      "dataQuery": {
+        "id": "43d0c82a",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004556",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 3,
+        "numOfCardsSmall": 0,
+        "maxNumOfCards": 6,
+        "cardHeightPixelSmall": 0,
+        "cardWidthPixelSmall": 0,
+        "cardHeightPixelLarge": 0,
+        "cardWidthPixelLarge": 0,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 0,
+        "fullScreenWidth": false,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "dot",
+        "carouselType": "featuredCollection",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079074",
+            "placement_id": "1079074",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079074",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "ca6b903b-21ff-452c-8fd2-036de91269c2"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementItemListsItemList",
+      "id": "1079064",
+      "title": "Price Drops",
+      "subTitle": null,
+      "disclaimer": null,
+      "cta": "View All",
+      "ctaVisibilityMin": null,
+      "selectable": null,
+      "iconUrl": null,
+      "itemListPlacementLoadId": null,
+      "dataQuery": {
+        "__typename": "ContentManagementDataQueriesCollection",
+        "itemsDisplayType": null,
+        "shopId": null,
+        "slug": "rc-price-drops",
+        "minimumItemLimit": 1,
+        "priceFilter": null,
+        "data": null
+      },
+      "viewSection": {
+        "autoOrderCtaVariant": "hide",
+        "partnershipsIcMultiRetailerPageAtcRedirectVariant": "false",
+        "trackingProperties": {
+          "product_flow": "store",
+          "source_type": "shop_content_page",
+          "source_value": "rc-price-drops",
+          "api_version": "4",
+          "element_details": {
+            "element_type": "item_list",
+            "element_id": "1079064",
+            "element_value": "Price Drops"
+          },
+          "cm_placement_id": "1079064",
+          "cm_placement_type": "item_list",
+          "cm_placement_layout": "shop_content_page",
+          "section_type": "item_forward_carousel",
+          "placement_id": "1079064",
+          "placement_type": "item_list",
+          "content_intent_id": "mixed-3021676339533999405",
+          "contentmanagementview___layouts___itemlistresponsebacked___itemlist": "d26f10c3-2683-4d99-9263-3ccaa69cba83"
+        },
+        "debugProperties": null,
+        "addString": "Added to your {retailer_name} cart",
+        "viewString": "View",
+        "coverImage": null,
+        "titleFormattedAttributesString": {
+          "id": "75c1ba99",
+          "sections": [
+            {
+              "id": "5a7bd266",
+              "name": null,
+              "text": "Price Drops",
+              "styles": {
+                "id": "7e6fbd99",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "titleMedium",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "modalTitleFormattedAttributesString": {
+          "id": "2ad79aee",
+          "sections": [
+            {
+              "id": "f325b545",
+              "name": null,
+              "text": "Price Drops",
+              "styles": {
+                "id": "52833e7a",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "subtitle",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "__typename": "ItemListResponseBackedItemListSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079060",
+      "title": null,
+      "dataQuery": {
+        "id": "0980df1b",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004528",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 3,
+        "numOfCardsSmall": 0,
+        "maxNumOfCards": 6,
+        "cardHeightPixelSmall": 0,
+        "cardWidthPixelSmall": 0,
+        "cardHeightPixelLarge": 0,
+        "cardWidthPixelLarge": 0,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 0,
+        "fullScreenWidth": false,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "dot",
+        "carouselType": "featuredCollection",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079060",
+            "placement_id": "1079060",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079060",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "93363ec1-5649-4c1b-8a75-6ba51627f4ce"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementItemListsItemList",
+      "id": "1079062",
+      "title": "Best Sellers",
+      "subTitle": null,
+      "disclaimer": null,
+      "cta": "View All",
+      "ctaVisibilityMin": null,
+      "selectable": null,
+      "iconUrl": null,
+      "itemListPlacementLoadId": null,
+      "dataQuery": {
+        "__typename": "ContentManagementDataQueriesCollection",
+        "itemsDisplayType": null,
+        "shopId": null,
+        "slug": "rc-best-seller",
+        "minimumItemLimit": 1,
+        "priceFilter": null,
+        "data": null
+      },
+      "viewSection": {
+        "autoOrderCtaVariant": "hide",
+        "partnershipsIcMultiRetailerPageAtcRedirectVariant": "false",
+        "trackingProperties": {
+          "product_flow": "store",
+          "source_type": "shop_content_page",
+          "source_value": "rc-best-seller",
+          "api_version": "4",
+          "element_details": {
+            "element_type": "item_list",
+            "element_id": "1079062",
+            "element_value": "Best Sellers"
+          },
+          "cm_placement_id": "1079062",
+          "cm_placement_type": "item_list",
+          "cm_placement_layout": "shop_content_page",
+          "section_type": "item_forward_carousel",
+          "placement_id": "1079062",
+          "placement_type": "item_list",
+          "contentmanagementview___layouts___itemlistresponsebacked___itemlist": "234ab887-62ae-4df5-9a04-8fa42ede395a"
+        },
+        "debugProperties": null,
+        "addString": "Added to your {retailer_name} cart",
+        "viewString": "View",
+        "coverImage": null,
+        "titleFormattedAttributesString": {
+          "id": "ea208ed5",
+          "sections": [
+            {
+              "id": "f323022d",
+              "name": null,
+              "text": "Best Sellers",
+              "styles": {
+                "id": "7b2bd9c3",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "titleMedium",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "modalTitleFormattedAttributesString": {
+          "id": "6dcabc2d",
+          "sections": [
+            {
+              "id": "a291fe27",
+              "name": null,
+              "text": "Best Sellers",
+              "styles": {
+                "id": "74b2ed2b",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "subtitle",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "__typename": "ItemListResponseBackedItemListSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079069",
+      "title": "Prices you can count on. Every single day.",
+      "dataQuery": {
+        "id": "32c9e837",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004544",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 5,
+        "numOfCardsSmall": 1,
+        "maxNumOfCards": 5,
+        "cardHeightPixelSmall": 0,
+        "cardWidthPixelSmall": 0,
+        "cardHeightPixelLarge": 0,
+        "cardWidthPixelLarge": 0,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 5,
+        "fullScreenWidth": true,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "dot",
+        "carouselType": "contentCard",
+        "cardOrientation": "vertical",
+        "cardCtaStyle": "primary",
+        "cardAlignment": "left",
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079069",
+            "placement_id": "1079069",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079069",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "e1fa1e94-3e92-4746-8500-880ec045966e"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079072",
+      "title": null,
+      "dataQuery": {
+        "id": "05375af5",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004548",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 1,
+        "numOfCardsSmall": 1,
+        "maxNumOfCards": 6,
+        "cardHeightPixelSmall": 150,
+        "cardWidthPixelSmall": 375,
+        "cardHeightPixelLarge": 283,
+        "cardWidthPixelLarge": 1600,
+        "autoScrollEnabled": true,
+        "autoScrollInterval": 5,
+        "fullScreenWidth": true,
+        "showCarouselIndicator": true,
+        "carouselIndicatorType": "progressBar",
+        "carouselType": "hero",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079072",
+            "placement_id": "1079072",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079072",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "3a25c4b7-7511-4c1c-a12e-df6003bc7de8"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079063",
+      "title": null,
+      "dataQuery": {
+        "id": "14720a1d",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004532",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 3,
+        "numOfCardsSmall": 0,
+        "maxNumOfCards": 6,
+        "cardHeightPixelSmall": 0,
+        "cardWidthPixelSmall": 0,
+        "cardHeightPixelLarge": 0,
+        "cardWidthPixelLarge": 0,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 0,
+        "fullScreenWidth": false,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "dot",
+        "carouselType": "featuredCollection",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079063",
+            "placement_id": "1079063",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079063",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "dd6ff8b3-7960-49ca-9a22-738def221bc9"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079068",
+      "title": "See what's new this week at ALDI.",
+      "dataQuery": {
+        "id": "4631845e",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004540",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 5,
+        "numOfCardsSmall": 1,
+        "maxNumOfCards": 5,
+        "cardHeightPixelSmall": 0,
+        "cardWidthPixelSmall": 0,
+        "cardHeightPixelLarge": 0,
+        "cardWidthPixelLarge": 0,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 5,
+        "fullScreenWidth": true,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "dot",
+        "carouselType": "contentCard",
+        "cardOrientation": "vertical",
+        "cardCtaStyle": "primary",
+        "cardAlignment": "left",
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079068",
+            "placement_id": "1079068",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079068",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "3eb2f99e-c035-4540-b84d-56754a992058"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079066",
+      "title": null,
+      "dataQuery": {
+        "id": "1e3bfe4f",
+        "operation": "slotPlacements",
+        "slotId": "19921959936004536",
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotPlacements"
+      },
+      "settings": {
+        "numOfCardsLarge": 1,
+        "numOfCardsSmall": 1,
+        "maxNumOfCards": 6,
+        "cardHeightPixelSmall": 150,
+        "cardWidthPixelSmall": 375,
+        "cardHeightPixelLarge": 283,
+        "cardWidthPixelLarge": 1600,
+        "autoScrollEnabled": true,
+        "autoScrollInterval": 5,
+        "fullScreenWidth": true,
+        "showCarouselIndicator": true,
+        "carouselIndicatorType": "progressBar",
+        "carouselType": "hero",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079066",
+            "placement_id": "1079066",
+            "element_value": "SlotPlacements"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079066",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "dbd6a057-6375-4e7f-af95-601eebc12aba"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementItemListsItemList",
+      "id": "1079059",
+      "title": "Have you tried these yet?",
+      "subTitle": null,
+      "disclaimer": null,
+      "cta": "View All",
+      "ctaVisibilityMin": null,
+      "selectable": null,
+      "iconUrl": null,
+      "itemListPlacementLoadId": null,
+      "dataQuery": {
+        "__typename": "ContentManagementDataQueriesCollection",
+        "itemsDisplayType": null,
+        "shopId": null,
+        "slug": "rc-have-you-tried-these-yet",
+        "minimumItemLimit": 1,
+        "priceFilter": null,
+        "data": null
+      },
+      "viewSection": {
+        "autoOrderCtaVariant": "hide",
+        "partnershipsIcMultiRetailerPageAtcRedirectVariant": "false",
+        "trackingProperties": {
+          "product_flow": "store",
+          "source_type": "shop_content_page",
+          "source_value": "rc-have-you-tried-these-yet",
+          "api_version": "4",
+          "element_details": {
+            "element_type": "item_list",
+            "element_id": "1079059",
+            "element_value": "Have you tried these yet?"
+          },
+          "cm_placement_id": "1079059",
+          "cm_placement_type": "item_list",
+          "cm_placement_layout": "shop_content_page",
+          "section_type": "item_forward_carousel",
+          "placement_id": "1079059",
+          "placement_type": "item_list",
+          "content_intent_id": "mixed-6702463983522363000",
+          "contentmanagementview___layouts___itemlistresponsebacked___itemlist": "8a8787ac-cc07-4fbe-ad86-1641addc6288"
+        },
+        "debugProperties": null,
+        "addString": "Added to your {retailer_name} cart",
+        "viewString": "View",
+        "coverImage": null,
+        "titleFormattedAttributesString": {
+          "id": "7f6ef127",
+          "sections": [
+            {
+              "id": "9dc94dc2",
+              "name": null,
+              "text": "Have you tried these yet?",
+              "styles": {
+                "id": "81e6c3ef",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "titleMedium",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "modalTitleFormattedAttributesString": {
+          "id": "b0609030",
+          "sections": [
+            {
+              "id": "545c1827",
+              "name": null,
+              "text": "Have you tried these yet?",
+              "styles": {
+                "id": "87e554c1",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "subtitle",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "__typename": "ItemListResponseBackedItemListSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementItemListsItemList",
+      "id": "1079067",
+      "title": "Fresh Produce",
+      "subTitle": null,
+      "disclaimer": null,
+      "cta": "View All",
+      "ctaVisibilityMin": null,
+      "selectable": null,
+      "iconUrl": null,
+      "itemListPlacementLoadId": null,
+      "dataQuery": {
+        "__typename": "ContentManagementDataQueriesCollection",
+        "itemsDisplayType": null,
+        "shopId": null,
+        "slug": "n-produce-85981",
+        "minimumItemLimit": 1,
+        "priceFilter": null,
+        "data": null
+      },
+      "viewSection": {
+        "autoOrderCtaVariant": "hide",
+        "partnershipsIcMultiRetailerPageAtcRedirectVariant": "false",
+        "trackingProperties": {
+          "product_flow": "store",
+          "source_type": "shop_content_page",
+          "source_value": "8598",
+          "api_version": "4",
+          "element_details": {
+            "element_type": "item_list",
+            "element_id": "1079067",
+            "element_value": "Fresh Produce"
+          },
+          "cm_placement_id": "1079067",
+          "cm_placement_type": "item_list",
+          "cm_placement_layout": "shop_content_page",
+          "section_type": "item_forward_carousel",
+          "placement_id": "1079067",
+          "placement_type": "item_list",
+          "content_intent_id": "mixed-4224104077167105768",
+          "contentmanagementview___layouts___itemlistresponsebacked___itemlist": "eae24095-ecb8-4343-acd8-82543c8f9fb6"
+        },
+        "debugProperties": null,
+        "addString": "Added to your {retailer_name} cart",
+        "viewString": "View",
+        "coverImage": null,
+        "titleFormattedAttributesString": {
+          "id": "e8a071ba",
+          "sections": [
+            {
+              "id": "f179f242",
+              "name": null,
+              "text": "Fresh Produce",
+              "styles": {
+                "id": "f0abefa2",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "titleMedium",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "modalTitleFormattedAttributesString": {
+          "id": "484328f5",
+          "sections": [
+            {
+              "id": "5c672298",
+              "name": null,
+              "text": "Fresh Produce",
+              "styles": {
+                "id": "fe5fe909",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "subtitle",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "__typename": "ItemListResponseBackedItemListSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementItemListsItemList",
+      "id": "1079061",
+      "title": "Meat & Seafood",
+      "subTitle": null,
+      "disclaimer": null,
+      "cta": "View All",
+      "ctaVisibilityMin": null,
+      "selectable": null,
+      "iconUrl": null,
+      "itemListPlacementLoadId": null,
+      "dataQuery": {
+        "__typename": "ContentManagementDataQueriesCollection",
+        "itemsDisplayType": null,
+        "shopId": null,
+        "slug": "n-meat-seafood-18362",
+        "minimumItemLimit": 1,
+        "priceFilter": null,
+        "data": null
+      },
+      "viewSection": {
+        "autoOrderCtaVariant": "hide",
+        "partnershipsIcMultiRetailerPageAtcRedirectVariant": "false",
+        "trackingProperties": {
+          "product_flow": "store",
+          "source_type": "shop_content_page",
+          "source_value": "1836",
+          "api_version": "4",
+          "element_details": {
+            "element_type": "item_list",
+            "element_id": "1079061",
+            "element_value": "Meat & Seafood"
+          },
+          "cm_placement_id": "1079061",
+          "cm_placement_type": "item_list",
+          "cm_placement_layout": "shop_content_page",
+          "section_type": "item_forward_carousel",
+          "placement_id": "1079061",
+          "placement_type": "item_list",
+          "contentmanagementview___layouts___itemlistresponsebacked___itemlist": "17c93171-6c28-40dd-bd66-79926e23dc0d"
+        },
+        "debugProperties": null,
+        "addString": "Added to your {retailer_name} cart",
+        "viewString": "View",
+        "coverImage": null,
+        "titleFormattedAttributesString": {
+          "id": "19f566d2",
+          "sections": [
+            {
+              "id": "230dc666",
+              "name": null,
+              "text": "Meat & Seafood",
+              "styles": {
+                "id": "d377207f",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "titleMedium",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "modalTitleFormattedAttributesString": {
+          "id": "df357e67",
+          "sections": [
+            {
+              "id": "7eb3ebfe",
+              "name": null,
+              "text": "Meat & Seafood",
+              "styles": {
+                "id": "9adc7216",
+                "backgroundColor": null,
+                "color": "systemGrayscale80",
+                "colorHex": null,
+                "italic": null,
+                "typography": "subtitle",
+                "underline": null,
+                "highlight": null,
+                "__typename": "ViewFormattedAttributesStringStyles"
+              },
+              "navigation": null,
+              "__typename": "ViewFormattedAttributesStringSection"
+            }
+          ],
+          "__typename": "ViewFormattedAttributesString"
+        },
+        "__typename": "ItemListResponseBackedItemListSection"
+      }
+    },
+    {
+      "__typename": "ContentManagementCardListsSlot",
+      "id": "1079065",
+      "title": "",
+      "dataQuery": {
+        "id": "bdea844a",
+        "operation": "slotCampaignPlacement",
+        "slotId": "19678659882009964",
+        "adsEnabled": null,
+        "slotData": null,
+        "__typename": "ContentManagementDataQueriesSlotCampaignPlacement"
+      },
+      "settings": {
+        "numOfCardsLarge": 1,
+        "numOfCardsSmall": 1,
+        "maxNumOfCards": 1,
+        "cardHeightPixelSmall": 100,
+        "cardWidthPixelSmall": 400,
+        "cardHeightPixelLarge": 200,
+        "cardWidthPixelLarge": 800,
+        "autoScrollEnabled": false,
+        "autoScrollInterval": 5,
+        "fullScreenWidth": false,
+        "showCarouselIndicator": false,
+        "carouselIndicatorType": "progressBar",
+        "carouselType": "secondary",
+        "cardOrientation": null,
+        "cardCtaStyle": null,
+        "cardAlignment": null,
+        "__typename": "ContentManagementCardListsSettings"
+      },
+      "viewSection": {
+        "trackingProperties": {
+          "element_type": "slot",
+          "element_details": {
+            "element_type": "slot",
+            "element_id": "1079065",
+            "placement_id": "1079065",
+            "element_value": "SlotCampaignPlacement"
+          },
+          "section_type": null,
+          "section_details": {
+            "format": "card",
+            "section_type": null,
+            "section_content_type": "slot"
+          },
+          "cm_placement_id": "1079065",
+          "cm_placement_type": "slot",
+          "cm_placement_layout": "home_feed_default",
+          "page_type": "home_feed",
+          "slot_id": null,
+          "contentmanagementview___layouts___cardlistresponsebacked___slot": "c9c2ccf6-8a03-4eac-b31e-9b1de3d3edc1"
+        },
+        "autoscrollTrackingEventName": null,
+        "__typename": "CardListResponseBackedSlotSection"
+      }
+    }
+  ],
+  "viewLayout": {
+    "storefront": {
+      "tracking": {
+        "engagementTrackingEventName": "storefront.engagement",
+        "legacyStoreViewTrackingEventName": "store.view",
+        "loadTrackingEventName": "storefront.load",
+        "displayTrackingEventName": "storefront.display",
+        "__typename": "StorefrontTrackingSection"
+      },
+      "trackingProperties": {
+        "api_version": "4",
+        "layout_type": "storefront",
+        "product_flow": "store",
+        "source_type": "store_root",
+        "storefrontview___layouts___storefront___layout": "ca61f2bd-3dac-4ea8-b3bd-0a9b1ccc020b"
+      },
+      "__typename": "StorefrontLayout",
+      "selectablePlacements": {
+        "titleString": "What’s on your shopping list?",
+        "moreString": "More",
+        "lessString": "Less",
+        "itemUnavailableString": "Sorry, this item is unavailable at this store",
+        "viewTrackingEventName": "storefront.display_selectable_placements",
+        "engagementTrackingEventName": "storefront.engagement_selectable_placement",
+        "__typename": "StorefrontSelectablePlacementsSection"
+      }
+    },
+    "__typename": "ViewLayouts"
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "collectionProducts": {
+    "collectionProductsLoadId": null,
+    "collection": {
+      "id": "rc19169419091011548",
+      "name": "Price Drops",
+      "slug": "rc-price-drops",
+      "legacyPath": null,
+      "viewSection": {
+        "trackingProperties": {
+          "source_type": "collection",
+          "source_value": "rc19169419091011548",
+          "collection_type": "retailer_collection_v2",
+          "parent_collection_id": null,
+          "element_details": {
+            "element_details": {
+              "element_id": "rc19169419091011548",
+              "element_type": "collection",
+              "element_value": "Price Drops"
+            }
+          },
+          "collection_id": "rc19169419091011548"
+        },
+        "primaryImage": null,
+        "resizableImage": null,
+        "__typename": "CollectionsResponseBackedCollectionSection"
+      },
+      "__typename": "CollectionsCollection"
+    },
+    "selectedFilters": [],
+    "orderBy": "dynamic",
+    "itemIds": [
+      "items_23999-26266957",
+      "items_23999-16527127",
+      "items_23999-19274377",
+      "items_23999-26274163",
+      "items_23999-19274380",
+      "items_23999-100591082",
+      "items_23999-84316153",
+      "items_23999-100595296",
+      "items_23999-19270559",
+      "items_23999-25319931",
+      "items_23999-98562403",
+      "items_23999-91769071",
+      "items_23999-16346087",
+      "items_23999-18648084",
+      "items_23999-19272414",
+      "items_23999-20206250",
+      "items_23999-18648292",
+      "items_23999-16411147",
+      "items_23999-90934612",
+      "items_23999-21118334",
+      "items_23999-109867335",
+      "items_23999-17327031",
+      "items_23999-18647812",
+      "items_23999-21118335",
+      "items_23999-18647680",
+      "items_23999-38033",
+      "items_23999-64096947",
+      "items_23999-18647623",
+      "items_23999-18649000",
+      "items_23999-35295621",
+      "items_23999-16606112",
+      "items_23999-54527294",
+      "items_23999-18775019",
+      "items_23999-17498616",
+      "items_23999-19977312",
+      "items_23999-70156395",
+      "items_23999-3301037",
+      "items_23999-38024",
+      "items_23999-193785",
+      "items_23999-76885",
+      "items_23999-64096904",
+      "items_23999-19274373",
+      "items_23999-98562404",
+      "items_23999-70156888",
+      "items_23999-37438",
+      "items_23999-18598732",
+      "items_23999-35873965",
+      "items_23999-20047404",
+      "items_23999-73476370",
+      "items_23999-57460747",
+      "items_23999-28365229",
+      "items_23999-19758276",
+      "items_23999-64096919",
+      "items_23999-20104822",
+      "items_23999-16345572",
+      "items_23999-19513885",
+      "items_23999-19558019",
+      "items_23999-51330551",
+      "items_23999-20714752",
+      "items_23999-20725064",
+      "items_23999-25821481",
+      "items_23999-19062063",
+      "items_23999-18648037",
+      "items_23999-26274159",
+      "items_23999-145666",
+      "items_23999-3255507",
+      "items_23999-25501990",
+      "items_23999-19873777",
+      "items_23999-2772030",
+      "items_23999-25928367",
+      "items_23999-42838607",
+      "items_23999-18648638",
+      "items_23999-47020357",
+      "items_23999-18648340",
+      "items_23999-25928394",
+      "items_23999-25928324",
+      "items_23999-18649768",
+      "items_23999-18647947",
+      "items_23999-51330529",
+      "items_23999-25501991",
+      "items_23999-25501989",
+      "items_23999-18648415",
+      "items_23999-19061995",
+      "items_23999-38266",
+      "items_23999-2622909",
+      "items_23999-18648214",
+      "items_23999-18648660",
+      "items_23999-25501988"
+    ],
+    "items": [
+      {
+        "id": "items_23999-26266957",
+        "itemLoadId": null,
+        "name": "Strawberries, Package",
+        "size": "1 lb",
+        "productId": "26266957",
+        "legacyId": "44716782642",
+        "legacyV3Id": "item_44716782642",
+        "configurableProductId": null,
+        "isCatering": null,
+        "brandName": null,
+        "brandId": null,
+        "evergreenUrl": "26266957-strawberries-package-1-lb",
+        "inStoreItemLocation": null,
+        "dietary": {
+          "mlDietaryAttributes": null,
+          "mlShoppingAttributes": [],
+          "viewSection": {
+            "attributesString": null,
+            "attributeSections": [],
+            "attributeBadgeImage": null,
+            "__typename": "ItemsResponseBackedDietarySection"
+          },
+          "__typename": "ItemsDietary"
+        },
+        "itemEbt": null,
+        "itemFreshFunds": null,
+        "itemMedicare": null,
+        "productRating": null,
+        "productCanonicalUrl": null,
+        "quantityAttributesEach": {
+          "increment": 1,
+          "initial": 1,
+          "max": 500,
+          "min": 1,
+          "quantityType": "each",
+          "selectOptions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "defaultSelectOption": 1,
+          "parWeight": null,
+          "viewSection": {
+            "maxedOutString": "Max 500 per order",
+            "minReachedString": null,
+            "unitAriaString": "item",
+            "unitPluralAriaString": "items",
+            "unitPluralString": "ct",
+            "unitString": "ct",
+            "iconUnitTypeVisibilityVariant": "hide",
+            "variableWeightDisclaimerString": null,
+            "variableWeightDisclaimerLongString": null,
+            "totalWeightEstimateTemplateString": null,
+            "totalWeightEstimateTemplatePluralString": null,
+            "parWeightDisplayString": null,
+            "quantityUnitVisibilityVariant": "show",
+            "stepperUnitTypeVisibilityVariant": "hide",
+            "soldByUnitString": null,
+            "__typename": "ItemsResponseBackedQuantityAttributesSection"
+          },
+          "__typename": "ItemsQuantityAttributes"
+        },
+        "quantityAttributesWeight": null,
+        "quantityAttributes": {
+          "increment": 1,
+          "initial": 1,
+          "max": 500,
+          "min": 1,
+          "quantityType": "each",
+          "selectOptions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "defaultSelectOption": 1,
+          "parWeight": null,
+          "viewSection": {
+            "maxedOutString": "Max 500 per order",
+            "minReachedString": null,
+            "unitAriaString": "item",
+            "unitPluralAriaString": "items",
+            "unitPluralString": "ct",
+            "unitString": "ct",
+            "iconUnitTypeVisibilityVariant": "hide",
+            "variableWeightDisclaimerString": null,
+            "variableWeightDisclaimerLongString": null,
+            "totalWeightEstimateTemplateString": null,
+            "totalWeightEstimateTemplatePluralString": null,
+            "parWeightDisplayString": null,
+            "quantityUnitVisibilityVariant": "show",
+            "stepperUnitTypeVisibilityVariant": "hide",
+            "soldByUnitString": null,
+            "__typename": "ItemsResponseBackedQuantityAttributesSection"
+          },
+          "__typename": "ItemsQuantityAttributes"
+        },
+        "availability": {
+          "available": true,
+          "stockLevel": "highlyInStock",
+          "isUpcomingProduct": false,
+          "blackoutTimes": null,
+          "viewSection": {
+            "stockLevelLabelString": "Many in stock",
+            "stockLevelIconIcon": "inventoryBetter",
+            "outOfStockCtaString": null,
+            "upcomingProductAvailableFromString": null,
+            "similarItemsActionVariant": "none",
+            "warningIconImage": {
+              "id": "aba519bc",
+              "url": "https://www.instacart.com/assets/dependability/item_availability/highly_in_stock-18910a57dac5f8e2db073c800e1742558d519cc5d5b20f375efa8a495462471c.png",
+              "__typename": "Image"
+            },
+            "__typename": "AvailabilityResponseBackedAvailabilitySection"
+          },
+          "__typename": "ItemsAvailability"
+        },
+        "variantGroup": null,
+        "variantGroupId": null,
+        "variantDimensionValues": [],
+        "viewSection": {
+          "itemImage": {
+            "altText": null,
+            "templateUrl": "https://www.instacart.com/image-server/{width=}x{height=}/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e3aae1bb-99c9-496a-9080-a641201b9732.jpg",
+            "url": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e3aae1bb-99c9-496a-9080-a641201b9732.jpg",
+            "__typename": "Image"
+          },
+          "trackingProperties": {
+            "element_attributes": {
+              "low_stock_label": false,
+              "attributes": []
+            },
+            "low_stock_label": false,
+            "element_details": {
+              "element_type": "item",
+              "product_id": "26266957",
+              "retailer_id": "12",
+              "retailer_location_id": "23999",
+              "element_id": "items_23999-26266957",
+              "item_tags": []
+            },
+            "on_sale_ind": {
+              "on_sale": true,
+              "retailer": false,
+              "buy_one_get_one": false,
+              "cpg_coupon": false
+            },
+            "product_id": "26266957",
+            "external_sku_id": null,
+            "item_id": "44716782642",
+            "stock_level": "highly_in_stock",
+            "blackout": false,
+            "availability_score": 0.9128,
+            "available_ind": true,
+            "low_stock_variant": "none",
+            "restricted_for_targeting_and_sharing": false,
+            "product_category_name": "Strawberries",
+            "item_name": "Strawberries, Package",
+            "itemsview___layouts___itemsresponsebacked___item": "eb985c7f-e627-48be-99e3-994401874973"
+          },
+          "itemCardRatingVariant": "hidden",
+          "quantityAttributesVariant": "qtyOnly",
+          "hideActionsOnCartItemVariant": "false",
+          "itemCardHideQuickAddPriceVariant": "show",
+          "itemCardHideSizeVariant": "show",
+          "lowStockVariant": "none",
+          "boughtXTimesString": null,
+          "requestAddString": null,
+          "servingSizeString": null,
+          "itemString": "Item",
+          "retailerReferenceCodeString": null,
+          "retailerLookupCodeString": null,
+          "variantDimensionsString": null,
+          "tastingNotesString": null,
+          "rewardProgramLabelString": null,
+          "nameStringFormatted": {
+            "id": "644f70d8",
+            "sections": [
+              {
+                "id": "d46572a1",
+                "name": "bodymedium2",
+                "content": "Strawberries, Package",
+                "__typename": "ViewFormattedStringSection"
+              }
+            ],
+            "__typename": "ViewFormattedString"
+          },
+          "taxStringFormatted": null,
+          "fsaHsaEligibleString": null,
+          "itemTransparentImage": null,
+          "__typename": "ItemsResponseBackedItemSection"
+        },
+        "tags": [],
+        "comboPromotions": [],
+        "nutritionalAttributes": null,
+        "__typename": "ItemsItem",
+        "price": {
+          "id": "items_23999-26266957",
+          "itemId": "items_23999-26266957",
+          "debugProperties": {},
+          "viewSection": {
+            "badge": {
+              "genericSaleLabelString": "Sale",
+              "actionLabelString": null,
+              "badgeVariant": "sale",
+              "offerLabelString": "8% off",
+              "applyCouponString": "Apply coupon",
+              "couponAppliedString": "Coupon applied",
+              "couponClippedVariant": "false",
+              "multiUnitClippablePromotionVariant": "nonClippable",
+              "eligibleItemsUxVariant": "button",
+              "offerSublabelString": null,
+              "offerReferenceString": null,
+              "multiplePromotionsLabelString": null,
+              "itemMultiplePromotionsVariant": "pillCarouselWithProgressBar",
+              "cpgPromotionVariant": null,
+              "adsSolutionsSavingsRiseMigrationVariant": "control",
+              "viewableTrackingEventName": "savings.client.viewport_viewable_item",
+              "promotionClipClientTrackingEventName": "savings.client.clip_coupon",
+              "promotionClickCtaClientTrackingEventName": "savings.client.click_cta",
+              "trackingProperties": {
+                "badge_type": "sale",
+                "promotion_id": "",
+                "discount_policy_id": "",
+                "promotion_load_id": "4b917d78-5bf4-42ab-a3d6-154507139b7f",
+                "price": "$1.79",
+                "save_amount": "8% off",
+                "promotion_type": null
+              },
+              "__typename": "ItemsResponseBackedItemPriceBadgeSection"
+            },
+            "itemPromotions": [],
+            "itemCard": {
+              "id": "items_response_backed:217ec2ce:item_price:1d4f8f73:item_card",
+              "fullPriceString": "reg. $1.95",
+              "priceAriaLabelString": "$1.79 Original price: $1.95",
+              "pricePerUnitString": null,
+              "priceString": "$1.79",
+              "pricingUnitSecondaryString": null,
+              "pricingUnitString": "1 lb",
+              "trackingProperties": {
+                "item_card_impression_id": "8e919b26-458b-4788-b4a5-232445fbb010"
+              },
+              "discountHeaderString": null,
+              "discountSubHeaderString": "off!",
+              "priceSuffixString": "",
+              "plainFullPriceString": "$1.95",
+              "priceScreenReaderString": "Current price: $1.79",
+              "fullPriceScreenReaderString": "Original Price: $1.95",
+              "priceBackgroundVariant": "show",
+              "loyaltyProgramVariant": "hide",
+              "pricingUnitConvergenceVariant": "variant",
+              "badgeVisibilityVariant": "hide",
+              "priceStringFormatted": {
+                "id": "827c87f5",
+                "sections": [
+                  {
+                    "id": "4d46d17e",
+                    "name": "small_currency_symbol",
+                    "content": "$",
+                    "__typename": "ViewFormattedStringSection"
+                  },
+                  {
+                    "id": "876924ce",
+                    "name": "dollar",
+                    "content": "1",
+                    "__typename": "ViewFormattedStringSection"
+                  },
+                  {
+                    "id": "f2ef58af",
+                    "name": "cents",
+                    "content": "79",
+                    "__typename": "ViewFormattedStringSection"
+                  }
+                ],
+                "__typename": "ViewFormattedString"
+              },
+              "offerLabelStringFormatted": null,
+              "loyaltyPriceStringFormatted": null,
+              "nonLoyaltyPriceStringFormatted": null,
+              "loyaltyPriceStringPositionVariant": "control",
+              "secondaryTopStringFormatted": null,
+              "secondaryBottomStringFormatted": {
+                "id": "066e496a",
+                "sections": [
+                  {
+                    "id": "84d84e12",
+                    "name": "strikethrough",
+                    "content": "$1.95",
+                    "__typename": "ViewFormattedStringSection"
+                  }
+                ],
+                "__typename": "ViewFormattedString"
+              },
+              "smartDiscountFormattedAttributesString": {
+                "id": "5988cca1",
+                "sections": [
+                  {
+                    "id": "78b01631",
+                    "name": null,
+                    "text": "8% off",
+                    "styles": {
+                      "id": "730c5f89",
+                      "backgroundColor": null,
+                      "color": "brandPrimaryRegular",
+                      "colorHex": null,
+                      "italic": null,
+                      "typography": "bodyEmphasized",
+                      "underline": null,
+                      "highlight": null,
+                      "__typename": "ViewFormattedAttributesStringStyles"
+                    },
+                    "navigation": null,
+                    "__typename": "ViewFormattedAttributesStringSection"
+                  }
+                ],
+                "__typename": "ViewFormattedAttributesString"
+              },
+              "taxDisclaimerFormattedAttributesString": null,
+              "__typename": "ItemsResponseBackedItemPriceItemCardSection"
+            },
+            "itemDetails": {
+              "dealAppliedLabelString": null,
+              "dealAppliedSoFarMessageString": null,
+              "fullPriceString": "$1.95",
+              "mixAndMatchItemsTitleString": "Available Mix & Match items",
+              "mixAndMatchItemsVariant": "hide",
+              "priceAriaLabelString": "$1.79 Original price: $1.95",
+              "priceEstimateVariant": "hide",
+              "pricePerUnitString": "$0.11/oz",
+              "priceString": "$1.79",
+              "pricingUnitSecondaryString": null,
+              "pricingUnitString": "1 lb",
+              "saleDisclaimerString": "Sale ends in 2 days",
+              "addLoyaltyCardString": null,
+              "loyaltyProgramVariant": "hide",
+              "secondaryTopStringFormatted": null,
+              "secondaryBottomStringFormatted": {
+                "id": "3fd5c3ec",
+                "sections": [
+                  {
+                    "id": "ff42fe5f",
+                    "name": "strikethrough",
+                    "content": "$1.95",
+                    "__typename": "ViewFormattedStringSection"
+                  }
+                ],
+                "__typename": "ViewFormattedString"
+              },
+              "taxDisclaimerFormattedAttributesString": null,
+              "__typename": "ItemsResponseBackedItemPriceItemDetailsSection"
+            },
+            "sizeSelector": null,
+            "fullPriceString": "$1.95",
+            "priceString": "$1.79",
+            "priceValueString": "1.79",
+            "currencySymbolString": "$",
+            "trackingProperties": {
+              "product_id": "26266957",
+              "price_data_source": "legacy",
+              "price": "$1.79",
+              "item_tasks": [],
+              "on_sale_ind": {
+                "loyalty": false
+              },
+              "badge_type": "sale",
+              "promotion_id": "",
+              "promotion_event_name": "savings.client.viewport_viewable_item",
+              "save_amount": "8% off",
+              "promotion_type": null
+            },
+            "__typename": "ItemsResponseBackedItemPriceSection"
+          },
+          "parWeightTotalEstimate": {
+            "id": "9b2db778",
+            "viewSection": {
+              "parWeightString": null,
+              "__typename": "ItemsResponseBackedParWeightTotalEstimateSection"
+            },
+            "__typename": "ItemsParWeightTotalEstimate"
+          },
+          "greatPrice": null,
+          "__typename": "ItemsItemPrice"
+        }
+      }
+    ],
+    "featuredProducts": [],
+    "productBadges": [],
+    "viewSection": {
+      "trackingProperties": {
+        "ranking_request_id": "3d52ae8b-832a-47a0-abf6-31431db5faeb"
+      },
+      "__typename": "CollectionProductsResponseBackedCollectionProductsSection"
+    },
+    "__typename": "CollectionsCollectionProducts"
+  }
+}

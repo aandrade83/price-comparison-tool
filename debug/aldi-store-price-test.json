@@ -1,0 +1,189 @@
+{
+  "testedAt": "2026-04-25T20:12:35.024Z",
+  "demoZip": "19138",
+  "directFetchWorks": true,
+  "antiBotLevel": [
+    "None detected — direct fetch viable"
+  ],
+  "methodUsed": "direct",
+  "pricingVerdict": "NATIONAL",
+  "verdictLabel": "C) Static national pricing — all stores show identical prices",
+  "recommendedPath": "Direct Node.js fetch → SSR HTML parsing",
+  "techExplanation": "Aldi/Instacart storefront is server-side rendered with prices in the initial HTML. No browser required. Fetch with browser-like headers + parse SSR HTML: product names appear in aria-level=\"3\" headings; prices appear in screen-reader-only spans (\"Current price: $X.XX\") just before each name. No CDP/Playwright dependency. Fast and simple. Since pricing is NATIONAL, one fetch per product is enough — no need to switch stores or manage store context.",
+  "priceSames": 6,
+  "priceDiffs": 0,
+  "notFound": 1,
+  "storeResults": [
+    {
+      "rank": 1,
+      "label": "#1 Philadelphia (nearest)",
+      "address": "6119 North Broad Street, Philadelphia PA 19141",
+      "zip": "19141",
+      "prices": {
+        "milk": {
+          "found": true,
+          "name": "Friendly Farms Whole Milk",
+          "price": "$3.19",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "eggs": {
+          "found": false,
+          "name": "",
+          "price": "",
+          "unit": "",
+          "source": ""
+        },
+        "bread": {
+          "found": true,
+          "name": "L'oven Fresh White Bread",
+          "price": "$1.65",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "butter": {
+          "found": true,
+          "name": "Countryside Creamery Salted Butter Quarters",
+          "price": "$3.19",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "cheese": {
+          "found": true,
+          "name": "Breakfast Best Sausage, Egg & Cheese Croissant Breakfast Sandwich",
+          "price": "$6.29",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "banana": {
+          "found": true,
+          "name": "Bananas",
+          "price": "$0.16",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "chicken": {
+          "found": true,
+          "name": "Maruchan Ramen Noodle Soup Chicken Flavor",
+          "price": "$4.25",
+          "unit": "",
+          "source": "html_heading"
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "label": "#2 Philadelphia",
+      "address": "5200 Whiteaker Avenue, Philadelphia PA 19124",
+      "zip": "19124",
+      "prices": {
+        "milk": {
+          "found": true,
+          "name": "Friendly Farms Whole Milk",
+          "price": "$3.19",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "eggs": {
+          "found": false,
+          "name": "",
+          "price": "",
+          "unit": "",
+          "source": ""
+        },
+        "bread": {
+          "found": true,
+          "name": "L'oven Fresh White Bread",
+          "price": "$1.65",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "butter": {
+          "found": true,
+          "name": "Countryside Creamery Salted Butter Quarters",
+          "price": "$3.19",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "cheese": {
+          "found": true,
+          "name": "Breakfast Best Sausage, Egg & Cheese Croissant Breakfast Sandwich",
+          "price": "$6.29",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "banana": {
+          "found": true,
+          "name": "Bananas",
+          "price": "$0.16",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "chicken": {
+          "found": true,
+          "name": "Maruchan Ramen Noodle Soup Chicken Flavor",
+          "price": "$4.25",
+          "unit": "",
+          "source": "html_heading"
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "label": "#3 Willow Grove",
+      "address": "1955 Davisville Road, Willow Grove PA 19090",
+      "zip": "19090",
+      "prices": {
+        "milk": {
+          "found": true,
+          "name": "Friendly Farms Whole Milk",
+          "price": "$3.19",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "eggs": {
+          "found": false,
+          "name": "",
+          "price": "",
+          "unit": "",
+          "source": ""
+        },
+        "bread": {
+          "found": true,
+          "name": "L'oven Fresh White Bread",
+          "price": "$1.65",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "butter": {
+          "found": false,
+          "name": "",
+          "price": "",
+          "unit": "",
+          "source": ""
+        },
+        "cheese": {
+          "found": true,
+          "name": "Breakfast Best Sausage, Egg & Cheese Croissant Breakfast Sandwich",
+          "price": "$6.29",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "banana": {
+          "found": true,
+          "name": "Bananas",
+          "price": "$0.16",
+          "unit": "",
+          "source": "html_heading"
+        },
+        "chicken": {
+          "found": true,
+          "name": "Maruchan Ramen Noodle Soup Chicken Flavor",
+          "price": "$4.25",
+          "unit": "",
+          "source": "html_heading"
+        }
+      }
+    }
+  ]
+}

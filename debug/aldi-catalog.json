@@ -1,0 +1,8136 @@
+{
+  "scrapedAt": "2026-04-25T21:57:17.831Z",
+  "postalCode": "19138",
+  "shopId": "89454",
+  "totalProducts": 841,
+  "collectionsProbed": 111,
+  "collectionsWithResults": 56,
+  "collections": [
+    {
+      "slug": "rc-price-drops",
+      "fetched": 20,
+      "total": 88
+    },
+    {
+      "slug": "rc-best-seller",
+      "fetched": 20,
+      "total": 252
+    },
+    {
+      "slug": "rc-have-you-tried-these-yet",
+      "fetched": 20,
+      "total": 450
+    },
+    {
+      "slug": "n-produce-85981",
+      "fetched": 20,
+      "total": 134
+    },
+    {
+      "slug": "n-meat-seafood-18362",
+      "fetched": 20,
+      "total": 166
+    },
+    {
+      "slug": "n-aldi-brands-11323",
+      "fetched": 20,
+      "total": 2000
+    },
+    {
+      "slug": "rc-aldi-brand",
+      "fetched": 20,
+      "total": 85
+    },
+    {
+      "slug": "rc-appleton-farms",
+      "fetched": 20,
+      "total": 21
+    },
+    {
+      "slug": "rc-barissimo",
+      "fetched": 20,
+      "total": 48
+    },
+    {
+      "slug": "rc-burmans",
+      "fetched": 20,
+      "total": 40
+    },
+    {
+      "slug": "rc-chefs-cupboard",
+      "fetched": 20,
+      "total": 21
+    },
+    {
+      "slug": "rc-choceur",
+      "fetched": 20,
+      "total": 32
+    },
+    {
+      "slug": "rc-clancys",
+      "fetched": 20,
+      "total": 60
+    },
+    {
+      "slug": "rc-countryside-creamery",
+      "fetched": 8,
+      "total": 8
+    },
+    {
+      "slug": "rc-deutsche-kuche",
+      "fetched": 20,
+      "total": 29
+    },
+    {
+      "slug": "rc-earth-grown",
+      "fetched": 7,
+      "total": 7
+    },
+    {
+      "slug": "rc-elevation",
+      "fetched": 20,
+      "total": 35
+    },
+    {
+      "slug": "rc-friendly-farms",
+      "fetched": 20,
+      "total": 59
+    },
+    {
+      "slug": "rc-fit-active",
+      "fetched": 5,
+      "total": 5
+    },
+    {
+      "slug": "rc-fremont-fish-market",
+      "fetched": 18,
+      "total": 18
+    },
+    {
+      "slug": "rc-happy-harvest",
+      "fetched": 18,
+      "total": 18
+    },
+    {
+      "slug": "rc-kirkwood",
+      "fetched": 20,
+      "total": 34
+    },
+    {
+      "slug": "rc-little-journey",
+      "fetched": 20,
+      "total": 29
+    },
+    {
+      "slug": "rc-live-gfree",
+      "fetched": 10,
+      "total": 10
+    },
+    {
+      "slug": "rc-mama-cozzis-pizza-kitchen",
+      "fetched": 20,
+      "total": 30
+    },
+    {
+      "slug": "rc-millville",
+      "fetched": 20,
+      "total": 76
+    },
+    {
+      "slug": "rc-moser-roth",
+      "fetched": 13,
+      "total": 13
+    },
+    {
+      "slug": "rc-natures-nectar",
+      "fetched": 20,
+      "total": 49
+    },
+    {
+      "slug": "rc-never-any",
+      "fetched": 13,
+      "total": 13
+    },
+    {
+      "slug": "rc-park-street-deli",
+      "fetched": 20,
+      "total": 95
+    },
+    {
+      "slug": "rc-priano",
+      "fetched": 20,
+      "total": 46
+    },
+    {
+      "slug": "rc-pueblo-lindo",
+      "fetched": 12,
+      "total": 12
+    },
+    {
+      "slug": "rc-pur-aqua",
+      "fetched": 20,
+      "total": 84
+    },
+    {
+      "slug": "rc-savoritz",
+      "fetched": 20,
+      "total": 40
+    },
+    {
+      "slug": "rc-simms",
+      "fetched": 15,
+      "total": 15
+    },
+    {
+      "slug": "rc-simply-nature",
+      "fetched": 20,
+      "total": 158
+    },
+    {
+      "slug": "rc-southern-grove",
+      "fetched": 20,
+      "total": 51
+    },
+    {
+      "slug": "rc-specially-selected",
+      "fetched": 20,
+      "total": 85
+    },
+    {
+      "slug": "rc-stonemill",
+      "fetched": 20,
+      "total": 42
+    },
+    {
+      "slug": "rc-summit",
+      "fetched": 20,
+      "total": 41
+    },
+    {
+      "slug": "rc-tuscan-garden",
+      "fetched": 20,
+      "total": 32
+    },
+    {
+      "slug": "n-shop-by-diet-95504",
+      "fetched": 20,
+      "total": 905
+    },
+    {
+      "slug": "rc-gluten-free",
+      "fetched": 20,
+      "total": 119
+    },
+    {
+      "slug": "rc-organic",
+      "fetched": 20,
+      "total": 88
+    },
+    {
+      "slug": "rc-protein-foods",
+      "fetched": 20,
+      "total": 92
+    },
+    {
+      "slug": "rc-sugar-free",
+      "fetched": 20,
+      "total": 46
+    },
+    {
+      "slug": "rc-kosher",
+      "fetched": 20,
+      "total": 190
+    },
+    {
+      "slug": "rc-vegetarian",
+      "fetched": 20,
+      "total": 532
+    },
+    {
+      "slug": "rc-vegan",
+      "fetched": 20,
+      "total": 32
+    },
+    {
+      "slug": "rc-low-fat",
+      "fetched": 20,
+      "total": 21
+    },
+    {
+      "slug": "explore-all-products",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "this-weeks-aldi-finds",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "upcoming-aldi-finds",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "fresh-produce",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "meat-seafood",
+      "fetched": 20,
+      "total": 52
+    },
+    {
+      "slug": "snacks-candy",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "frozen-foods",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "dairy-and-eggs",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "bakery-bread",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "pantry-essentials",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "household-essentials",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "breakfast-cereals",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "pet-supplies",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "personal-care",
+      "fetched": 20,
+      "total": 59
+    },
+    {
+      "slug": "baby-items",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "aldi-brands",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-weekly-ad",
+      "fetched": 20,
+      "total": 178
+    },
+    {
+      "slug": "rc-all-summer-seasonals",
+      "fetched": 20,
+      "total": 190
+    },
+    {
+      "slug": "rc-new-arrivals",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-fan-favorites",
+      "fetched": 20,
+      "total": 86
+    },
+    {
+      "slug": "rc-best-sellers",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-snacks-sweets",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-breakfast",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-beverages",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-baking-essentials",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-cooking-essentials",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-condiments-sauces",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-dairy",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-produce",
+      "fetched": 10,
+      "total": 10
+    },
+    {
+      "slug": "rc-deli",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-meat-seafood",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-frozen",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-bakery",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-pasta-rice-grains",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-canned-goods",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-household",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-personal-care",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-baby",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-pet",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-health-wellness",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-wine",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-beer",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-coffee-tea",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "rc-international",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-aldi-brands",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-fresh-produce",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-dairy-eggs",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-meat-seafood",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-frozen-foods",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-pantry",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-beverages",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-snacks",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-bakery",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-household",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-personal-care",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-baby",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-pet",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "n-health-wellness",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "featured",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "sale",
+      "fetched": 0,
+      "total": 0
+    },
+    {
+      "slug": "deals",
+      "fetched": 0,
+      "total": 0
+    }
+  ],
+  "products": [
+    {
+      "id": "26266957",
+      "name": "Strawberries, Package",
+      "brand": null,
+      "size": "1 lb",
+      "price": "1.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16527127",
+      "name": "Pink Lady Apples, Bag",
+      "brand": null,
+      "size": "3 lb",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19274377",
+      "name": "Simply Nature Organic Chipotle Ranch Dressing",
+      "brand": "simply nature",
+      "size": "12 fl oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26274163",
+      "name": "Mandarins, Bag",
+      "brand": null,
+      "size": "3 lb",
+      "price": "2.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19274380",
+      "name": "Simply Nature Organic Poppyseed Dressing",
+      "brand": "simply nature",
+      "size": "12 fl oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "100591082",
+      "name": "Savoritz Savoritz Nordic Sourdough Sea Salt Crackers",
+      "brand": "savoritz",
+      "size": "4.58 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "84316153",
+      "name": "Summit Zero Sugar Cola 12pk",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "100595296",
+      "name": "Savoritz Savoritz Nordic Sourdough Jalapeno Flavored Crackers",
+      "brand": "savoritz",
+      "size": "4.58 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19270559",
+      "name": "Simply Nature Organic Oil and Vinegar Dressing",
+      "brand": "simply nature",
+      "size": "12 fl oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25319931",
+      "name": "Goldhen Pasture Raised Large Brown Eggs - Grade A",
+      "brand": "goldhen",
+      "size": "12 ct",
+      "price": "4.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "98562403",
+      "name": "Crunchy Mini Cookies - Birthday Cake",
+      "brand": "benton's",
+      "size": "6.7 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "91769071",
+      "name": "Flavorables Potatoes, Package",
+      "brand": "flavorables",
+      "size": "1 lb",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16346087",
+      "name": "Cantaloupe",
+      "brand": null,
+      "size": "1 each",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648084",
+      "name": "Countryside Creamery Salted Butter Quarters",
+      "brand": "countryside creamery",
+      "size": "16 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19272414",
+      "name": "Simply Nature Organic Aged Balsamic Dressing",
+      "brand": "simply nature",
+      "size": "12 fl oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20206250",
+      "name": "Broccoli Crowns",
+      "brand": null,
+      "size": "per lb",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648292",
+      "name": "Specially Selected Three Cheese Vinaigrette Dressing",
+      "brand": "specially selected",
+      "size": "12 fl oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16411147",
+      "name": "Hellmann's Mayonnaise",
+      "brand": "hellmann's",
+      "size": "30 fl oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "90934612",
+      "name": "Flavorables Potatoes, Package",
+      "brand": "flavorables",
+      "size": "1 lb",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21118334",
+      "name": "Specially Selected Garlic Vinaigrette Dressing",
+      "brand": "specially selected",
+      "size": "12 fl oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25720157",
+      "name": "Bananas",
+      "brand": null,
+      "size": "per lb",
+      "price": "0.16",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "115095",
+      "name": "Goldhen Grade A Large Eggs",
+      "brand": "goldhen",
+      "size": "12 ct",
+      "price": "1.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26274165",
+      "name": "Multi-Colored Peppers, Package",
+      "brand": null,
+      "size": "3 ct",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20946160",
+      "name": "L'oven Fresh White Bread",
+      "brand": "l'oven fresh",
+      "size": "20 oz",
+      "price": "1.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "113903",
+      "name": "Happy Farms String Cheese",
+      "brand": "happy farms",
+      "size": "12 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647633",
+      "name": "Friendly Farms Sour Cream",
+      "brand": "friendly farms",
+      "size": "16 oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19646535",
+      "name": "Season's Choice Seasoned French Fries",
+      "brand": "season's choice",
+      "size": "32 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16902710",
+      "name": "Friendly Farms Whole Milk",
+      "brand": "friendly farms",
+      "size": "1 gal",
+      "price": "5.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26165632",
+      "name": "Mini Avocados, Bag",
+      "brand": null,
+      "size": "6 ct",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647877",
+      "name": "Cheese Club Shells and Cheese",
+      "brand": "cheese club",
+      "size": "12 oz",
+      "price": "1.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18603561",
+      "name": "Green Grapes",
+      "brand": null,
+      "size": "per lb",
+      "price": "4.93",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20041343",
+      "name": "Little Salad Bar Flat Leaf Spinach",
+      "brand": "little salad bar",
+      "size": "8 oz",
+      "price": "1.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20957684",
+      "name": "Friendly Farms 2% Milk",
+      "brand": "friendly farms",
+      "size": "1 gal",
+      "price": "5.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647812",
+      "name": "Countryside Creamery Unsalted Butter Quarters",
+      "brand": "countryside creamery",
+      "size": "16 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17770879",
+      "name": "Honeycrisp Apples, Bag",
+      "brand": "rainier fruit company",
+      "size": "2 lb",
+      "price": "3.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19875343",
+      "name": "Breakfast Best Homestyle Waffles",
+      "brand": "breakfast best",
+      "size": "12.3 oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649227",
+      "name": "Simply Nature Organic Whole Milk",
+      "brand": "simply nature",
+      "size": "64 fl oz",
+      "price": "4.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648114",
+      "name": "Fit & Active Caramel Corn Rice Cakes",
+      "brand": "fit & active",
+      "size": "6.56 oz",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653417",
+      "name": "Stonemill Carne Asada Seasoning",
+      "brand": "stonemill",
+      "size": "5.4 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648336",
+      "name": "Millville Peanut Butter Chewy Dipped Bar",
+      "brand": "millville",
+      "size": "6 ct",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20846800",
+      "name": "Nature's Nectar Cranberry Raspberry Juice Cocktail",
+      "brand": "nature's nectar",
+      "size": "64 fl oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19265464",
+      "name": "Reggano Cheeseburger Cheesy Skillet Dinner",
+      "brand": "reggano",
+      "size": "12.8 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648000",
+      "name": "Fit & Active Caramel Rice Snacks",
+      "brand": "fit & active",
+      "size": "7 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19520001",
+      "name": "Clancy's Sea Salt and Vinegar Kettle Chips",
+      "brand": "clancy's",
+      "size": "8 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20138197",
+      "name": "Benton's Blueberry Breakfast Biscuits",
+      "brand": "benton's",
+      "size": "8.8 oz",
+      "price": "3.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649225",
+      "name": "Northern Catch Sweet & Spicy Pouch Tuna",
+      "brand": "northern catch",
+      "size": "2.5 oz",
+      "price": "0.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649640",
+      "name": "Lunch Mate Oven Roasted Turkey in Lunch Meat Tub",
+      "brand": "lunch mate",
+      "size": "16 oz",
+      "price": "6.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19335044",
+      "name": "Happy Farms Shredded Colby Jack Cheese",
+      "brand": "happy farms",
+      "size": "12 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649216",
+      "name": "Tuscan Garden Balsamic Vinaigrette Dressing",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17679795",
+      "name": "Black Angus Choice Beef Top Sirloin Steak",
+      "brand": null,
+      "size": "per lb",
+      "price": "15.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20962113",
+      "name": "Bake Shop Cinnamon Sweet Rolls",
+      "brand": "bake shop",
+      "size": "22 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648398",
+      "name": "Simply Nature Organic Low Sodium Chicken Broth",
+      "brand": "simply nature",
+      "size": "32 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20714752",
+      "name": "Simply Nature Wildberry Fruit Strips",
+      "brand": "simply nature",
+      "size": "21 ct",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19879641",
+      "name": "Brookdale Chunk Chicken Breast",
+      "brand": "brookdale",
+      "size": "12.5 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20743496",
+      "name": "Emporium Selection Cheddar Parmesan Cheese",
+      "brand": "emporium selection",
+      "size": "7 oz",
+      "price": "3.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19517201",
+      "name": "Simply Nature Organic Salsa Mild",
+      "brand": "simply nature",
+      "size": "16 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26269923",
+      "name": "Mini Cucumbers, Package",
+      "brand": null,
+      "size": "1 lb",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25945595",
+      "name": "Limes, Bag",
+      "brand": null,
+      "size": "1 lb",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17327031",
+      "name": "Kiwi, Package",
+      "brand": null,
+      "size": "2 lb container",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17327097",
+      "name": "Raspberries, Package",
+      "brand": null,
+      "size": "6 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17327058",
+      "name": "Baby Bella Mushrooms",
+      "brand": null,
+      "size": "8 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18775019",
+      "name": "Jalapeno Peppers, Package",
+      "brand": null,
+      "size": "8 oz",
+      "price": "0.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16606112",
+      "name": "Celery, Package",
+      "brand": null,
+      "size": "1 lb container",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25945596",
+      "name": "Brussels Sprouts, Package",
+      "brand": null,
+      "size": "1 lb",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16383707",
+      "name": "Sweet Corn, Package",
+      "brand": null,
+      "size": "4 ct",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19554637",
+      "name": "Family Pack Chicken Breasts",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "11.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19115461",
+      "name": "Kirkwood Fresh Chicken Tenderloins",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "7.98",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19473448",
+      "name": "Simply Nature Organic Grass Fed 85/15 Ground Beef",
+      "brand": "simply nature",
+      "size": "1 lb",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17771077",
+      "name": "80% Lean Ground Beef",
+      "brand": null,
+      "size": "per lb",
+      "price": "11.58",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19936007",
+      "name": "Parkview Hot Dogs",
+      "brand": "parkview",
+      "size": "12 oz",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19115467",
+      "name": "Kirkwood Fresh Thin Sliced Chicken Breasts",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "5.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17090465",
+      "name": "Kirkwood Fresh 93% Lean Ground Turkey",
+      "brand": "kirkwood",
+      "size": "20.8 oz",
+      "price": "5.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19679303",
+      "name": "PARKVIEW Beef Smoked Sausage",
+      "brand": "parkview",
+      "size": "12 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20182547",
+      "name": "Parkview Cheddar Bratwurst",
+      "brand": "parkview",
+      "size": "14 oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19835839",
+      "name": "Parkview Turkey Polska Kielbasa",
+      "brand": "parkview",
+      "size": "13 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649681",
+      "name": "Parkview Polska Kielbasa Sausage",
+      "brand": "parkview",
+      "size": "14 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17679845",
+      "name": "Kirkwood Fresh Chicken Drumsticks",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "4.92",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21732553",
+      "name": "Earth Grown Extra Firm Organic Tofu",
+      "brand": "earth grown",
+      "size": "14 oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19379314",
+      "name": "Kirkwood Fresh Family Pack Chicken Thighs",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "7.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19115449",
+      "name": "Fresh 80% Ground Beef Patties",
+      "brand": null,
+      "size": "per lb",
+      "price": "7.7",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20452445",
+      "name": "Fresh Family Pack Chicken Wings",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "11.56",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20986422",
+      "name": "Never Any! Hickory Smoked No Sugar Added Uncured Bacon",
+      "brand": "never any!",
+      "size": "12 oz",
+      "price": "5.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17679850",
+      "name": "93% Ground Beef",
+      "brand": null,
+      "size": "per lb",
+      "price": "7.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "10967",
+      "name": "Nathan's Beef Hot Dogs",
+      "brand": "nathan’s famous",
+      "size": "12 oz",
+      "price": "5.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20212902",
+      "name": "Appleton Farms Fully Cooked Bacon",
+      "brand": "appleton farms",
+      "size": "2.1 oz",
+      "price": "4.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20363173",
+      "name": "Happy Harvest Whole Kernel Corn",
+      "brand": "happy harvest",
+      "size": "15.25 oz",
+      "price": "0.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20761645",
+      "name": "Burman's Ketchup",
+      "brand": "burman's",
+      "size": "38 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19407400",
+      "name": "Nature's Nectar Premium Orange Juice Not From Concentrate No Pulp",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647699",
+      "name": "Nature's Nectar Strawberry Kiwi Juice Drink",
+      "brand": "nature's nectar",
+      "size": "59 fl oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17498616",
+      "name": "Simply Nature Organic Cage Free Brown Eggs",
+      "brand": "simply nature",
+      "size": "12 ct",
+      "price": "4.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21119950",
+      "name": "Nature's Nectar Not from Concentrate Lemonade",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20094134",
+      "name": "Clancy's Original Pretzel Slims",
+      "brand": "clancy's",
+      "size": "8 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647583",
+      "name": "Friendly Farms Whole Milk",
+      "brand": "friendly farms",
+      "size": "0.5 gal",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20986614",
+      "name": "Friendly Farms 2% Milk",
+      "brand": "friendly farms",
+      "size": "0.5 gal",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648087",
+      "name": "Clancy's Wavy Potato Chips",
+      "brand": "clancy's",
+      "size": "10 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21226106",
+      "name": "PurAqua Natural Spring Water",
+      "brand": "puraqua",
+      "size": "16.9 fl oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20385477",
+      "name": "Deli Sliced Genoa Salami",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27396230",
+      "name": "Rotisserie Style Pulled Chicken",
+      "brand": "aldi",
+      "size": "16 oz",
+      "price": "7.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21292928",
+      "name": "Deli Sliced Honey Ham",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20385476",
+      "name": "Deli Sliced Oven Classic Turkey",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25928617",
+      "name": "Classic Guacamole",
+      "brand": "aldi",
+      "size": "15 oz",
+      "price": "4.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21292929",
+      "name": "Deli Sliced Buffalo Chicken",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21443189",
+      "name": "Deli Sliced Honey Turkey",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19400442",
+      "name": "Beer Bratwurst",
+      "brand": "aldi",
+      "size": "19 oz",
+      "price": "4.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20389803",
+      "name": "Deli Sliced Black Forest Ham",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "61084834",
+      "name": "DELI SLICED ROAST BEEF",
+      "brand": "aldi",
+      "size": "6 oz",
+      "price": "3.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653266",
+      "name": "Chili Crisp Ready to Serve Rice",
+      "brand": "aldi",
+      "size": "8.8 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25842659",
+      "name": "Deli Sliced Smoked Provolone",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27391571",
+      "name": "Reusable Non-Woven PP Bag",
+      "brand": "aldi",
+      "size": "1 each",
+      "price": "0.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25842716",
+      "name": "Deli Sliced Baby Swiss",
+      "brand": "aldi",
+      "size": "8 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47020357",
+      "name": "Original Potato Salad",
+      "brand": "aldi",
+      "size": "32 oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25928427",
+      "name": "Chunky Guacamole",
+      "brand": "aldi",
+      "size": "15 oz",
+      "price": "4.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653391",
+      "name": "Lemon Herb Basmati Ready to Serve Rice",
+      "brand": "aldi",
+      "size": "8.8 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20033773",
+      "name": "Caprese Pasta Salad",
+      "brand": "aldi",
+      "size": "20 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "105997970",
+      "name": "Yogurt Pouches",
+      "brand": "aldi",
+      "size": "3.2 oz",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "55040760",
+      "name": "Insulated Grocery Bag",
+      "brand": "aldi",
+      "size": "1 each",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19673939",
+      "name": "Appleton Farms Premium Pork Sausage Roll",
+      "brand": "appleton farms",
+      "size": "16 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "79613065",
+      "name": "Appleton Farms Uncured Turkey Bacon",
+      "brand": "appleton farms",
+      "size": "10 oz",
+      "price": "3.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20047386",
+      "name": "Appleton Farms Lower Sodium Bacon",
+      "brand": "appleton farms",
+      "size": "16 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17497923",
+      "name": "Appleton Farms Center Cut Bacon",
+      "brand": "appleton farms",
+      "size": "12 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20032834",
+      "name": "Appleton Farms Black Forest Bacon",
+      "brand": "appleton farms",
+      "size": "12 oz",
+      "price": "4.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "95686144",
+      "name": "Appleton Farms Salami Collection",
+      "brand": "appleton farms",
+      "size": "1 each",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63500266",
+      "name": "Appleton Farms Canadian Bacon",
+      "brand": "appleton farms",
+      "size": "6 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18552606",
+      "name": "Appleton Farms Original Sliced Salami",
+      "brand": "appleton farms",
+      "size": "16 oz",
+      "price": "9.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648773",
+      "name": "Appleton Farms Bite Size Original Salami",
+      "brand": "appleton farms",
+      "size": "8 oz",
+      "price": "6.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "76504832",
+      "name": "Appleton Farms Gourmet Deli Selection",
+      "brand": "appleton farms",
+      "size": "6 oz",
+      "price": "6.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "75974798",
+      "name": "Appleton Farms Uncured Hardwood Smoked Quarter Boneless Sliced Ham",
+      "brand": "appleton farms",
+      "size": "per lb",
+      "price": "9.43",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21001817",
+      "name": "Appleton Farms Thick Sliced Hickory Bacon",
+      "brand": "appleton farms",
+      "size": "24 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "75973314",
+      "name": "Appleton Farms Uncured Honey Quarter Boneless Sliced Ham",
+      "brand": "appleton farms",
+      "size": "per lb",
+      "price": "9.43",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20997401",
+      "name": "Appleton Farms Thick Cut Peppered Bacon",
+      "brand": "appleton farms",
+      "size": "24 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20114968",
+      "name": "Appleton Farms Thick Cut Maple Bacon",
+      "brand": "appleton farms",
+      "size": "24 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21444806",
+      "name": "Appleton Farms Bite Size Spicy Salami",
+      "brand": "appleton farms",
+      "size": "8 oz",
+      "price": "6.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21024738",
+      "name": "Appleton Farms Thick Sliced Applewood Bacon",
+      "brand": "appleton farms",
+      "size": "24 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "79613172",
+      "name": "Appleton Farms Rotisserie Chicken Strips",
+      "brand": "appleton farms",
+      "size": "16 oz",
+      "price": "5.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18552604",
+      "name": "Appleton Farms Spicy Sliced Salami",
+      "brand": "appleton farms",
+      "size": "16 oz",
+      "price": "9.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20537075",
+      "name": "Barissimo French Vanilla Coffee Creamer",
+      "brand": "barissimo",
+      "size": "32 fl oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20537074",
+      "name": "Barissimo Sugar Free French Vanilla Creamer",
+      "brand": "barissimo",
+      "size": "32 fl oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648423",
+      "name": "Barissimo Hazelnut Coffee Creamer",
+      "brand": "barissimo",
+      "size": "32 fl oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "32635257",
+      "name": "Barissimo Caramel Macchiato Iced Coffee",
+      "brand": "barissimo",
+      "size": "64 fl oz",
+      "price": "5.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "41415564",
+      "name": "Barissimo Medium Roast Iced Coffee",
+      "brand": "barissimo",
+      "size": "48 fl oz",
+      "price": "5.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20019622",
+      "name": "Barissimo Mocha Iced Coffee",
+      "brand": "barissimo",
+      "size": "64 fl oz",
+      "price": "5.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73475987",
+      "name": "Barissimo Organic Cold Brew Medium Roast Coffee, 48 fl oz",
+      "brand": "barissimo",
+      "size": "48 fl oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "39977793",
+      "name": "Barissimo 36 ct. Donut Cups",
+      "brand": "barissimo",
+      "size": "36 ct",
+      "price": "12.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "45804899",
+      "name": "Barissimo Caramel Macchiato Cold Foam",
+      "brand": "barissimo",
+      "size": "13 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29708315",
+      "name": "Barissimo Oatmeal Cookie Oatmilk Coffee Creamer",
+      "brand": "barissimo",
+      "size": "32 fl oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "41417045",
+      "name": "Barissimo Blonde Roast Iced Coffee",
+      "brand": "barissimo",
+      "size": "48 fl oz",
+      "price": "5.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20201323",
+      "name": "Barissimo Fair Trade French Roast Coffee Cups",
+      "brand": "barissimo",
+      "size": "12 ct",
+      "price": "4.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647595",
+      "name": "Barissimo Original Coffee Creamer",
+      "brand": "barissimo",
+      "size": "16 oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "42180904",
+      "name": "Barissimo Adventure Ground Coffee",
+      "brand": "barissimo",
+      "size": "12 oz",
+      "price": "6.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "64124003",
+      "name": "Barissimo Dark Roast Iced Coffee",
+      "brand": "barissimo",
+      "size": "48 fl oz",
+      "price": "5.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25928320",
+      "name": "Barissimo Vanilla Almondmilk Creamer",
+      "brand": "barissimo",
+      "size": "32 fl oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21211414",
+      "name": "Barissimo Breakfast Coffee Cups",
+      "brand": "barissimo",
+      "size": "12 ct",
+      "price": "4.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649797",
+      "name": "Barissimo Fair Trade Decaf Donut Store Coffee Cups",
+      "brand": "barissimo",
+      "size": "12 ct",
+      "price": "4.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "71367850",
+      "name": "Barissimo Coconut Creme Coffee Creamer",
+      "brand": "barissimo",
+      "size": "32 fl oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29709821",
+      "name": "Barissimo Vanilla Coffee Creamers",
+      "brand": "barissimo",
+      "size": "32 fl oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19283303",
+      "name": "Burman's Real Mayonnaise",
+      "brand": "burman's",
+      "size": "30 fl oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20038808",
+      "name": "Burman's Yellow Mustard",
+      "brand": "burman's",
+      "size": "20 oz",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19964988",
+      "name": "Burman's Hot Sauce",
+      "brand": "burman's",
+      "size": "12 fl oz",
+      "price": "1.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20041605",
+      "name": "Burman's Teriyaki Sauce",
+      "brand": "burman's",
+      "size": "14.5 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20989939",
+      "name": "Burman's Original BBQ Sauce",
+      "brand": "burman's",
+      "size": "18 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19915871",
+      "name": "Burman's Steak Sauce",
+      "brand": "burman's",
+      "size": "10 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649413",
+      "name": "Burman's Spicy Brown Mustard",
+      "brand": "burman's",
+      "size": "12 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "31540295",
+      "name": "Burman's Chicken Dipping Sauce",
+      "brand": "burman's",
+      "size": "16 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69926761",
+      "name": "Burman's Hot Honey BBQ Sauce",
+      "brand": "burman's",
+      "size": "15.5 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20478028",
+      "name": "Burman's Reduced Sodium Soy Sauce",
+      "brand": "burman's",
+      "size": "15 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69926840",
+      "name": "Burman's Mild BBQ Sauce",
+      "brand": "burman's",
+      "size": "15.5 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69926804",
+      "name": "Burman's Gold BBQ Sauce",
+      "brand": "burman's",
+      "size": "15.5 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648757",
+      "name": "Burman's Dijon Mustard",
+      "brand": "burman's",
+      "size": "12 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649296",
+      "name": "Burman's Soy Sauce",
+      "brand": "burman's",
+      "size": "15 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20224777",
+      "name": "Burman's Tikka Masala Sauce",
+      "brand": "burman's",
+      "size": "15 oz",
+      "price": "4.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649398",
+      "name": "Burman's Sweet and Sour Sauce",
+      "brand": "burman's",
+      "size": "14.5 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74377660",
+      "name": "Burman's Medium Wing Sauce",
+      "brand": "burman's",
+      "size": "12 oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74377435",
+      "name": "Burman's Parmesan Wing Sauce",
+      "brand": "burman's",
+      "size": "12 oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648988",
+      "name": "Burman's Hickory BBQ Sauce",
+      "brand": "burman's",
+      "size": "18 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647945",
+      "name": "Chef's Cupboard Chicken Broth",
+      "brand": "chef's cupboard",
+      "size": "32 oz",
+      "price": "1.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647720",
+      "name": "Chef's Cupboard Beef Broth",
+      "brand": "chef's cupboard",
+      "size": "32 oz",
+      "price": "1.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647968",
+      "name": "Chef's Cupboard Condensed Cream of Mushroom Soup",
+      "brand": "chef's cupboard",
+      "size": "10.5 oz",
+      "price": "0.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20962909",
+      "name": "Chef's Cupboard Condensed Cream of Chicken Soup",
+      "brand": "chef's cupboard",
+      "size": "10.5 oz",
+      "price": "0.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647589",
+      "name": "Chef's Cupboard Reduced Sodium Chicken Broth",
+      "brand": "chef's cupboard",
+      "size": "32 fl oz",
+      "price": "1.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21309422",
+      "name": "Chef's Cupboard Italian Breadcrumbs",
+      "brand": "chef's cupboard",
+      "size": "8 oz",
+      "price": "2.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647754",
+      "name": "Chef's Cupboard Chicken Stuffing",
+      "brand": "chef's cupboard",
+      "size": "6 oz",
+      "price": "0.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19936010",
+      "name": "Chef's Cupboard Chicken Stock",
+      "brand": "chef's cupboard",
+      "size": "32 oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19426678",
+      "name": "Chef's Cupboard Chunky Chicken Noodle Soup",
+      "brand": "chef's cupboard",
+      "size": "18.6 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20753478",
+      "name": "Chef's Cupboard Homestyle Butter Mashed Potatoe",
+      "brand": "chef's cupboard",
+      "size": "4 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21255131",
+      "name": "Chef's Cupboard Scalloped Potatoes",
+      "brand": "chef's cupboard",
+      "size": "4.7 oz",
+      "price": "1.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21254918",
+      "name": "Chef's Cupboard AuGratin Potatoes",
+      "brand": "chef's cupboard",
+      "size": "4.7 oz",
+      "price": "1.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20363126",
+      "name": "Chef's Cupboard Vegetable Stock",
+      "brand": "chef's cupboard",
+      "size": "32 oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19759158",
+      "name": "Chef's Cupboard Beef Stock",
+      "brand": "chef's cupboard",
+      "size": "32 oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20752480",
+      "name": "Chef's Cupboard Homestyle Roasted Garlic Mashed Potatoes",
+      "brand": "chef's cupboard",
+      "size": "4 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112683319",
+      "name": "Chef's Cupboard Curry",
+      "brand": "chef's cupboard",
+      "size": "5 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25928381",
+      "name": "Chef's Cupboard Healthy Chunky Chicken Noodle Soup",
+      "brand": "chef's cupboard",
+      "size": "18.6 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647775",
+      "name": "Chef's Cupboard Cornbread Stuffing",
+      "brand": "chef's cupboard",
+      "size": "6 oz",
+      "price": "0.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112683163",
+      "name": "Chef's Cupboard Mediterranean",
+      "brand": "chef's cupboard",
+      "size": "5 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19062002",
+      "name": "Chef's Cupboard French Fried Onions",
+      "brand": "chef's cupboard",
+      "size": "6 oz",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19835829",
+      "name": "Choceur Peanut Butter Cups",
+      "brand": "choceur",
+      "size": "12 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648986",
+      "name": "Choceur Superberries Blueberry Acai",
+      "brand": "choceur",
+      "size": "7 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20148874",
+      "name": "Choceur Milk Chocolate Bar",
+      "brand": "choceur",
+      "size": "5.29 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27834870",
+      "name": "Choceur Dark Chocolate Sea Salt Caramels",
+      "brand": "choceur",
+      "size": "13.8 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20146960",
+      "name": "Choceur Dark Chocolate Bar",
+      "brand": "choceur",
+      "size": "5.29 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19908548",
+      "name": "Choceur Superberries Pomegranate",
+      "brand": "choceur",
+      "size": "7 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "32955941",
+      "name": "Choceur Chocolate Pretzel Cluster",
+      "brand": "choceur",
+      "size": "6 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20148857",
+      "name": "Choceur Dark Chocolate with Almonds Bar",
+      "brand": "choceur",
+      "size": "5.29 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20873282",
+      "name": "Choceur Dark Chocolate Coconut Covered Almonds",
+      "brand": "choceur",
+      "size": "10 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647698",
+      "name": "Choceur Milk Chocolate Bar with Almonds",
+      "brand": "choceur",
+      "size": "5.29 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "32937612",
+      "name": "Choceur Chocolate Smores Cluster",
+      "brand": "choceur",
+      "size": "6 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74122844",
+      "name": "Choceur Milk Chocolate with Brownie and Salted Caramel",
+      "brand": "choceur",
+      "size": "5.291 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47763249",
+      "name": "Choceur English Toffee Almond Tub",
+      "brand": "choceur",
+      "size": "10 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "104122718",
+      "name": "Choceur Milk Chocolate Bar with Smooth Caramel Filling",
+      "brand": "choceur",
+      "size": "7.05 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74121502",
+      "name": "Choceur Dark Chocolate with Salty Fudge and Almond",
+      "brand": "choceur",
+      "size": "5.291 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74121461",
+      "name": "Choceur Milk Chocolate with Nougat Honeycomb and Sea Salt",
+      "brand": "choceur",
+      "size": "5.291",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21217200",
+      "name": "Choceur Milk Creme Filled Chocolate",
+      "brand": "choceur",
+      "size": "7.05 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "60948108",
+      "name": "Choceur Dark Chocolate Almonds",
+      "brand": "choceur",
+      "size": "10 oz",
+      "price": "6.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "56051495",
+      "name": "Choceur Milk Chocolate Almonds",
+      "brand": "choceur",
+      "size": "10 oz",
+      "price": "6.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647590",
+      "name": "Choceur Milk Crunch Creme Filled Chocolate",
+      "brand": "choceur",
+      "size": "7.05 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19535445",
+      "name": "Clancy's Original Kettle Chips",
+      "brand": "clancy's",
+      "size": "8 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20251435",
+      "name": "Clancy's Pretzel Mini Twists",
+      "brand": "clancy's",
+      "size": "16 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20251434",
+      "name": "Clancy's Pretzel Sticks",
+      "brand": "clancy's",
+      "size": "16 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69945479",
+      "name": "Clancy's White Cheddar Cheese Popcorn",
+      "brand": "clancy's",
+      "size": "6.75 oz",
+      "price": "1.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648684",
+      "name": "Clancy's Veggie Straws",
+      "brand": "clancy's",
+      "size": "7 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648478",
+      "name": "Clancy's Barbecue Potato Chips",
+      "brand": "clancy's",
+      "size": "9.5 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19540007",
+      "name": "Clancy's Jalapeno Kettle Chips",
+      "brand": "clancy's",
+      "size": "8 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63913001",
+      "name": "Clancy's Cheddar and Sour Cream Ridged Potato Chip",
+      "brand": "clancy's",
+      "size": "9 oz",
+      "price": "1.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20059760",
+      "name": "Clancy's Hint of Lime Tortilla Chips",
+      "brand": "clancy's",
+      "size": "13 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "28365229",
+      "name": "Clancy's Movie Theater Butter Microwave Popcorn",
+      "brand": "clancy's",
+      "size": "2.5 oz",
+      "price": "4.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649090",
+      "name": "Clancy's Peanut Butter Filled Pretzel Pieces",
+      "brand": "clancy's",
+      "size": "24 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29478168",
+      "name": "Clancy's Bite Size Tortilla Chips",
+      "brand": "clancy's",
+      "size": "13 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648373",
+      "name": "Clancy's Sour Cream and Onion Potato Chips",
+      "brand": "clancy's",
+      "size": "9.5 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20214446",
+      "name": "Clancy's Cheese Puffs",
+      "brand": "clancy's",
+      "size": "8 oz",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20138240",
+      "name": "Clancy's Big Dipper Tortilla Chips",
+      "brand": "clancy's",
+      "size": "10 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19531302",
+      "name": "Clancy's Mesquite Barbecue Kettle Chips",
+      "brand": "clancy's",
+      "size": "8 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648308",
+      "name": "Clancy's Original Potato Chips",
+      "brand": "clancy's",
+      "size": "10 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19283244",
+      "name": "Countryside Creamery Pure Irish Butter Salted",
+      "brand": "countryside creamery",
+      "size": "8 oz",
+      "price": "3.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647734",
+      "name": "Countryside Creamery Tastes Like Butter Spread",
+      "brand": "countryside creamery",
+      "size": "15 oz",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647895",
+      "name": "Countryside Creamery Homestyle Spread",
+      "brand": "countryside creamery",
+      "size": "45 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20518805",
+      "name": "Countryside Creamery Spreadable Irish Butter with Canola Oil",
+      "brand": "countryside creamery",
+      "size": "7.5 oz",
+      "price": "4.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648667",
+      "name": "Countryside Creamery Spreadable Butter with Canola Oil",
+      "brand": "countryside creamery",
+      "size": "15 oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648649",
+      "name": "Countryside Creamery Spreadable Butter with Olive Oil and Sea Salt",
+      "brand": "countryside creamery",
+      "size": "15 oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20366990",
+      "name": "Deutsche Küche Pork Schnitzel",
+      "brand": "deutsche küche",
+      "size": "24 oz",
+      "price": "9.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20519390",
+      "name": "Deutsche Küche Chicken Schnitzel",
+      "brand": "deutsche küche",
+      "size": "24 oz",
+      "price": "9.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26939697",
+      "name": "Deutsche Küche Bavarian Soft Pretzel",
+      "brand": "deutsche küche",
+      "size": "17.57 oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17602329",
+      "name": "Deutsche Küche German Style Sauerkraut",
+      "brand": "deutsche küche",
+      "size": "24 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25442982",
+      "name": "Deutsche Küche Cheese Spaetzle",
+      "brand": "deutsche küche",
+      "size": "20 oz",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25442985",
+      "name": "Deutsche Küche Garlic Sage Spaetzle",
+      "brand": "deutsche küche",
+      "size": "20 oz",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21059295",
+      "name": "Deutsche Küche Hazelnut Doppelino",
+      "brand": "deutsche küche",
+      "size": "17.6 oz",
+      "price": "3.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21059283",
+      "name": "Deutsche Küche Chocolate Doppelino",
+      "brand": "deutsche küche",
+      "size": "17.6 oz",
+      "price": "3.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "30232557",
+      "name": "Deutsche Küche Speculoos Doppelino",
+      "brand": "deutsche küche",
+      "size": "17.6 oz",
+      "price": "3.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21900782",
+      "name": "Deutsche Küche Milk Chocolate Covered Wafers",
+      "brand": "deutsche küche",
+      "size": "6.17 oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21900733",
+      "name": "Deutsche Küche Dark Chocolate Covered Wafers",
+      "brand": "deutsche küche",
+      "size": "6.17 oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74082490",
+      "name": "Deutsche Küche Doppel Keks",
+      "brand": "deutsche küche",
+      "size": "17.6 oz",
+      "price": "3.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74481374",
+      "name": "Deutsche Küche Cafe Kranze",
+      "brand": "deutsche küche",
+      "size": "8.81 oz",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47885906",
+      "name": "Deutsche Küche Mushroom and Cheese Strudel",
+      "brand": "deutsche küche",
+      "size": "10.6 oz",
+      "price": "4.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47886152",
+      "name": "Deutsche Küche Roasted Pepper and Cheese Strudel",
+      "brand": "deutsche küche",
+      "size": "10.6 oz",
+      "price": "4.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "109171908",
+      "name": "Deutsche Küche Herring Fillets in Pineapple Curry Sauce",
+      "brand": "deutsche küche",
+      "size": "7.05 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24533252",
+      "name": "Deutsche Küche Peanut Puffs",
+      "brand": "deutsche küche",
+      "size": "7.05 oz",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21059315",
+      "name": "Deutsche Küche Almond Spritz",
+      "brand": "deutsche küche",
+      "size": "10.6 oz",
+      "price": "3.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20367078",
+      "name": "Deutsche Küche Artichoke and Cheese Strudel",
+      "brand": "deutsche küche",
+      "size": "10.6 oz",
+      "price": "4.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21059170",
+      "name": "Deutsche Küche Artichoke and Cheese Strudel",
+      "brand": "deutsche küche",
+      "size": "10.6 oz",
+      "price": "4.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19148607",
+      "name": "Earth Grown Vegan Mozzarella Style Shreds",
+      "brand": "earth grown",
+      "size": "8 oz",
+      "price": "4.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "39058647",
+      "name": "Earth Grown Chickpea and Korma",
+      "brand": "earth grown",
+      "size": "10.05 oz",
+      "price": "3.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25004243",
+      "name": "Earth Grown Vegan Cheddar Style Shreds",
+      "brand": "earth grown",
+      "size": "8 oz",
+      "price": "4.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "30361006",
+      "name": "Earth Grown Plant Based Southwest Burrito Bowl",
+      "brand": "earth grown",
+      "size": "10 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "30357987",
+      "name": "Earth Grown Plant Based Taco Filling",
+      "brand": "earth grown",
+      "size": "10 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "30358149",
+      "name": "Earth Grown Plant Based Pad Thai",
+      "brand": "earth grown",
+      "size": "10 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24519551",
+      "name": "Elevation Cookies 'N Cream Functional Protein Bar",
+      "brand": "elevation",
+      "size": "2.05 oz",
+      "price": "4.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "38934148",
+      "name": "Elevation Chocolate Chip Kids Baked Oat Bars",
+      "brand": "elevation",
+      "size": "7.62 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21220225",
+      "name": "Elevation Cookie Dough Protein Energy Bar",
+      "brand": "elevation",
+      "size": "6 ct",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21349273",
+      "name": "Elevation Vanilla Ready to Drink Protein Shake",
+      "brand": "elevation",
+      "size": "11 fl oz",
+      "price": "7.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "41796794",
+      "name": "Elevation Golden Vanilla Functional Protein Bar",
+      "brand": "elevation",
+      "size": "2.05 oz",
+      "price": "4.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "38934163",
+      "name": "Elevation Chocolat Brownie Kids Baked Oat Bars",
+      "brand": "elevation",
+      "size": "7.62 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21349270",
+      "name": "Elevation Chocolate Ready to Drink Protein Shake",
+      "brand": "elevation",
+      "size": "11 fl oz",
+      "price": "7.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21122635",
+      "name": "Elevation Chocolate Coconut Endulgent Bar",
+      "brand": "elevation",
+      "size": "5 ct",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25181288",
+      "name": "Elevation Nacho Cheese Protein Puffs",
+      "brand": "elevation",
+      "size": "2.1 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19673953",
+      "name": "Elevation Double Chocolate Protein Meal Bar",
+      "brand": "elevation",
+      "size": "6 ct",
+      "price": "5.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25181244",
+      "name": "Elevation Jalapeno Cheddar Protein Puffs",
+      "brand": "elevation",
+      "size": "2.1 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647937",
+      "name": "Elevation Chocolate Peanut Butter Protein Meal Bar",
+      "brand": "elevation",
+      "size": "6 ct",
+      "price": "5.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21182687",
+      "name": "Elevation Chocolate Peanut Butter High Protein Bar",
+      "brand": "elevation",
+      "size": "6 ct",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "88536016",
+      "name": "Elevation Chocolate Chip Performance Energy Bar",
+      "brand": "elevation",
+      "size": "12 oz",
+      "price": "5.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649149",
+      "name": "Elevation Caramel Nut Endulgent Bar",
+      "brand": "elevation",
+      "size": "5 ct",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "44330184",
+      "name": "Elevation Birthday Cake High Protein Minis",
+      "brand": "elevation",
+      "size": "12 oz",
+      "price": "8.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "66375194",
+      "name": "Elevation Dark Chocolate Cherry Cashew Fruit and Nut Bar",
+      "brand": "elevation",
+      "size": "8.4 oz",
+      "price": "4.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648086",
+      "name": "Elevation Yogurt Peanut Honey Protein Energy Bar",
+      "brand": "elevation",
+      "size": "1.76 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19885083",
+      "name": "Elevation Chocolate Mint High Protein Bar",
+      "brand": "elevation",
+      "size": "6 ct",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648187",
+      "name": "Elevation Caramel Double Crunch Advance Bar",
+      "brand": "elevation",
+      "size": "1.6 oz",
+      "price": "5.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648946",
+      "name": "Friendly Farms Regular Cottage Cheese",
+      "brand": "friendly farms",
+      "size": "24 oz",
+      "price": "3.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "23804214",
+      "name": "Friendly Farms Heavy Whipping Cream",
+      "brand": "friendly farms",
+      "size": "32 fl oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19967133",
+      "name": "Friendly Farms Moo Tubes Strawberry and Blueberry Yogurt",
+      "brand": "friendly farms",
+      "size": "2 oz",
+      "price": "2.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647611",
+      "name": "Friendly Farms Low Fat Cottage Cheese",
+      "brand": "friendly farms",
+      "size": "24 oz",
+      "price": "3.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19967132",
+      "name": "Friendly Farms Moo Tubes Cotton Candy and Melonberry Yogurt",
+      "brand": "friendly farms",
+      "size": "2 oz",
+      "price": "2.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648487",
+      "name": "Friendly Farms 2% Lactose Free Milk",
+      "brand": "friendly farms",
+      "size": "64 fl oz",
+      "price": "3.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647825",
+      "name": "Friendly Farms Half & Half",
+      "brand": "friendly farms",
+      "size": "32 fl oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20477952",
+      "name": "Friendly Farms Whipped Dairy Topping",
+      "brand": "friendly farms",
+      "size": "13 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20186193",
+      "name": "Friendly Farms Whipped Topping",
+      "brand": "friendly farms",
+      "size": "8 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "64401511",
+      "name": "Friendly Farms Drinkable Yogurt Mixed Berry",
+      "brand": "friendly farms",
+      "size": "7 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "42640471",
+      "name": "Friendly Farms Strawberry Kefir",
+      "brand": "friendly farms",
+      "size": "32 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19981988",
+      "name": "Friendly Farms Plain Whole Milk Greek Yogurt",
+      "brand": "friendly farms",
+      "size": "32 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20123042",
+      "name": "Friendly Farms Lowfat Raspberry Yogurt",
+      "brand": "friendly farms",
+      "size": "6 oz",
+      "price": "0.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20994220",
+      "name": "Friendly Farms Chocolate Milk",
+      "brand": "friendly farms",
+      "size": "0.5 gal",
+      "price": "2.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20249671",
+      "name": "Friendly Farms Nonfat Plain Greek Yogurt",
+      "brand": "friendly farms",
+      "size": "32 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647928",
+      "name": "Fit & Active Cheddar Rice Snacks",
+      "brand": "fit & active",
+      "size": "6 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21089428",
+      "name": "Fit & Active Lightly Salted Rice Cakes",
+      "brand": "fit & active",
+      "size": "4.9 oz",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648957",
+      "name": "Elevation Strawberry Protein Meal Bars",
+      "brand": "fit & active",
+      "size": "6 ct",
+      "price": "5.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20383672",
+      "name": "Fremont Fish Market Fish Sticks",
+      "brand": "fremont fish market",
+      "size": "24 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21344727",
+      "name": "Fremont Fish Market Jumbo Butterfly Shrimp",
+      "brand": "fremont fish market",
+      "size": "9 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "40025634",
+      "name": "Fremont Fish Market Flake Style Imitation Crab Meat",
+      "brand": "fremont fish market",
+      "size": "16 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20385442",
+      "name": "Fremont Fish Market Value Pack Wild Caught Salmon",
+      "brand": "fremont fish market",
+      "size": "32 oz",
+      "price": "11.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20383661",
+      "name": "Fremont Fish Market Coconut Jumbo Butterfly Shrimp with Orange Marmalade Sauce",
+      "brand": "fremont fish market",
+      "size": "9 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20383671",
+      "name": "Fremont Fish Market Value Pack Cod Fillets",
+      "brand": "fremont fish market",
+      "size": "32 oz",
+      "price": "16.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19876327",
+      "name": "Fremont Fish Market Wild Caught Teriyaki Alaska Salmon Burgers, 4 Pack",
+      "brand": "fremont fish market",
+      "size": "11.2 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19685435",
+      "name": "Fremont Fish Market Medium EZ Peel Raw Shrimp",
+      "brand": "fremont fish market",
+      "size": "12 oz",
+      "price": "6.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20383668",
+      "name": "Fremont Fish Market Value Pack Tilapia Fillets",
+      "brand": "fremont fish market",
+      "size": "32 oz",
+      "price": "9.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63885209",
+      "name": "Fremont Fish Market Leg Style Imitation Crab Meat",
+      "brand": "fremont fish market",
+      "size": "16 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19876326",
+      "name": "Fremont Fish Market Wild Caught Chipotle Alaska Salmon Burgers, 4 Pack",
+      "brand": "fremont fish market",
+      "size": "11.2 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20385438",
+      "name": "Fremont Fish Market Medium Cooked Shrimp",
+      "brand": "fremont fish market",
+      "size": "12 oz",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19492156",
+      "name": "Fremont Fish Market Jumbo Cooked Shrimp",
+      "brand": "fremont fish market",
+      "size": "12 oz",
+      "price": "8.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "41417737",
+      "name": "Fremont Fish Market Value Pack Large Raw Peeled Shrimp",
+      "brand": "fremont fish market",
+      "size": "32 oz",
+      "price": "18.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "101510189",
+      "name": "Fremont Fish Market Battered Fish Fillets",
+      "brand": "fremont fish market",
+      "size": "19 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29709555",
+      "name": "Fremont Fish Market Salted Butter & Garlic Shrimp Skewers, 4 Skewers",
+      "brand": "fremont fish market",
+      "size": "8 oz",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "101510207",
+      "name": "Fremont Fish Market Beer Battered Fish Fillet",
+      "brand": "fremont fish market",
+      "size": "19 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29709461",
+      "name": "Fremont Fish Market Citrus Herb Shrimp Skewers, 4 Skewers",
+      "brand": "fremont fish market",
+      "size": "8 oz",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20436016",
+      "name": "Happy Harvest Cut Green Beans",
+      "brand": "happy harvest",
+      "size": "15 oz",
+      "price": "0.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20739259",
+      "name": "Happy Harvest Tomato Sauce",
+      "brand": "happy harvest",
+      "size": "8 oz",
+      "price": "0.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20537078",
+      "name": "Happy Harvest Medium Sweet Peas",
+      "brand": "happy harvest",
+      "size": "15 oz",
+      "price": "0.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648118",
+      "name": "Happy Harvest Tomato Paste",
+      "brand": "happy harvest",
+      "size": "6 oz",
+      "price": "0.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647670",
+      "name": "Happy Harvest Canned Mushrooms",
+      "brand": "happy harvest",
+      "size": "4 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648140",
+      "name": "Happy Harvest French Green Beans",
+      "brand": "happy harvest",
+      "size": "15 oz",
+      "price": "0.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648732",
+      "name": "Happy Harvest Crushed Tomatoes",
+      "brand": "happy harvest",
+      "size": "28 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20752467",
+      "name": "Happy Harvest Diced Tomatoes",
+      "brand": "happy harvest",
+      "size": "14.5 oz",
+      "price": "0.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648901",
+      "name": "Happy Harvest Small Peas",
+      "brand": "happy harvest",
+      "size": "15 oz",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63085567",
+      "name": "Happy Harvest Petite Diced Tomatoes",
+      "brand": "happy harvest",
+      "size": "14.5 oz",
+      "price": "0.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649283",
+      "name": "Happy Harvest Mixed Vegetables",
+      "brand": "happy harvest",
+      "size": "15 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649562",
+      "name": "Happy Harvest Sliced Carrots",
+      "brand": "happy harvest",
+      "size": "14.5 oz",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649066",
+      "name": "Happy Harvest Fire Roasted Diced Tomatoes",
+      "brand": "happy harvest",
+      "size": "14.5 oz",
+      "price": "1.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20517010",
+      "name": "Happy Harvest Diced Tomatoes with Basil, Garlic and Oregano",
+      "brand": "happy harvest",
+      "size": "14.5 oz",
+      "price": "0.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20707508",
+      "name": "Happy Harvest Whole Potatoes",
+      "brand": "happy harvest",
+      "size": "15 oz",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649318",
+      "name": "Happy Harvest Cream Style Corn",
+      "brand": "happy harvest",
+      "size": "14.75 oz",
+      "price": "0.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24062819",
+      "name": "Happy Harvest Sliced Potatoes",
+      "brand": "happy harvest",
+      "size": "15 oz",
+      "price": "1.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19321102",
+      "name": "Kirkwood Chicken Fries",
+      "brand": "kirkwood",
+      "size": "24 oz",
+      "price": "5.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19270537",
+      "name": "Kirkwood Fully Cooked White Meat Chicken Nuggets",
+      "brand": "kirkwood",
+      "size": "29 oz",
+      "price": "5.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19270461",
+      "name": "Kirkwood Breaded Chicken Breast Patties",
+      "brand": "kirkwood",
+      "size": "23.8 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20873219",
+      "name": "Kirkwood Crispy Chicken Strips",
+      "brand": "kirkwood",
+      "size": "25 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "41417088",
+      "name": "Kirkwood 85% Lean 15% Fat Fresh Ground Turkey",
+      "brand": "kirkwood",
+      "size": "3 lb",
+      "price": "10.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "28033243",
+      "name": "Kirkwood Fresh Ground Chicken",
+      "brand": "kirkwood",
+      "size": "16 oz",
+      "price": "3.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19321105",
+      "name": "Kirkwood Popcorn Chicken",
+      "brand": "kirkwood",
+      "size": "25.5 oz",
+      "price": "8.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19338762",
+      "name": "Kirkwood Grilled Chicken Strips",
+      "brand": "kirkwood",
+      "size": "22 oz",
+      "price": "7.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25821481",
+      "name": "Kirkwood Honey BBQ Chicken Wings",
+      "brand": "kirkwood",
+      "size": "22 oz",
+      "price": "8.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19325757",
+      "name": "Kirkwood Buffalo Crispy Chicken Strips",
+      "brand": "kirkwood",
+      "size": "25 oz",
+      "price": "6.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17771057",
+      "name": "Kirkwood Fresh Chicken Breasts",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "5.76",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21308173",
+      "name": "Kirkwood Dino Nuggets",
+      "brand": "kirkwood",
+      "size": "35 oz",
+      "price": "7.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19115446",
+      "name": "Kirkwood Fresh Chicken Leg Quarters",
+      "brand": "kirkwood",
+      "size": "per lb",
+      "price": "5.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21111030",
+      "name": "Little Journey Apple Banana Strawberry Yogurt Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25886180",
+      "name": "Little Journey Mango Apple Banana Avocado Kale",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19775370",
+      "name": "Little Journey Mixed Berry Yogurt Bites",
+      "brand": "little journey",
+      "size": "1 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19775369",
+      "name": "Little Journey Strawberry Yogurt Bites",
+      "brand": "little journey",
+      "size": "1 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21303362",
+      "name": "Little Journey Pear Mixed Berry Beet Flax",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18732951",
+      "name": "Little Journey Organic Pear Blueberry Spinach Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21308175",
+      "name": "Little Journey Apple Banana Blueberry Oat Flax",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21221624",
+      "name": "Little Journey Apple Carrot Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20041529",
+      "name": "Little Journey Apple Mango Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21286958",
+      "name": "Little Journey Apple Broccoli Pear Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20925030",
+      "name": "Little Journey Baby Wipes Bundle",
+      "brand": "little journey",
+      "size": "216 ct",
+      "price": "5.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20146973",
+      "name": "Little Journey Apple Pear Spinach Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19876332",
+      "name": "Little Journey Sensitive Baby Wipes",
+      "brand": "little journey",
+      "size": "192 ct",
+      "price": "5.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21254552",
+      "name": "Little Journey Apple Sweet Potato Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19937807",
+      "name": "Little Journey Strawberry Banana Rice Rusks",
+      "brand": "little journey",
+      "size": "1.76 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648816",
+      "name": "Little Journey Apple Banana Raspberry Yogurt Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "62898359",
+      "name": "Little Journey Organic Mango and Carrot Puffs",
+      "brand": "little journey",
+      "size": "1.48 oz",
+      "price": "3.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19937808",
+      "name": "Little Journey Apple Rice Rusks",
+      "brand": "little journey",
+      "size": "1.76 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "62898548",
+      "name": "Little Journey Organic Purple Carrot and Blueberry Puffs",
+      "brand": "little journey",
+      "size": "1.48 oz",
+      "price": "3.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20148872",
+      "name": "Little Journey Apple Blueberry Banana Baby Food Puree",
+      "brand": "little journey",
+      "size": "4 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649412",
+      "name": "liveGfree Sweet Chili Brown Rice Crisps",
+      "brand": "livegfree",
+      "size": "7 oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29633077",
+      "name": "liveGfree Sea Salt Brown Rice Crisps",
+      "brand": "livegfree",
+      "size": "7 oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "22022896",
+      "name": "liveGfree Gluten Free Chicken Bites",
+      "brand": "livegfree",
+      "size": "18 oz",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "22022898",
+      "name": "liveGfree Gluten Free Gen Tso's Chicken",
+      "brand": "livegfree",
+      "size": "22 oz",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19845429",
+      "name": "liveGfree Wide Pan Gluten Free White Bread",
+      "brand": "livegfree",
+      "size": "20 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648631",
+      "name": "liveGfree Gluten Free Brownie Mix",
+      "brand": "livegfree",
+      "size": "16 oz",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19845426",
+      "name": "liveGfree Gluten Free Wide Pan Whole Grain Bread",
+      "brand": "livegfree",
+      "size": "20 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20947898",
+      "name": "liveGfree Gluten Free Chocolate Frosted Donuts",
+      "brand": "livegfree",
+      "size": "10.5 oz",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20947386",
+      "name": "liveGfree Gluten Free Glazed Donuts",
+      "brand": "livegfree",
+      "size": "10.5 oz",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21022326",
+      "name": "liveGfree Gluten Free Baking Mix",
+      "brand": "livegfree",
+      "size": "16 oz",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20986524",
+      "name": "Mama Cozzi's Pizza Kitchen Sliced Pepperoni",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "6 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20019638",
+      "name": "Mama Cozzi's Pizza Kitchen Pepperoni French Bread Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "11.25 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20681709",
+      "name": "Mama Cozzi's Pizza Kitchen Pepperoni Pizza Snacks 90ct",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "45 oz",
+      "price": "6.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21221643",
+      "name": "Mama Cozzi's Pizza Kitchen Garlic Texas Toast",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "11.25 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21221633",
+      "name": "Mama Cozzi's Pizza Kitchen 5 Cheese Texas Toast",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "13.5 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25821485",
+      "name": "Mama Cozzi's Pizza Kitchen Original Thin Crust Cheese Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "13.8 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19473469",
+      "name": "Mama Cozzi's Pizza Kitchen Sliced Turkey Pepperoni",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "5 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20363215",
+      "name": "Mama Cozzi's Pizza Kitchen Toasted Cheese Ravioli",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "16 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "56618931",
+      "name": "Mama Cozzi's Pizza Kitchen 4pk Pepperoni Deep Dish Singles Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "22.4 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29709224",
+      "name": "Mama Cozzi's Pizza Kitchen Pepperoni Rising Crust Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "30.2 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19297443",
+      "name": "Mama Cozzi's Pizza Kitchen Stuffed Crust Pepperoni Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "29.85 oz",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20363216",
+      "name": "Mama Cozzi's Pizza Kitchen Toasted Beef Ravioli",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "16 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29709375",
+      "name": "Mama Cozzi's Pizza Kitchen Cheese Rising Crust Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "29.75 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "99944051",
+      "name": "Mama Cozzi's Pizza Kitchen Mini Pizza Bagels 40ct - Pepperoni",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "1 each",
+      "price": "7.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20975042",
+      "name": "Mama Cozzi's Pizza Kitchen Pizza Dough",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "16 oz",
+      "price": "1.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25651162",
+      "name": "Mama Cozzi's Pizza Kitchen Original Thin Crust Sausage Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "14.9 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "99925872",
+      "name": "Mama Cozzi's Pizza Kitchen Mini Pizza Bagels 40ct - 3 Cheese",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "1 each",
+      "price": "7.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "41229917",
+      "name": "Mama Cozzi's Pizza Kitchen Stuffed Crust Cracked Pepper Pepperoni Parm",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "30.85 oz",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25651161",
+      "name": "Mama Cozzi's Pizza Kitchen Original Thin Crust Meat Lovers Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "14.4 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "41234845",
+      "name": "Mama Cozzi's Pizza Kitchen Stuffed Crust Buffalo Chicken",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "29 oz",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20215391",
+      "name": "Millville Fruit Rounds",
+      "brand": "millville",
+      "size": "12.2 oz",
+      "price": "2.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648005",
+      "name": "Millville Buttermilk Pancake Mix",
+      "brand": "millville",
+      "size": "32 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647663",
+      "name": "Millville Strawberry Fruit & Grain Bar",
+      "brand": "millville",
+      "size": "8 ct",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20681719",
+      "name": "Millville Chocolate Chip Chewy Dipped Granola Bar",
+      "brand": "millville",
+      "size": "6 ct",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21181322",
+      "name": "Millville Original Pancake Syrup",
+      "brand": "millville",
+      "size": "24 fl oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19682519",
+      "name": "Millville Honey Graham Squares",
+      "brand": "millville",
+      "size": "12 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19507518",
+      "name": "Millville Frosted Shredded Wheat 18oz",
+      "brand": "millville",
+      "size": "18 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19907585",
+      "name": "Millville Marshmallows and stars",
+      "brand": "millville",
+      "size": "11.5 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647646",
+      "name": "Millville Apple Cinnamon Fruit & Grain Bars",
+      "brand": "millville",
+      "size": "8 ct",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "23611426",
+      "name": "Millville Cinnamon Crunch Square",
+      "brand": "millville",
+      "size": "19.3 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19750627",
+      "name": "Millville Cocoa PB Puffs",
+      "brand": "millville",
+      "size": "13 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "46576509",
+      "name": "Millville Strawberry Toaster Tarts, 12 ct",
+      "brand": "millville",
+      "size": "12 ct",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69164566",
+      "name": "Millville Chocolate Chip Chewy Granola Bar",
+      "brand": "millville",
+      "size": "18 ct",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20713373",
+      "name": "Millville Cinnamon Brown Sugar Toaster Tarts",
+      "brand": "millville",
+      "size": "12 ct",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19484414",
+      "name": "Millville Crunchy Granola Raisin Bran Crunch",
+      "brand": "millville",
+      "size": "18.2 oz",
+      "price": "3.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24519504",
+      "name": "Millville Kids Fruit and Grain Strawberry Mini Bars",
+      "brand": "millville",
+      "size": "10 ct",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19835836",
+      "name": "Millville Berry Kids Krunch",
+      "brand": "millville",
+      "size": "13 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "62750138",
+      "name": "Millville Buttermilk Protein Pancake Mix",
+      "brand": "millville",
+      "size": "20 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25928616",
+      "name": "Millville Raisin Bran",
+      "brand": "millville",
+      "size": "16.6 oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20986274",
+      "name": "Moser Roth Dark Chocolate Sea Salt Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21005858",
+      "name": "Moser Roth Toffee Crunch Chocolate Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20989945",
+      "name": "Moser Roth Dark Chocolate Mint Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "51330551",
+      "name": "Moser Roth Milk Chocolate Delice Truffles",
+      "brand": "moser roth",
+      "size": "4.9383 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "58670655",
+      "name": "Moser Roth Milk Chocolate Truffle",
+      "brand": "moser roth",
+      "size": "5.3 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647882",
+      "name": "Moser Roth Dark Orange and Almond Chocolate Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19270610",
+      "name": "Moser Roth Dark Chocolate Sea Salt & Caramel Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "32563788",
+      "name": "Moser Roth Dark Chocolate Raspberry Almond Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20994217",
+      "name": "Moser Roth Dark Chili Chocolate Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "60948146",
+      "name": "Moser Roth Dark Chocolate Mousse",
+      "brand": "moser roth",
+      "size": "5.3 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "32555644",
+      "name": "Moser Roth Dark Chocolate Cranberry Bar",
+      "brand": "moser roth",
+      "size": "4.4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "51330529",
+      "name": "Moser Roth White Chocolate Delice Truffles",
+      "brand": "moser roth",
+      "size": "4.9383 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "60948180",
+      "name": "Moser Roth White Chocolate Truffle",
+      "brand": "moser roth",
+      "size": "5.3 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18403534",
+      "name": "Nature's Nectar Fruit Punch",
+      "brand": "nature's nectar",
+      "size": "59 fl oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18403529",
+      "name": "Nature's Nectar Tropical Punch",
+      "brand": "nature's nectar",
+      "size": "59 fl oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648701",
+      "name": "Nature's Nectar Guava Mango Juice Drink",
+      "brand": "nature's nectar",
+      "size": "59 fl oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20262671",
+      "name": "Nature's Nectar Pure Coconut Water",
+      "brand": "nature's nectar",
+      "size": "33.8 fl oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20452535",
+      "name": "Nature's Nectar Cranberry 100% Juice",
+      "brand": "nature's nectar",
+      "size": "64 fl oz",
+      "price": "3.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21663863",
+      "name": "Nature's Nectar Raspberry Lemonade Not From Concentrate",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "55594413",
+      "name": "Nature's Nectar Pineapple Juice 6pk",
+      "brand": "nature's nectar",
+      "size": "6 fl oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20694171",
+      "name": "Nature's Nectar Cranberry Apple Juice Cocktail",
+      "brand": "nature's nectar",
+      "size": "64 fl oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24435722",
+      "name": "Nature's Nectar Strawberry Lemonade Not from Concentrate",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19673951",
+      "name": "Nature's Nectar 100% Grape Juice",
+      "brand": "nature's nectar",
+      "size": "64 fl oz",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20733598",
+      "name": "Nature's Nectar Cranberry Grape Juice Cocktail",
+      "brand": "nature's nectar",
+      "size": "64 fl oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647752",
+      "name": "Nature's Nectar Splash Berry Blend Juice Cocktail",
+      "brand": "nature's nectar",
+      "size": "64 fl oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47013804",
+      "name": "Nature's Nectar Lemonade",
+      "brand": "nature's nectar",
+      "size": "64 fl oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19421270",
+      "name": "Nature's Nectar Premium Orange Juice Not From Concentrate with Calcium and Vitamin D",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19418044",
+      "name": "Nature's Nectar 100% Pure Squeezed Orange Juice Not From Concentrate with Pulp",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "48462907",
+      "name": "Nature's Nectar Strawberry Guava Mojito Mocktail Mixer",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "45750251",
+      "name": "Nature's Nectar Light Orange Juice No Pulp",
+      "brand": "nature's nectar",
+      "size": "52 fl oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19975547",
+      "name": "Never Any! Apple Chicken Sausage",
+      "brand": "never any!",
+      "size": "12 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21409438",
+      "name": "Never Any! USDA Antibiotic-Free 80% Lean 20% Fat Ground Pork",
+      "brand": "never any!",
+      "size": "16 oz",
+      "price": "3.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19948223",
+      "name": "Never Any! Spinach Feta Chicken Sausage",
+      "brand": "never any!",
+      "size": "12 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19948222",
+      "name": "Never Any! Mild Italian Chicken Sausage",
+      "brand": "never any!",
+      "size": "12 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19115481",
+      "name": "Never Any! Fresh Antibiotic Free Boneless Skinless Chicken Thighs",
+      "brand": "never any!",
+      "size": "per lb",
+      "price": "5.17",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19948201",
+      "name": "Never Any! Tomato Basil Chicken Sausage",
+      "brand": "never any!",
+      "size": "12 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17679832",
+      "name": "Never Any! Fresh Antiobiotic Free Chicken Tenderloins",
+      "brand": "never any!",
+      "size": "per lb",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27767759",
+      "name": "Never Any! Fresh Family Pack Antibiotic Free Boneless Skinless Chicken Breasts",
+      "brand": "never any!",
+      "size": "1 each",
+      "price": "8.26",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27766646",
+      "name": "Never Any! Fresh Antibiotic Free Boneless Skinless Chicken Breasts",
+      "brand": "never any!",
+      "size": "1 each",
+      "price": "7.51",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112261010",
+      "name": "Never Any! Fresh Lamb Loin Chops",
+      "brand": "never any!",
+      "size": "per lb",
+      "price": "9.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19133884",
+      "name": "Never Any! Fresh Lamb Loin Chops",
+      "brand": "never any!",
+      "size": "per lb",
+      "price": "9.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47014275",
+      "name": "Never Any! Rosemary Garlic Butterflied Lamb Leg",
+      "brand": "never any!",
+      "size": "per lb",
+      "price": "20.77",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20146932",
+      "name": "Park Street Deli Macaroni and Cheese",
+      "brand": "park street deli",
+      "size": "20 oz",
+      "price": "3.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21295324",
+      "name": "Park Street Deli Street Corn Dip",
+      "brand": "park street deli",
+      "size": "10 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "22138895",
+      "name": "Park Street Deli Roasted Red Pepper Topped Hummus",
+      "brand": "park street deli",
+      "size": "10 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19500831",
+      "name": "Park Street Deli Fresh Cut Salsa - Mild",
+      "brand": "park street deli",
+      "size": "16 oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24727848",
+      "name": "Park Street Deli Beef Bites with Mild Cheddar",
+      "brand": "park street deli",
+      "size": "4.5 oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19374777",
+      "name": "Park Street Deli Classic Guac Minis",
+      "brand": "park street deli",
+      "size": "2 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "30478277",
+      "name": "Park Street Deli Dill Pickle Chips",
+      "brand": "park street deli",
+      "size": "32 fl oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19775363",
+      "name": "Park Street Deli Cucumber Dill Tzatziki Dip",
+      "brand": "park street deli",
+      "size": "10 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24727901",
+      "name": "Park Street Deli Turkey Bites with Colby Jack",
+      "brand": "park street deli",
+      "size": "4.5 oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19871877",
+      "name": "Park Street Deli Sharp White Cheddar, Dried Cranberries and Sea Salt Roasted Almonds",
+      "brand": "park street deli",
+      "size": "4.5 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24727846",
+      "name": "Park Street Deli Brown Sugar Turkey Bites with Sharp Cheddar",
+      "brand": "park street deli",
+      "size": "4.5 oz",
+      "price": "3.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73533886",
+      "name": "Park Street Deli Sharp Cheddar/Gouda Pretz SS",
+      "brand": "park street deli",
+      "size": "4.5 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19871878",
+      "name": "Park Street Deli Sharp Yellow Cheddar, Cherry Juice-Infused Dried Cranberries and Sea Salt Roasted Cashew Splits",
+      "brand": "park street deli",
+      "size": "1.5 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20846797",
+      "name": "Park Street Deli Cranberry Almond Chicken Salad Singles",
+      "brand": "park street deli",
+      "size": "12 oz",
+      "price": "5.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19426680",
+      "name": "Park Street Deli Kosher Dill Pickle Spears",
+      "brand": "park street deli",
+      "size": "32 fl oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73476507",
+      "name": "Park Street Deli Colby/Pepper Jack Cracker SS",
+      "brand": "park street deli",
+      "size": "4.5 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19759155",
+      "name": "Park Street Deli BBQ Pulled Pork",
+      "brand": "park street deli",
+      "size": "16 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73476460",
+      "name": "Park Street Deli Mild Cheddar Cracker SS",
+      "brand": "park street deli",
+      "size": "4.5 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19500830",
+      "name": "Park Street Deli Fresh Cut Salsa - Medium",
+      "brand": "park street deli",
+      "size": "16 oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21991059",
+      "name": "Park Street Deli Classic Hummus",
+      "brand": "park street deli",
+      "size": "10 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21032686",
+      "name": "Priano Creamy Alfredo Sauce",
+      "brand": "priano",
+      "size": "15 oz",
+      "price": "1.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19750617",
+      "name": "Priano Cheese Tortelloni",
+      "brand": "priano",
+      "size": "8.8 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20966975",
+      "name": "Priano Roasted Garlic Alfredo Sauce",
+      "brand": "priano",
+      "size": "15 oz",
+      "price": "1.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19948210",
+      "name": "Priano Genovese Pesto",
+      "brand": "priano",
+      "size": "6.7 oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "36517317",
+      "name": "Priano Extra Virgin Olive Oil",
+      "brand": "priano",
+      "size": "16.9 fl oz",
+      "price": "6.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20038910",
+      "name": "Priano Cheese Ravioli",
+      "brand": "priano",
+      "size": "25 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20966974",
+      "name": "Priano Four Cheese Alfredo Sauce",
+      "brand": "priano",
+      "size": "15 oz",
+      "price": "1.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21022327",
+      "name": "Priano Four Cheese Pasta Sauce",
+      "brand": "priano",
+      "size": "24 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21022328",
+      "name": "Priano Marinara Sauce",
+      "brand": "priano",
+      "size": "24 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "58668811",
+      "name": "Priano Cavatappi",
+      "brand": "priano",
+      "size": "16 oz",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19731451",
+      "name": "Priano Bronze Cut Rigatoni",
+      "brand": "priano",
+      "size": "16 oz",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27334315",
+      "name": "Priano Ricotta Spinach Ravioli",
+      "brand": "priano",
+      "size": "8.8 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25892480",
+      "name": "Priano Genoa Salami and Provolone Cheese Tray",
+      "brand": "priano",
+      "size": "1 each",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69927610",
+      "name": "Priano Gnocchi",
+      "brand": "priano",
+      "size": "17.6 oz",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25892094",
+      "name": "Priano Parma Salami and Smoked Provolne Tray",
+      "brand": "priano",
+      "size": "2.5 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20962913",
+      "name": "Priano Tomato Basil Sauce",
+      "brand": "priano",
+      "size": "24 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "58668830",
+      "name": "Priano Rotini",
+      "brand": "priano",
+      "size": "16 oz",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25891727",
+      "name": "Priano Hot Genoa Salami and Hot Provolone Cheese Tray",
+      "brand": "priano",
+      "size": "2.5 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19750619",
+      "name": "Priano Mushroom Tortelloni",
+      "brand": "priano",
+      "size": "8.8 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "23565717",
+      "name": "Priano Mushroom Risotto",
+      "brand": "priano",
+      "size": "6 oz",
+      "price": "1.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19630529",
+      "name": "Pueblo Lindo Flour Tortillas",
+      "brand": "pueblo lindo",
+      "size": "17.5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19648124",
+      "name": "Pueblo Lindo Burrito Tortillas",
+      "brand": "pueblo lindo",
+      "size": "8 ct",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19750612",
+      "name": "Pueblo Lindo Tortilla Strips",
+      "brand": "pueblo lindo",
+      "size": "24 oz",
+      "price": "4.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17498251",
+      "name": "Pueblo Lindo Yellow Rice",
+      "brand": "pueblo lindo",
+      "size": "7 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17497502",
+      "name": "Pueblo Lindo Chopped Green Chiles",
+      "brand": "pueblo lindo",
+      "size": "4 oz",
+      "price": "0.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20269268",
+      "name": "Pueblo Lindo Yellow Corn Tortillas",
+      "brand": "pueblo lindo",
+      "size": "25 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19682518",
+      "name": "Pueblo Lindo Casera Tostadas",
+      "brand": "pueblo lindo",
+      "size": "12.8 oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649450",
+      "name": "Pueblo Lindo Fresco Cheese",
+      "brand": "pueblo lindo",
+      "size": "10 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648742",
+      "name": "Pueblo Lindo Black Beans",
+      "brand": "pueblo lindo",
+      "size": "32 oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19657230",
+      "name": "Pueblo Lindo 6\" Corn Tortillas",
+      "brand": "pueblo lindo",
+      "size": "25 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20003791",
+      "name": "Pueblo Lindo Pinto Beans",
+      "brand": "pueblo lindo",
+      "size": "32 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "48482412",
+      "name": "Pueblo Lindo Instant Corn Masa",
+      "brand": "pueblo lindo",
+      "size": "4.4 lb",
+      "price": "3.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20951912",
+      "name": "PurAqua Lime Belle Vie Sparkling Flavored Water",
+      "brand": "puraqua",
+      "size": "12 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26625779",
+      "name": "PurAqua Blackberry Belle Vie Sparkling Flavored Water",
+      "brand": "puraqua",
+      "size": "12 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21650351",
+      "name": "PurAqua Strawberry Belle Vie Sparkling Flavored Water",
+      "brand": "puraqua",
+      "size": "12 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20537066",
+      "name": "PurAqua Orginal Belle Vie Sparkling Flavored Water",
+      "brand": "puraqua",
+      "size": "12 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648702",
+      "name": "PurAqua Flavored Water Bottles",
+      "brand": "puraqua",
+      "size": "16 fl oz",
+      "price": "14.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649286",
+      "name": "PurAqua Grapefruit Belle Vie Sparkling Flavored Water",
+      "brand": "puraqua",
+      "size": "12 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24109366",
+      "name": "PurAqua Kiwi Strawberry Sparkling Frost Water",
+      "brand": "puraqua",
+      "size": "17 fl oz",
+      "price": "0.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21144838",
+      "name": "PurAqua Lemonade Sparkling Frost Water",
+      "brand": "puraqua",
+      "size": "17 fl oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20030469",
+      "name": "PurAqua Strawberry Sparkling Flavored Water",
+      "brand": "puraqua",
+      "size": "33.8 fl oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73554630",
+      "name": "PurAqua Coconut Hydration Sticks, Red White Blue",
+      "brand": "puraqua",
+      "size": "1.5 oz",
+      "price": "4.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69987568",
+      "name": "PurAqua Grape Sugar Free Hydration Drink Mix Sticks",
+      "brand": "puraqua",
+      "size": "2.75 oz",
+      "price": "3.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "28032890",
+      "name": "PurAqua Passion Fruit Hydration Drink Mix Sticks",
+      "brand": "puraqua",
+      "size": "6 ct",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "28031262",
+      "name": "PurAqua Lemon Lime Hydration Drink Mix Sticks",
+      "brand": "puraqua",
+      "size": "6 ct",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "57199254",
+      "name": "PurAqua White Grape",
+      "brand": "puraqua",
+      "size": "33.8 fl oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69988102",
+      "name": "PurAqua Sugar Free Raspberry Melon Hydration Drink Mix Sticks",
+      "brand": "puraqua",
+      "size": "2.75 oz",
+      "price": "3.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73553968",
+      "name": "PurAqua Coconut Hydration Sticks, Cherry",
+      "brand": "puraqua",
+      "size": "1.5 oz",
+      "price": "4.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19646522",
+      "name": "PurAqua Black Raspberry Sparkling Flavored Frost Water",
+      "brand": "puraqua",
+      "size": "17 fl oz",
+      "price": "0.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20114959",
+      "name": "PurAqua Peach Sparkling Flavored Water",
+      "brand": "puraqua",
+      "size": "33.8 fl oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "57199387",
+      "name": "PurAqua Cherry Limeade",
+      "brand": "puraqua",
+      "size": "33.8 fl oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20221454",
+      "name": "Savoritz Saltines",
+      "brand": "savoritz",
+      "size": "16 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20761566",
+      "name": "Savoritz Golden Round Crackers",
+      "brand": "savoritz",
+      "size": "13.7 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20273387",
+      "name": "Savoritz Clubhouse Crackers",
+      "brand": "savoritz",
+      "size": "13.7 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25022795",
+      "name": "Savoritz Turtle Crackers Cheddar",
+      "brand": "savoritz",
+      "size": "19 oz",
+      "price": "4.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648410",
+      "name": "Savoritz Sea Salt Pita Crackers",
+      "brand": "savoritz",
+      "size": "5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20226004",
+      "name": "Savoritz Mini Cheese Sandwich Crackers",
+      "brand": "savoritz",
+      "size": "8.8 oz",
+      "price": "3.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648971",
+      "name": "Savoritz Mini Peanut Butter Sandwich Crackers",
+      "brand": "savoritz",
+      "size": "8.8 oz",
+      "price": "3.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69164698",
+      "name": "Savoritz Cheese Dip & Cracker Sticks",
+      "brand": "savoritz",
+      "size": "5 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25022793",
+      "name": "Savoritz Turtle Crackers Xtra Ched",
+      "brand": "savoritz",
+      "size": "19 oz",
+      "price": "4.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20224774",
+      "name": "Savoritz Family Size Cheese Crackers",
+      "brand": "savoritz",
+      "size": "21 oz",
+      "price": "4.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "52920101",
+      "name": "Savoritz Pretzel Cracker Sea Salt",
+      "brand": "savoritz",
+      "size": "5.5 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20700740",
+      "name": "Savoritz Garlic & Chive Pita Crackers",
+      "brand": "savoritz",
+      "size": "5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648847",
+      "name": "Savoritz Wheat Round Crackers",
+      "brand": "savoritz",
+      "size": "12.9 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20262630",
+      "name": "Savoritz Six Cracker Assortment",
+      "brand": "savoritz",
+      "size": "13.1 oz",
+      "price": "4.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649284",
+      "name": "Savoritz Portion Pack Mini Peanut Butter Sandwich Crackers",
+      "brand": "savoritz",
+      "size": "12 oz",
+      "price": "4.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20243911",
+      "name": "Savoritz Butter Entertainment Crackers",
+      "brand": "savoritz",
+      "size": "7 oz",
+      "price": "1.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "95669283",
+      "name": "Savoritz Tomato Basil Thin Wheat Crackers",
+      "brand": "savoritz",
+      "size": "8.5 oz",
+      "price": "2.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "52920153",
+      "name": "Savoritz Pretzel Cracker Honey Mustard",
+      "brand": "savoritz",
+      "size": "5.5 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21054306",
+      "name": "Simms Turkey Sausage Snack Sticks",
+      "brand": "simms",
+      "size": "8 oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21119952",
+      "name": "Simms Original Snack Sticks",
+      "brand": "simms",
+      "size": "3.92 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21035927",
+      "name": "Simms Mild Snack Sticks",
+      "brand": "simms",
+      "size": "3.92 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20753583",
+      "name": "Simms Sliced Hard Salami",
+      "brand": "simms",
+      "size": "16 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "64096947",
+      "name": "Simms Original Beef Jerky",
+      "brand": "simms",
+      "size": "5 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "64096904",
+      "name": "Simms Teriyaki Beef Jerky",
+      "brand": "simms",
+      "size": "5 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "64096919",
+      "name": "Simms Peppered Beef Jerky",
+      "brand": "simms",
+      "size": "5 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74265171",
+      "name": "Simms Jalapeno Grass Fed Beef Sticks",
+      "brand": "simms",
+      "size": "9.2 oz",
+      "price": "14.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25022815",
+      "name": "Simms Original Zero Sugar Smoked Sausages",
+      "brand": "simms",
+      "size": "9.5 oz",
+      "price": "8.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25022812",
+      "name": "Simms Spicy Jalapeno Zero Sugar Smoked Sausages",
+      "brand": "simms",
+      "size": "9.5 oz",
+      "price": "8.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "74264750",
+      "name": "Simms Original Grass Fed Beef Sticks",
+      "brand": "simms",
+      "size": "9.2 oz",
+      "price": "14.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "111500790",
+      "name": "Simms Original Meat Snack Sticks",
+      "brand": "simms",
+      "size": "7 oz",
+      "price": "4.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21026509",
+      "name": "Simms Thick Cut Pepperoni",
+      "brand": "simms",
+      "size": "16 oz",
+      "price": "7.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "86708212",
+      "name": "Simms Garlic Summer Sausage",
+      "brand": "simms",
+      "size": "14 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "86707974",
+      "name": "Simms Original Summer Sausage",
+      "brand": "simms",
+      "size": "14 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649000",
+      "name": "Simply Nature Strawberry Fruit Strips",
+      "brand": "simply nature",
+      "size": "21 ct",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19433619",
+      "name": "Simply Nature Organic Yellow Corn Tortilla Chips",
+      "brand": "simply nature",
+      "size": "11 oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27657685",
+      "name": "Simply Nature Organic String Cheese",
+      "brand": "simply nature",
+      "size": "8 oz",
+      "price": "4.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19517200",
+      "name": "Simply Nature Organic Black Beans",
+      "brand": "simply nature",
+      "size": "15 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "70156395",
+      "name": "Simply Nature Shells & White Cheddar",
+      "brand": "simply nature",
+      "size": "11 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19502885",
+      "name": "Simply Nature Organic Blue Corn Tortilla Chips",
+      "brand": "simply nature",
+      "size": "8.25 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20112295",
+      "name": "Simply Nature Organic Ketchup",
+      "brand": "simply nature",
+      "size": "24 oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19830259",
+      "name": "Simply Nature Avocado Oil",
+      "brand": "simply nature",
+      "size": "17 fl oz",
+      "price": "6.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "70156888",
+      "name": "Simply Nature Shells & Real Aged Cheddar",
+      "brand": "simply nature",
+      "size": "11 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "45410420",
+      "name": "Simply Nature White Cheddar Puffs",
+      "brand": "simply nature",
+      "size": "4 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648194",
+      "name": "Simply Nature Sweet Potato Chips",
+      "brand": "simply nature",
+      "size": "7 oz",
+      "price": "4.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "129993",
+      "name": "Simply Nature Organic Baby Spinach",
+      "brand": "simply nature",
+      "size": "5 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19546425",
+      "name": "Simply Nature Organic 2% Milk",
+      "brand": "simply nature",
+      "size": "64 fl oz",
+      "price": "4.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24062832",
+      "name": "Simply Nature Organic Cut Green Beans",
+      "brand": "simply nature",
+      "size": "10 oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19500835",
+      "name": "Simply Nature Organic Multigrain Tortilla Chips",
+      "brand": "simply nature",
+      "size": "8.25 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24062846",
+      "name": "Simply Nature Organic Peas",
+      "brand": "simply nature",
+      "size": "10 oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19975546",
+      "name": "Simply Nature Organic Fruit Snacks",
+      "brand": "simply nature",
+      "size": "9.6 oz",
+      "price": "5.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20237467",
+      "name": "Southern Grove Dried Cranberries",
+      "brand": "southern grove",
+      "size": "6 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648169",
+      "name": "Southern Grove Shelled Pisatchios",
+      "brand": "southern grove",
+      "size": "6 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24109303",
+      "name": "Southern Grove Sweet & Salty Trail Mix",
+      "brand": "southern grove",
+      "size": "8 ct",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648733",
+      "name": "Southern Grove Raisins",
+      "brand": "southern grove",
+      "size": "1 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647769",
+      "name": "Southern Grove Dry Roasted Peanuts with Sea Salt",
+      "brand": "southern grove",
+      "size": "16 oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648385",
+      "name": "Southern Grove California Raisins",
+      "brand": "southern grove",
+      "size": "20 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648921",
+      "name": "Southern Grove Honey Roasted Peanuts",
+      "brand": "southern grove",
+      "size": "16 oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19062063",
+      "name": "Southern Grove Cashew Halves & Pieces",
+      "brand": "southern grove",
+      "size": "14 oz",
+      "price": "5.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20527475",
+      "name": "Southern Grove Mixed Nuts",
+      "brand": "southern grove",
+      "size": "14.75 oz",
+      "price": "5.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "22215578",
+      "name": "Southern Grove Sunflower Kernels Salted",
+      "brand": "southern grove",
+      "size": "16 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21010528",
+      "name": "Southern Grove Roasted Pistachios with Sea Salt",
+      "brand": "southern grove",
+      "size": "16 oz",
+      "price": "6.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648037",
+      "name": "Southern Grove Mountain Trail Mix",
+      "brand": "southern grove",
+      "size": "26 oz",
+      "price": "6.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647984",
+      "name": "Southern Grove Dry Roasted Unsalted Peanuts",
+      "brand": "southern grove",
+      "size": "16 oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20725064",
+      "name": "Southern Grove Cajun Trail Mix",
+      "brand": "southern grove",
+      "size": "27 oz",
+      "price": "6.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "89904662",
+      "name": "Southern Grove Dried Premium Mango",
+      "brand": "southern grove",
+      "size": "6 oz",
+      "price": "3.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647835",
+      "name": "Southern Grove Chopped Pecans",
+      "brand": "southern grove",
+      "size": "8 oz",
+      "price": "3.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "23141550",
+      "name": "Southern Grove Pepitas",
+      "brand": "southern grove",
+      "size": "6 oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20171855",
+      "name": "Southern Grove Dried Cherries",
+      "brand": "southern grove",
+      "size": "5 oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648622",
+      "name": "Southern Grove Dried Mediterranean Apricots",
+      "brand": "southern grove",
+      "size": "6 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "64543628",
+      "name": "Southern Grove Trail Mix - Chocolate Peanut Butter",
+      "brand": "southern grove",
+      "size": "13 oz",
+      "price": "5.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19685443",
+      "name": "Specially Selected Sliced Sourdough Round",
+      "brand": "specially selected",
+      "size": "24 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19917484",
+      "name": "Specially Selected Sourdough Square Loaf",
+      "brand": "specially selected",
+      "size": "24 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647629",
+      "name": "Specially Selected Pure Maple Syrup",
+      "brand": "specially selected",
+      "size": "12.5 fl oz",
+      "price": "5.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20262645",
+      "name": "Specially Selected 6 ct. Brioche Buns",
+      "brand": "specially selected",
+      "size": "6 ct",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "109867335",
+      "name": "Specially Selected 75% Lean/25% Fat Wagyu Ground Beef",
+      "brand": "specially selected",
+      "size": "1 lb",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "28295319",
+      "name": "Specially Selected All Butter Croissants",
+      "brand": "specially selected",
+      "size": "12 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21118335",
+      "name": "Specially Selected House Italian Vinaigrette Dressing",
+      "brand": "specially selected",
+      "size": "12 fl oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647680",
+      "name": "Specially Selected Greek Vinaigrette Dressing",
+      "brand": "specially selected",
+      "size": "12 fl oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26409058",
+      "name": "Specially Selected Everything Sourdough Loaf",
+      "brand": "specially selected",
+      "size": "24 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24735190",
+      "name": "Specially Selected Sesame Seed Brioche Buns",
+      "brand": "specially selected",
+      "size": "10.58 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19990799",
+      "name": "Specially Selected Honey Vanilla Indulgent Greek Yogurt",
+      "brand": "specially selected",
+      "size": "32 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19646537",
+      "name": "Specially Selected Ciabatta Sandwich Rolls",
+      "brand": "specially selected",
+      "size": "18 oz",
+      "price": "4.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26625754",
+      "name": "Specially Selected Garlic Mini Naan",
+      "brand": "specially selected",
+      "size": "12.7 oz",
+      "price": "4.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20234323",
+      "name": "Specially Selected Double Chocolate Brownie Mix",
+      "brand": "specially selected",
+      "size": "18 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19540016",
+      "name": "Specially Selected French Baguette",
+      "brand": "specially selected",
+      "size": "12 oz",
+      "price": "2.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20094171",
+      "name": "Specially Selected Original Naan Bread",
+      "brand": "specially selected",
+      "size": "17.6 oz",
+      "price": "3.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19806582",
+      "name": "Specially Selected Raw Honey",
+      "brand": "specially selected",
+      "size": "24 oz",
+      "price": "6.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19930450",
+      "name": "Specially Selected Original Mini Naan",
+      "brand": "specially selected",
+      "size": "12.7 oz",
+      "price": "4.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19910123",
+      "name": "Stonemill Minced Garlic in Water",
+      "brand": "stonemill",
+      "size": "8 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647588",
+      "name": "Stonemill Iodized Table Salt",
+      "brand": "stonemill",
+      "size": "26 oz",
+      "price": "0.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20182677",
+      "name": "Stonemill Parsley Flakes",
+      "brand": "stonemill",
+      "size": "0.25 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19688301",
+      "name": "Stonemill Italian Seasoning",
+      "brand": "stonemill",
+      "size": "0.75 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649001",
+      "name": "Stonemill Ground Black Pepper",
+      "brand": "stonemill",
+      "size": "3 oz",
+      "price": "3.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647903",
+      "name": "Stonemill Pure Vanilla Extract",
+      "brand": "stonemill",
+      "size": "2 fl oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19696924",
+      "name": "Stonemill Lemon Pepper",
+      "brand": "stonemill",
+      "size": "3.5 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19649189",
+      "name": "Stonemill Chili Mix Original",
+      "brand": "stonemill",
+      "size": "1.25 oz",
+      "price": "0.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19696914",
+      "name": "Stonemill Minced Onion",
+      "brand": "stonemill",
+      "size": "2 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19907623",
+      "name": "Stonemill Minced Garlic in Extra Virgin Olive Oil",
+      "brand": "stonemill",
+      "size": "7 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "89036726",
+      "name": "Stonemill Cajun Seasoning",
+      "brand": "stonemill",
+      "size": "3.5 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648461",
+      "name": "Stonemill Brown Gravy Mix",
+      "brand": "stonemill",
+      "size": "0.87 oz",
+      "price": "0.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647932",
+      "name": "Stonemill Reduced Sodium Brown Gravy Mix",
+      "brand": "stonemill",
+      "size": "0.87 oz",
+      "price": "0.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19688295",
+      "name": "Stonemill Crushed Red Pepper",
+      "brand": "stonemill",
+      "size": "1.5 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20324660",
+      "name": "Stonemill Himalayan Pink Salt Grinder",
+      "brand": "stonemill",
+      "size": "3.53 oz",
+      "price": "1.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "89036556",
+      "name": "Stonemill Chili & Lime Seasoning",
+      "brand": "stonemill",
+      "size": "3.2 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "66820461",
+      "name": "Stonemill Grill Master Blend",
+      "brand": "stonemill",
+      "size": "7.2 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "89033227",
+      "name": "Stonemill Seaside Seafood Seasoning",
+      "brand": "stonemill",
+      "size": "3.4 oz",
+      "price": "1.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19688300",
+      "name": "Stonemill Oregano Leaves",
+      "brand": "stonemill",
+      "size": "0.75 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649115",
+      "name": "Stonemill Chili Powder",
+      "brand": "stonemill",
+      "size": "2.5 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648441",
+      "name": "Summit Cola",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "7.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "114093",
+      "name": "Summit Citrus Twist",
+      "brand": "summit",
+      "size": "2 L",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20953275",
+      "name": "Summit Cola",
+      "brand": "summit",
+      "size": "2 L",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20221453",
+      "name": "Summit Citrus Twist Lemon Lime Soda",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "7.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647819",
+      "name": "Summit Diet Cola",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "7.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63913386",
+      "name": "Summit Popz Cherry Lime",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63913398",
+      "name": "Summit Strawberry Lemon Prebiotic Soda",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63913460",
+      "name": "Summit Popz Raspberry Rose",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "85223341",
+      "name": "Summit Popz Probiotic Soda Strawberry",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "86708149",
+      "name": "Summit Popz Cola",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "85241897",
+      "name": "Summit Popz Tropical Probiotic Soda",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "63913372",
+      "name": "Summit Popz Lemon Lime",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "85244640",
+      "name": "Summit Popz Watermelon Lime Probiotic Soda",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "83326133",
+      "name": "Summit Orange Waves",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112683210",
+      "name": "Summit Popz Orange Cream",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "86806973",
+      "name": "Summit Zero Sugar Cherry Lime Prebiotic Energy Drink",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112683345",
+      "name": "Summit Popz Red, White and Blue",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "86709859",
+      "name": "Summit Popz Dr. Popz Prebiotic Soda",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "86806350",
+      "name": "Summit Zero Sugar Strawberry Watermelon Prebiotic Energy Drink",
+      "brand": "summit",
+      "size": "12 fl oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19660780",
+      "name": "Tuscan Garden Real Bacon Bits",
+      "brand": "tuscan garden",
+      "size": "2.5 oz",
+      "price": "2.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19540006",
+      "name": "Tuscan Garden Ranch Salad Dressing and Seasoning Mix",
+      "brand": "tuscan garden",
+      "size": "1.25 oz",
+      "price": "0.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20946174",
+      "name": "Tuscan Garden Ranch Dressing and Dip",
+      "brand": "tuscan garden",
+      "size": "36 oz",
+      "price": "4.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20969508",
+      "name": "Tuscan Garden Ranch Dressing",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649007",
+      "name": "Tuscan Garden Large Ripe Pitted Olives",
+      "brand": "tuscan garden",
+      "size": "6 oz",
+      "price": "1.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648024",
+      "name": "Tuscan Garden Cheese & Garlic Croutons",
+      "brand": "tuscan garden",
+      "size": "5 oz",
+      "price": "1.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648647",
+      "name": "Tuscan Garden Banana Pepper",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "71116",
+      "name": "Tuscan Garden White Vinegar",
+      "brand": "tuscan garden",
+      "size": "128 fl oz",
+      "price": "4.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73476370",
+      "name": "Tuscan Garden Sundried Tomatoes",
+      "brand": "tuscan garden",
+      "size": "8 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "56530188",
+      "name": "Tuscan Garden Manzanilla Olives Stuffed with Pimiento",
+      "brand": "tuscan garden",
+      "size": "10 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648337",
+      "name": "Tuscan Garden White Vinegar",
+      "brand": "tuscan garden",
+      "size": "32 fl oz",
+      "price": "1.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647624",
+      "name": "Tuscan Garden Italian Seasoned",
+      "brand": "tuscan garden",
+      "size": "5 oz",
+      "price": "1.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647974",
+      "name": "Tuscan Garden Caesar Croutons",
+      "brand": "tuscan garden",
+      "size": "5 oz",
+      "price": "1.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21054303",
+      "name": "Tuscan Garden Honey Mustard Dressing",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20968020",
+      "name": "Tuscan Garden Buttermilk Ranch Dressing",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648085",
+      "name": "Tuscan Garden Chunky Blue Cheese Dressing",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20104824",
+      "name": "Tuscan Garden Light Ranch Dressing",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20956436",
+      "name": "Tuscan Garden Thousand Island Dressing",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647811",
+      "name": "Tuscan Garden Marinated Artichoke Quarters",
+      "brand": "tuscan garden",
+      "size": "12 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19540009",
+      "name": "Tuscan Garden Italian Salad Dressing and Seasoning Mix",
+      "brand": "tuscan garden",
+      "size": "0.7 oz",
+      "price": "0.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "22032575",
+      "name": "Mama Cozzi's Pizza Kitchen 12\" Veggie Cauliflower Crust Deli Pizza",
+      "brand": "mama cozzi's pizza kitchen",
+      "size": "17.6 oz",
+      "price": "9.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20754777",
+      "name": "Priano Spinach and Mozzarella Ravioli",
+      "brand": "priano",
+      "size": "9 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "98562404",
+      "name": "Benton's Crunchy Mini Cookies - Chocolate Chip",
+      "brand": "benton's",
+      "size": "6.7 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21398450",
+      "name": "Priano Spinach & Cheese Manicotti",
+      "brand": "priano",
+      "size": "19 oz",
+      "price": "5.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25022774",
+      "name": "Park Street Deli Dill Veggie Dip",
+      "brand": "park street deli",
+      "size": "14 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20985595",
+      "name": "Dakota's Pride Green Lentils",
+      "brand": "dakota's pride",
+      "size": "16 oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19877809",
+      "name": "Simply Nature Cauliflower Cracker - Sea Salt",
+      "brand": "simply nature",
+      "size": "4 oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19589830",
+      "name": "Simply Nature Ground Cumin",
+      "brand": "simply nature",
+      "size": "1.5 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "3317430",
+      "name": "LesserEvil Himalayan Pink Salt Popcorn",
+      "brand": "lesserevil",
+      "size": "4.6 oz",
+      "price": "3.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "277057",
+      "name": "Gordo's White Queso",
+      "brand": "gordo’s foodservice",
+      "size": "16 oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "3080345",
+      "name": "Mateo's Medium Salsa",
+      "brand": "mateo's",
+      "size": "16 oz",
+      "price": "4.88",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "3078643",
+      "name": "Mateo's Mild Salsa",
+      "brand": "mateo's",
+      "size": "16 oz",
+      "price": "4.88",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16701483",
+      "name": "Health-Ade Pink Lady Apple Kombucha",
+      "brand": "health-ade",
+      "size": "16 fl oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "293663",
+      "name": "Bolthouse Farms Mocha Cappuccino Protein Smoothie",
+      "brand": "bolthouse farms",
+      "size": "15.2 fl oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27564",
+      "name": "GT's Living Foods GT's Guava Goddess Kombucha",
+      "brand": "synergy the real kombucha,",
+      "size": "16 fl oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20145230",
+      "name": "Health-Ade Passionfruit Kombucha",
+      "brand": "health-ade",
+      "size": "16 fl oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16638171",
+      "name": "Protein2O Torpical Coconut",
+      "brand": "protein2o",
+      "size": "16.9 fl oz",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20952447",
+      "name": "Frito Lay Crunchy Cheetos",
+      "brand": "frito lay",
+      "size": "15 oz",
+      "price": "6.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648030",
+      "name": "Choceur Dark Chocolate with Roasted Hazelnuts",
+      "brand": "choceur",
+      "size": "7.05 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26203",
+      "name": "Ben & Jerry's Cherry Garcia Ice Cream",
+      "brand": "ben & jerry's",
+      "size": "1 pt",
+      "price": "5.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "250456",
+      "name": "Bob Evans Mashed Potato 2 Pack",
+      "brand": "bob evans farms",
+      "size": "12 oz",
+      "price": "3.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "48713586",
+      "name": "Poppi Wild Berry",
+      "brand": "poppi",
+      "size": "12 fl oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25901190",
+      "name": "Organic Bananas",
+      "brand": null,
+      "size": "per lb",
+      "price": "0.73",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16345572",
+      "name": "Organic Broccoli",
+      "brand": null,
+      "size": "1 ct",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26274154",
+      "name": "Organic Baby Peeled Carrots, Bag",
+      "brand": null,
+      "size": "16 oz",
+      "price": "1.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17327015",
+      "name": "Organic Blackberries, Package",
+      "brand": null,
+      "size": "6 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20130731",
+      "name": "Simply Nature Organic Chopped Kale",
+      "brand": "simply nature",
+      "size": "12 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "25320555",
+      "name": "Simply Nature Organic Grass Fed 93/07 Ground Beef",
+      "brand": "simply nature",
+      "size": "1 lb",
+      "price": "8.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19335030",
+      "name": "Happy Farms Deli Sliced Colby Jack Cheese",
+      "brand": "happy farms",
+      "size": "7.5 oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "27582613",
+      "name": "Breakfast Best Buttermilk & Vanilla Protein Waffles",
+      "brand": "breakfast best",
+      "size": "13.4 oz",
+      "price": "3.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "64096741",
+      "name": "Happy Farms Gouda Cheese Snack Sticks",
+      "brand": "happy farms",
+      "size": "9 oz",
+      "price": "3.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "23888292",
+      "name": "Breakfast Best Protein French Toast Sticks",
+      "brand": "breakfast best",
+      "size": "16 oz",
+      "price": "5.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16411010",
+      "name": "Babybel Original Mini Babybel Cheese",
+      "brand": "babybel",
+      "size": "6 ct",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20275655",
+      "name": "Excitemint Sugar Free Red Sour Mints",
+      "brand": "excitemint",
+      "size": "1.5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "3222136",
+      "name": "Coca-Cola Diet Coke Mini Cans",
+      "brand": "coca-cola",
+      "size": "7.5 oz",
+      "price": "5.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "22073670",
+      "name": "CHOMPS Chomplings Orignal Turkey",
+      "brand": "chomps",
+      "size": "0.5 oz",
+      "price": "7.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20363214",
+      "name": "Excitemint Sugar Free Yellow Sour Mints",
+      "brand": "excitemint",
+      "size": "1.5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648529",
+      "name": "Elevation Caramel Chocolate Peanut Advance Low Carb Bars",
+      "brand": "elevation",
+      "size": "1.6 oz",
+      "price": "5.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648429",
+      "name": "Baker's Corner Instant Sugar Free Chocolate Pudding Mix",
+      "brand": "baker's corner",
+      "size": "1.4 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "277319",
+      "name": "Mentos Fresh Mint Gum",
+      "brand": "mentos",
+      "size": "50 ct",
+      "price": "4.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648223",
+      "name": "Excitemint Peppermint Sugar Free Mints",
+      "brand": "excitemint",
+      "size": "1.5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647794",
+      "name": "Excitemint Wintergreen Sugar Free Mints",
+      "brand": "excitemint",
+      "size": "1.5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18406171",
+      "name": "CHOMPS Jalapeno Beef Sticks",
+      "brand": "chomps",
+      "size": "1.15 oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "17090816",
+      "name": "Celsius Sparkling Watermelon Drink",
+      "brand": "celsius",
+      "size": "12 fl oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "71886",
+      "name": "Coffeemate Zero Sugar Italian Sweet Creme Coffee Creamer",
+      "brand": "coffee mate",
+      "size": "32 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "101835",
+      "name": "Celsius Sparkling Orange Drink",
+      "brand": "celsius",
+      "size": "12 fl oz",
+      "price": "2.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "2623623",
+      "name": "Mentos Red Fruit Tropical Gum",
+      "brand": "mentos",
+      "size": "50 ct",
+      "price": "4.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18819220",
+      "name": "Sparkling ICE Triple Citrus",
+      "brand": "sparkling ice®",
+      "size": "16 fl oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648664",
+      "name": "Sweet Additions Sucralose No Calorie Sweetener",
+      "brand": "sweet additions",
+      "size": "9.7 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648338",
+      "name": "Baker's Corner All Purpose Flour",
+      "brand": "baker's corner",
+      "size": "5 lb",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "35549",
+      "name": "Cheez-It Original Crackers",
+      "brand": "cheez-it",
+      "size": "7 oz",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20269279",
+      "name": "Benton's Graham Crackers",
+      "brand": "benton's",
+      "size": "14.4 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "89646",
+      "name": "Imperial Spread Quarters",
+      "brand": "imperial",
+      "size": "16 oz",
+      "price": "1.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21054304",
+      "name": "Benton's Fudge Striped Shortbread Cookies",
+      "brand": "benton's",
+      "size": "13 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16409829",
+      "name": "Little Debbie Oatmeal Creme Pies",
+      "brand": "little debbie",
+      "size": "12 ct",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20148866",
+      "name": "Benton's Vanilla Wafers",
+      "brand": "benton's",
+      "size": "11 oz",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19937890",
+      "name": "Lunch Buddies Chocolate Pudding Cups",
+      "brand": "lunch buddies",
+      "size": "3.25 oz",
+      "price": "1.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647941",
+      "name": "Choceur Dark Chocolate Mini Chocolate Bars",
+      "brand": "choceur",
+      "size": "1.4 oz",
+      "price": "3.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648937",
+      "name": "Simply Nature Organic Oats and Flax Instant Oatmeal",
+      "brand": "simply nature",
+      "size": "11.29 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649451",
+      "name": "Tuscan Garden Jalapeno Pepper",
+      "brand": "tuscan garden",
+      "size": "16 fl oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19492155",
+      "name": "Specially Selected Mini Chocolate Chip Brioche Swirl",
+      "brand": "specially selected",
+      "size": "10.58 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649323",
+      "name": "Millville Quick Cook Steel Cut Oats",
+      "brand": "millville",
+      "size": "25 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20129158",
+      "name": "Simply Nature Organic Whole Milk Plain Greek Yogurt",
+      "brand": "simply nature",
+      "size": "32 oz",
+      "price": "6.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647749",
+      "name": "Tuscan Garden Artichoke Quarters in Water",
+      "brand": "tuscan garden",
+      "size": "12 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20143490",
+      "name": "Simply Nature Organic Garlic Stir in Paste",
+      "brand": "simply nature",
+      "size": "2.8 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "3317812",
+      "name": "Mariquitas Original Plantain Chips",
+      "brand": "mariquitas classic chips",
+      "size": "5 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20143493",
+      "name": "Simply Nature Organic Ginger Stir in Paste",
+      "brand": "simply nature",
+      "size": "2.8 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29012",
+      "name": "Good Belly Pomegranate Blackberry Probiotic Juice",
+      "brand": "goodbelly",
+      "size": "32 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "60948104",
+      "name": "Park Street Deli Cantina Salsa, Mild",
+      "brand": "park street deli",
+      "size": "16 oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "53358029",
+      "name": "Park Street Deli Cantina Salsa, Medium",
+      "brand": "park street deli",
+      "size": "16 oz",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "46733578",
+      "name": "Specially Selected Cookies and Cream Mousse Cups",
+      "brand": "specially selected",
+      "size": "4.2 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26625570",
+      "name": "L'oven Fresh Keto Friendly White Bread",
+      "brand": "l'oven fresh",
+      "size": "14 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "37780041",
+      "name": "Cleveland Kitchen Pickled Red Onions",
+      "brand": "cleveland kitchen",
+      "size": "16 fl oz",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "53513227",
+      "name": "Celsius Cherry Cola",
+      "brand": "celsius",
+      "size": "12 fl oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26339107",
+      "name": "L'oven Fresh Keto Friendly Wheat Bread",
+      "brand": "l'oven fresh",
+      "size": "14 oz",
+      "price": "4.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19546421",
+      "name": "Park Street Deli Garlic Topped Hummus",
+      "brand": "park street deli",
+      "size": "10 oz",
+      "price": "2.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "114151",
+      "name": "Friendly Farms Nonfat Vanilla Blended Greek Yogurt",
+      "brand": "friendly farms",
+      "size": "32 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "28032784",
+      "name": "Friendly Farms Nonfat Strawberry Greek Yogurt",
+      "brand": "friendly farms",
+      "size": "32 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649335",
+      "name": "Casa Mamita Fat Free Refried Beans",
+      "brand": "casa mamita",
+      "size": "16 oz",
+      "price": "0.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18649759",
+      "name": "Simply Nature Organic Beef Bone Broth",
+      "brand": "simply nature",
+      "size": "32 oz",
+      "price": "3.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20975177",
+      "name": "Friendly Farms Skim Milk",
+      "brand": "friendly farms",
+      "size": "0.5 gal",
+      "price": "2.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20986665",
+      "name": "Friendly Farms Fat Free Half & Half",
+      "brand": "friendly farms",
+      "size": "32 fl oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18978476",
+      "name": "Oh Snap! Pickling Co. Dilly Bites 6 Pack",
+      "brand": "oh snap!",
+      "size": "3.25 oz",
+      "price": "6.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18647686",
+      "name": "Baker's Corner Instant Sugar Free Vanilla Pudding Mix",
+      "brand": "baker's corner",
+      "size": "1 oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18168158",
+      "name": "Sweet Harvest Fruit Cocktail in Heavy Syrup",
+      "brand": "sweet harvest",
+      "size": "15.25 oz",
+      "price": "1.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "28030807",
+      "name": "Friendly Farms Nonfat Raspberry on the Bottom Greek Yogurt 4 pack",
+      "brand": "friendly farms",
+      "size": "5.3 oz",
+      "price": "2.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19430154",
+      "name": "Simply Nature Organic Chicken Broth",
+      "brand": "simply nature",
+      "size": "32 oz",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19975554",
+      "name": "Friendly Farms Nonfat Vanilla Yogurt",
+      "brand": "friendly farms",
+      "size": "32 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20018602",
+      "name": "Friendly Farms Nonfat Plain Yogurt",
+      "brand": "friendly farms",
+      "size": "32 oz",
+      "price": "2.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "40653",
+      "name": "Sour Patch Kids Watermelon Chewy Candy",
+      "brand": "sour patch kids",
+      "size": "8 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "40645",
+      "name": "Sour Patch Kids Chewy Candy",
+      "brand": "sour patch kids",
+      "size": "8 oz",
+      "price": "3.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20953268",
+      "name": "Northern Catch Ready-to-Eat Fat Free Tuna Salad Kit",
+      "brand": "northern catch",
+      "size": "3.5 oz",
+      "price": "1.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18321300",
+      "name": "Kraft Jet Puffed Marshmallows",
+      "brand": "kraft",
+      "size": "12 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20216052",
+      "name": "Bremer Salisbury Steak",
+      "brand": "bremer",
+      "size": "28 oz",
+      "price": "3.95",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21036061",
+      "name": "Kirkwood Honey Battered Breast Tenders",
+      "brand": "kirkwood",
+      "size": "25.5 oz",
+      "price": "6.05",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648443",
+      "name": "Sea Queen Medium Cooked Shrimp",
+      "brand": "sea queen",
+      "size": "12 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "71369149",
+      "name": "Kirkwood Seasoned Turkey Burgers",
+      "brand": "kirkwood",
+      "size": "32 oz",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20212905",
+      "name": "Specially Selected Ahi Tuna",
+      "brand": "specially selected",
+      "size": "12 oz",
+      "price": "5.35",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "1439075",
+      "name": "Philly Gourmet Sandwich Steaks",
+      "brand": "philly gourmet",
+      "size": "21 oz",
+      "price": "6.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "42838607",
+      "name": "Kirkwood Buffalo Wings",
+      "brand": "kirkwood",
+      "size": "22 oz",
+      "price": "8.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19390358",
+      "name": "Fusia Asian Inspirations Mandarin Orange Chicken",
+      "brand": "fusia",
+      "size": "26 oz",
+      "price": "8.25",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19763205",
+      "name": "Bremer Family Size Italian Style Meatballs, 32 oz",
+      "brand": "bremer",
+      "size": "32 oz",
+      "price": "7.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20392031",
+      "name": "Lacura Facial Wipes",
+      "brand": "lacura",
+      "size": "25 ct",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19930452",
+      "name": "Lacura Women's Triple Blade Razors",
+      "brand": "lacura",
+      "size": "4 ct",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19632706",
+      "name": "Crest Whitening + Scope",
+      "brand": "crest",
+      "size": "5.4 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19948221",
+      "name": "Welby Cotton Swabs",
+      "brand": "welby",
+      "size": "500 ct",
+      "price": "2.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20129161",
+      "name": "Lacura Hand Sanitizer",
+      "brand": "lacura",
+      "size": "8 oz",
+      "price": "1.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "24109418",
+      "name": "Lacura Aquarium Liquid Hand Soap",
+      "brand": "lacura",
+      "size": "7.5 fl oz",
+      "price": "1.09",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19519501",
+      "name": "Crest Whitening Deep Clean",
+      "brand": "crest",
+      "size": "5.4 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26625751",
+      "name": "Lacura Eucalyptus & Separmint Foaming Hand Soap",
+      "brand": "lacura",
+      "size": "10.14 oz",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18648192",
+      "name": "Lacura Day Cream",
+      "brand": "lacura",
+      "size": "1.7 oz",
+      "price": "4.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "94648022",
+      "name": "Dento Clinic Premium Toothbrush, Soft",
+      "brand": "dento clinic",
+      "size": "2 ct",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20105970",
+      "name": "Lacura Men's Triple Blade Razors",
+      "brand": "lacura",
+      "size": "4 ct",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26625672",
+      "name": "Lacura Sparkling Lemon Foaming Hand Soap",
+      "brand": "lacura",
+      "size": "10.14 oz",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "93327119",
+      "name": "Lacura Hand Soap Refill",
+      "brand": "lacura",
+      "size": "50 fl oz",
+      "price": "2.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26625718",
+      "name": "Lacura Chamomile & Bergamot Foaming Hand Soap",
+      "brand": "lacura",
+      "size": "10.14 oz",
+      "price": "2.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "48101740",
+      "name": "Lacura Oatmeal Body Lotion",
+      "brand": "lacura",
+      "size": "18 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "45751263",
+      "name": "Lacura SPF 70 Sunscreen Lotion",
+      "brand": "lacura",
+      "size": "3 fl oz",
+      "price": "5.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47255762",
+      "name": "Lacura Oatmeal Body Wash",
+      "brand": "lacura",
+      "size": "18 fl oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "94959290",
+      "name": "Lacura Sensitive Skin Body Wash",
+      "brand": "lacura",
+      "size": "20 fl oz",
+      "price": "3.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "45755345",
+      "name": "Lacura SPF 70 Sunscreen Spray",
+      "brand": "lacura",
+      "size": "6.5 oz",
+      "price": "5.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "94959373",
+      "name": "Lacura Deep Moisturizing Body Wash",
+      "brand": "lacura",
+      "size": "20 fl oz",
+      "price": "3.59",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21830600",
+      "name": "Clancy's Loaded Bacon Potato Chips",
+      "brand": "clancy's",
+      "size": "9.5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653432",
+      "name": "Benton's Stawberry Mini Dipped Sandwich Cremes",
+      "brand": "benton's",
+      "size": "6 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653317",
+      "name": "Spicy Margarita Tortilla Chips",
+      "brand": "clancy's",
+      "size": "11 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653325",
+      "name": "Pineapple Habanero Tortilla Chips",
+      "brand": "clancy's",
+      "size": "11 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73927434",
+      "name": "Belavi Garden Fence Panel",
+      "brand": "belavi",
+      "size": "1 each",
+      "price": "5.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "29710086",
+      "name": "Clancy's Spicy Dill Pickle Flavored Wavy Potato Chips",
+      "brand": "clancy's",
+      "size": "9.5 oz",
+      "price": "1.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "106697177",
+      "name": "Belavi Double Flower Spinner Stake, Bronze",
+      "brand": "belavi",
+      "size": "1 each",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "70487468",
+      "name": "Specially Selected Gourmet Peaches with Ginger Flavor",
+      "brand": "specially selected",
+      "size": "19.5 oz",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73924007",
+      "name": "Belavi Basket Stake, Scroll",
+      "brand": "belavi",
+      "size": "1 each",
+      "price": "5.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73924569",
+      "name": "Belavi Basket Stake, Bird",
+      "brand": "belavi",
+      "size": "1 each",
+      "price": "5.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "106697077",
+      "name": "LS LIVE IN STYLE Mom Appreciation Pouch - Mama Clear",
+      "brand": "ls live in style",
+      "size": "1 each",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "106697506",
+      "name": "LS LIVE IN STYLE Mom Appreciation Pouch - Cat Mom",
+      "brand": "ls live in style",
+      "size": "1 each",
+      "price": "6.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "106697179",
+      "name": "Belavi Geometric",
+      "brand": "belavi",
+      "size": "1 each",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "106697411",
+      "name": "Belavi Scallop",
+      "brand": "belavi",
+      "size": "1 each",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "106697480",
+      "name": "HINKLER Gem By Number Landscape",
+      "brand": "hinkler",
+      "size": "1 each",
+      "price": "4.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47014279",
+      "name": "Steakhouse Potato Salad",
+      "brand": "aldi",
+      "size": "16 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "47014872",
+      "name": "Macaroni Salad",
+      "brand": "aldi",
+      "size": "32 oz",
+      "price": "3.99",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "22049287",
+      "name": "Kirkwood 8 lb IQF Chicken Breasts",
+      "brand": "kirkwood",
+      "size": "8 lb",
+      "price": "20.89",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "21423259",
+      "name": "Stonemill Amazing Burger Grill Seasoning",
+      "brand": "stonemill",
+      "size": "5.75 oz",
+      "price": "3.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "73476360",
+      "name": "L'oven Fresh Pretzel Burger Buns",
+      "brand": "l'oven fresh",
+      "size": "12.8 oz",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653433",
+      "name": "Barissimo Coffee Concentrate Vanila",
+      "brand": "barissimo",
+      "size": "32 oz",
+      "price": "7.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "2763236",
+      "name": "Bomb Pop Original Popsicle",
+      "brand": "bomb pop",
+      "size": "12 ct",
+      "price": "3.69",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "43631",
+      "name": "Klondike Ice Cream Bars",
+      "brand": "klondike",
+      "size": "27 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "81321",
+      "name": "Snickers Ice Cream Bars",
+      "brand": "snickers",
+      "size": "6 ct",
+      "price": "5.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112820396",
+      "name": "Park Street Deli Burnt Ends Dip",
+      "brand": "park street deli",
+      "size": "10 oz",
+      "price": "3.79",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20144285",
+      "name": "L'oven Fresh Potato Sandwich Rolls",
+      "brand": "l'oven fresh",
+      "size": "15 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "112653556",
+      "name": "Specially Selected Hawaiian Brioche Bun",
+      "brand": "specially selected",
+      "size": "10.58 oz",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "31889903",
+      "name": "Benner Peach Tea 12 pack",
+      "brand": "benner tea co",
+      "size": "16.9 fl oz",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "75745655",
+      "name": "PurAqua Drink Mix Sticks, Orange Dream",
+      "brand": "puraqua",
+      "size": "0.99 oz",
+      "price": "1.75",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "69044998",
+      "name": "Blueberries, Package",
+      "brand": null,
+      "size": "1 pt",
+      "price": "5.49",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "19936069",
+      "name": "Benton's Caramel Coconut Fudge Cookies",
+      "brand": "benton's",
+      "size": "8.5 oz",
+      "price": "2.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20503623",
+      "name": "L'oven Fresh Everything Bagels",
+      "brand": "l'oven fresh",
+      "size": "20 oz",
+      "price": "2.19",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20856441",
+      "name": "L'oven Fresh Hawaiian Sweet Rolls",
+      "brand": "l'oven fresh",
+      "size": "12 ct",
+      "price": "2.15",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20537082",
+      "name": "Benton's Peanut Butter Filled Cookies",
+      "brand": "benton's",
+      "size": "9.5 oz",
+      "price": "2.45",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "20723849",
+      "name": "Emporium Selection Original Feta Cheese Crumbles",
+      "brand": "emporium selection",
+      "size": "4 oz",
+      "price": "1.65",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16355017",
+      "name": "Sliced White Mushrooms, Package",
+      "brand": "monterey mushrooms",
+      "size": "8 oz",
+      "price": "1.55",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16725303",
+      "name": "Russet Potatoes, Bag",
+      "brand": null,
+      "size": "10 lb",
+      "price": "4.39",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "18598732",
+      "name": "White Mushrooms, Package",
+      "brand": null,
+      "size": "8 oz",
+      "price": "1.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "16701868",
+      "name": "Granny Smith Apples, Bag",
+      "brand": null,
+      "size": "3 lb",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "26495295",
+      "name": "French Green Beans, Package",
+      "brand": null,
+      "size": "1 lb",
+      "price": "3.29",
+      "store": "Aldi",
+      "source": "aldi"
+    },
+    {
+      "id": "3255507",
+      "name": "Anjou Pears, Bag",
+      "brand": null,
+      "size": "1 each",
+      "price": "3.85",
+      "store": "Aldi",
+      "source": "aldi"
+    }
+  ]
+}

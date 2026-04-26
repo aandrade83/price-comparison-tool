@@ -1,0 +1,402 @@
+{
+  "scoredAt": "2026-04-25T18:24:01.914Z",
+  "summary": {
+    "HIGH": 24,
+    "MEDIUM": 15,
+    "LOW": 10
+  },
+  "rows": [
+    {
+      "product_id": 1,
+      "savealot_name": "Badia Cinnamon Powder, 2 Oz",
+      "matched_name": "Badia Cinnamon Powder, 2 oz",
+      "price": "1.98",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 2,
+      "savealot_name": "Wada Farms Town Country Idaho Potatoes, 5 Lb",
+      "matched_name": "Fresh Idaho Russet Potatoes, 5 lb Bag",
+      "price": "2.96",
+      "quality_score": "HIGH",
+      "reason": "store brand: product + size match (sim 0.50)"
+    },
+    {
+      "product_id": 3,
+      "savealot_name": "Spam Classic Canned Meat, 12 Oz",
+      "matched_name": "SPAM Classic Canned Meats, 7 G of Protein per Serving, Shelf-Stable, 12 oz Aluminum Can",
+      "price": "4.14",
+      "quality_score": "LOW",
+      "reason": "brand mismatch — SAL: \"Hormel\", Walmart starts: \"SPAM Classic\""
+    },
+    {
+      "product_id": 4,
+      "savealot_name": "Spam Maple-Flavored Luncheon Loaf",
+      "matched_name": "Spam Lite Luncheon Loaf,12 oz Pack of 2,\"Lite Spam, Lower Fat, Lean Pork, Canned Lunch, Classic Loaf\"",
+      "price": "15.03",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.17)"
+    },
+    {
+      "product_id": 5,
+      "savealot_name": "Spam Bacon With Real Hormel Canned Meat, 12 Oz",
+      "matched_name": "SPAM with Real HORMEL Bacon, 12 oz Aluminum Can, Canned Meats, 7 G Protein per Serving",
+      "price": "4.14",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 6,
+      "savealot_name": "Red Baron Deep Dish Singles Four Cheese Pizza, 2 Count, 11.20 Oz",
+      "matched_name": "Red Baron Deep Dish Singles Cheese Pizza, 11.20 oz, 2 Ct (Frozen)",
+      "price": "3.87",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 7,
+      "savealot_name": "Red Baron Pizza, Deep Dish, Pepperoni, Singles 2 ea",
+      "matched_name": "Red Baron Deep Dish Cheese Frozen Pizza 2 Count 11.2oz $3.87 34.6 ¢/oz",
+      "price": "3.87",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 8,
+      "savealot_name": "Post Honey Bunches Of Oats Crunchy Honey Roasted Cereal, 18 Oz",
+      "matched_name": "Post Honey Bunches of Oats Honey Roasted, Crunchy Breakfast Cereal, Crunchy 18 oz Box PACK OF 2",
+      "price": "15.49",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 9,
+      "savealot_name": "King Noodle Cup, Lobster Taste Langosta",
+      "matched_name": "[16 Pack] Paldo King Cup Lobster Noodle Soup, 3.9 Ounce Cup",
+      "price": "54.95",
+      "quality_score": "MEDIUM",
+      "reason": "store brand: product similarity 0.40"
+    },
+    {
+      "product_id": 10,
+      "savealot_name": "Instant With Seafood Soup Noodle",
+      "matched_name": "Nissin Foods Cup Noodle Ramen Noodle Soup Seafood, 2.7 oz Cup, Shelf-Stable",
+      "price": "1.37",
+      "quality_score": "MEDIUM",
+      "reason": "store brand: product similarity 0.30"
+    },
+    {
+      "product_id": 11,
+      "savealot_name": "Pure Sesame Oil",
+      "matched_name": "Imperial Dragon 100% Pure Sesame Seed Oil, 5 fl oz",
+      "price": "3.22",
+      "quality_score": "MEDIUM",
+      "reason": "store brand: product similarity 0.33"
+    },
+    {
+      "product_id": 12,
+      "savealot_name": "Hi-Chew Sweet & Sour Watermelon 1.76 OZ (50 G)",
+      "matched_name": "HI-CHEW Sweet & Sour Watermelon - Box of 15 Sticks, 1.76oz ea | Unique Fun Soft & Chewy Taffy Candy | Immensely Juicy Fruit Flavors",
+      "price": "24.48",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.21)"
+    },
+    {
+      "product_id": 13,
+      "savealot_name": "Hi-Chew Strawberry 1.76 OZ (50 G)",
+      "matched_name": "Hi-chew Strawberry Chewy Fruit Candies 1.76 oz. bar By Morinaga (10-pack)",
+      "price": "20.95",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.14)"
+    },
+    {
+      "product_id": 14,
+      "savealot_name": "100% Pure Coconut Water 33.8floz",
+      "matched_name": "C2O Pure Coconut Water, Ready to Drink, 33.8 fl oz Prisma Pack",
+      "price": "3.74",
+      "quality_score": "LOW",
+      "reason": "brand mismatch — SAL: \"Foco\", Walmart starts: \"C2O Pure\""
+    },
+    {
+      "product_id": 15,
+      "savealot_name": "Nutella Chocolate Hazelnut Spread, Perfect Topping for Valentine's Day Treats",
+      "matched_name": "Nutella Chocolate Hazelnut Spread, Single Serve Mini Cups, Perfect Topping for Pancakes, 0.52 Ounce (Pack of 120)",
+      "price": "44.94",
+      "quality_score": "HIGH",
+      "reason": "brand + product match (size not parsed)"
+    },
+    {
+      "product_id": 16,
+      "savealot_name": "Coconut Juice 17.6 FL OZ (520 ML)",
+      "matched_name": "2X-Goya Coconut Water - 17.6 fl oz",
+      "price": "12.61",
+      "quality_score": "LOW",
+      "reason": "brand mismatch — SAL: \"Foco\", Walmart starts: \"2X-Goya Coconut\""
+    },
+    {
+      "product_id": 17,
+      "savealot_name": "Dole Manzana Rojas 3 Lb",
+      "matched_name": "Best seller Fresh Gala Apples, 3 lb Bag $2.96 98.7 ¢/lb",
+      "price": "2.96",
+      "quality_score": "LOW",
+      "reason": "brand mismatch — SAL: \"Dole\", Walmart starts: \"Best seller\""
+    },
+    {
+      "product_id": 18,
+      "savealot_name": "Hi-chew Fantasy Mix Bag 3oz(85g)",
+      "matched_name": "HI-CHEW Fantasy Mix, 6 Bags, 3oz each - Rainbow Sherbet Blue Hawaii Blue Raspberry - Unique Fun Soft & Chewy Candy - Immensely Juicy Fruity Candy Flavors - Individually Wrapped for Sharing",
+      "price": "16.99",
+      "quality_score": "LOW",
+      "reason": "brand match but different product category (sim 0.10)"
+    },
+    {
+      "product_id": 19,
+      "savealot_name": "Jolly Rancher Hard Candy Original Flavors",
+      "matched_name": "JOLLY RANCHER Original Fruit Flavored Hard Candy Bulk Bag, 42 oz",
+      "price": "11.98",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.33), size differs"
+    },
+    {
+      "product_id": 20,
+      "savealot_name": "Imperial 28% Vegetable Oil Spread, 45 Oz",
+      "matched_name": "Imperial Vegetable Oil Spread, 45 oz Plastic Tub",
+      "price": "4.12",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 21,
+      "savealot_name": "Cola Mini Cans",
+      "matched_name": "Coca-Cola Soda Pop Fridge Pack Mini Cans, 7.5 fl oz, 10 Pack",
+      "price": "6.94",
+      "quality_score": "LOW",
+      "reason": "brand mismatch — SAL: \"Pepsi\", Walmart starts: \"Coca-Cola Soda\""
+    },
+    {
+      "product_id": 22,
+      "savealot_name": "Heinz Tomato Ketchup Art Of The Burger",
+      "matched_name": "Heinz Simply Tomato Ketchup with No Artificial Sweeteners, 19 oz Bottle",
+      "price": "4.48",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 23,
+      "savealot_name": "Ever Wet Spray Tire Shine Cans",
+      "matched_name": "Black Magic Tire Wet 23 oz. Tire Shine Lasts Up to 4 Weeks - BM23",
+      "price": "4.97",
+      "quality_score": "MEDIUM",
+      "reason": "store brand: product similarity 0.27"
+    },
+    {
+      "product_id": 24,
+      "savealot_name": "BARS COTTO SALAMI 16 OZ",
+      "matched_name": "Bay View Smoked Pickled Mild Polish Sausage, 16 oz Jar",
+      "price": "14.79",
+      "quality_score": "LOW",
+      "reason": "brand mismatch — SAL: \"Bar-S\", Walmart starts: \"Bay View\""
+    },
+    {
+      "product_id": 25,
+      "savealot_name": "Short Grain Rice",
+      "matched_name": "RiceSelect Sushi Rice, Premium Short Grain Rice for Sushi, Gluten-Free, Non-GMO, 2 lb Jar",
+      "price": "13.83",
+      "quality_score": "MEDIUM",
+      "reason": "store brand: product similarity 0.33"
+    },
+    {
+      "product_id": 26,
+      "savealot_name": "Purina Purina Dog Chow Complete Adult Dry Dog Food Kibble Beef Flavor 18.5 lb",
+      "matched_name": "Purina Dog Chow Complete Adult Dry Dog Food for Adult Dogs, Kibble Beef Flavor 18.5 lb Bag",
+      "price": "15.98",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 27,
+      "savealot_name": "Kraft Barbecue Sauce, Original, Slow Simmered 18 oz",
+      "matched_name": "Kraft Original Slow-Simmered Barbecue BBQ Sauce, 18 oz Bottle",
+      "price": "1.98",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 28,
+      "savealot_name": "Kraft Singles American Cheese Slices, 16 Count, 12 Oz",
+      "matched_name": "Kraft Deli Deluxe American Cheese Slices, 12 oz Pack, 16 Slices",
+      "price": "5.98",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.38), size differs"
+    },
+    {
+      "product_id": 29,
+      "savealot_name": "Kraft Cheez Whiz Dip Original Cheese Dip, 15 Oz",
+      "matched_name": "Kraft Cheez Whiz Cheese Dip - Original - 15 oz- Pack of 2",
+      "price": "15.00",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 30,
+      "savealot_name": "Kraft Original Flavor Macaroni & Cheese Sauce Mix, 7.25 Oz",
+      "matched_name": "Kraft Mac and Cheese, 1 Box, for Easy Dinner or Dinner Sides, Original Flavor, No Artificial Flavors, Preservatives or Dyes, 7.25 oz",
+      "price": "1.24",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.15)"
+    },
+    {
+      "product_id": 31,
+      "savealot_name": "Velveeta Original Shells Pasta & Cheese Sauce, 12 Oz",
+      "matched_name": "Velveeta Shells & Cheese Original Shell Pasta & Cheese Sauce Meal, 8 ct Pack, 12 oz Boxes",
+      "price": "29.99",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.50), size differs"
+    },
+    {
+      "product_id": 32,
+      "savealot_name": "Lay's Stax Original Potato Crisps, 5 3/4 Oz",
+      "matched_name": "Pack Of 3 Lay's Stax Original Potato Crisps, 5.75 oz (Package May Vary)",
+      "price": "16.30",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 33,
+      "savealot_name": "Idahoan Loaded Baked Mashed Potatoes, 4 Oz",
+      "matched_name": "Idahoan Loaded Baked Mashed Potatoes Side Dish, 4 oz",
+      "price": "1.44",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 34,
+      "savealot_name": "Pearl Milling Company Original Syrup, 24 Fl Oz",
+      "matched_name": "Pearl Milling Company Original Syrup, 24 oz Bottle, 24 Servings (Packaging May Vary)",
+      "price": "3.84",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.17)"
+    },
+    {
+      "product_id": 35,
+      "savealot_name": "Dawn Dawn Ultra Liquid Dish Soap, Original, 18oz 18 fl oz",
+      "matched_name": "(10 pack) Dawn Ultra Liquid Dish Soap, Dishwashing Liquid, Grease Removal, Original, 18oz",
+      "price": "27.33",
+      "quality_score": "HIGH",
+      "reason": "brand + product match (size not parsed)"
+    },
+    {
+      "product_id": 36,
+      "savealot_name": "Badia Garlic Powder, 10.5 Oz",
+      "matched_name": "Badia Garlic Powder, 10.5 oz Bottle",
+      "price": "7.97",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 37,
+      "savealot_name": "Badia Complete Seasoning® 12 Oz",
+      "matched_name": "Badia The Original Complete Seasoning, 12 oz Bottle",
+      "price": "6.52",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 38,
+      "savealot_name": "The Hershey Company Hershey Almond White Box Vend 36 Count",
+      "matched_name": "Hershey's Milk with Almond, 36-Count.",
+      "price": "30.50",
+      "quality_score": "HIGH",
+      "reason": "brand + product match (size not parsed)"
+    },
+    {
+      "product_id": 39,
+      "savealot_name": "Kit Kat Crisp Wafers, In Milk Chocolate, Snack Size 10.78 oz",
+      "matched_name": "KIT KAT Crisp Wafers in Milk Chocolate Snack Size - 10.78 Oz",
+      "price": "9.10",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 40,
+      "savealot_name": "Hershey's Milk Chocolate Extra Large Candy Bar Full size Bar",
+      "matched_name": "Hershey's Milk Chocolate XL Candy, Bar 4.4 oz, 16 Pieces",
+      "price": "2.97",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 41,
+      "savealot_name": "RAGU PASTA SAUCE OLD WORLD STYLE WITH MEAT 24 OZ",
+      "matched_name": "RAGU Old World Style Pasta Sauce Flavored with Meat, 24 oz",
+      "price": "2.38",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 42,
+      "savealot_name": "Café Molido",
+      "matched_name": "Yaucono Medium Roast Ground Coffee Fresh Pack, 14 oz Bag",
+      "price": "8.86",
+      "quality_score": "LOW",
+      "reason": "store brand: low product similarity (0.00)"
+    },
+    {
+      "product_id": 43,
+      "savealot_name": "Dannon Danimals Strawberry Explosion Flavor Smoothie, 3.1 Fl Oz, 6 Count",
+      "matched_name": "Danimals Smoothie Strawberry Dairy Drink Smoothie Bottles Multi-Pack, 3.1 oz, 6 Count",
+      "price": "3.37",
+      "quality_score": "LOW",
+      "reason": "brand mismatch — SAL: \"Dannon\", Walmart starts: \"Danimals Smoothie\""
+    },
+    {
+      "product_id": 44,
+      "savealot_name": "Pringles Potato Crisps Chips, Original 5.2 oz",
+      "matched_name": "Pringles Original Potato Crisps Chips, Lunch Snacks, 5.2 oz Canister",
+      "price": "2.27",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 45,
+      "savealot_name": "I Can't Believe It's Not Butter! The Original 45% Vegetable Oil Spread, 15 Oz",
+      "matched_name": "I Can't Believe It's Not Butter! Original Spread, 21.3 Oz.",
+      "price": "3.97",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.33), size differs"
+    },
+    {
+      "product_id": 46,
+      "savealot_name": "Goya Tomato Sauce, Spanish Style 8 Oz",
+      "matched_name": "Goya All Purpose Seasoning with Pepper, 8 OZ",
+      "price": "2.32",
+      "quality_score": "LOW",
+      "reason": "brand match but different product category (sim 0.00)"
+    },
+    {
+      "product_id": 47,
+      "savealot_name": "Goya Premium Green Pigeon Peas",
+      "matched_name": "3 Pack of Goya Premium Green Pigeon Peas - 15 oz (Packaging Varies)",
+      "price": "15.76",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 48,
+      "savealot_name": "Maruchan Instant Lunch Chicken Flavor Ramen Noodles with Vegetables",
+      "matched_name": "Maruchan Instant Lunch Ramen Noodles, Chicken Flavor, 2.25 oz Cup",
+      "price": "0.64",
+      "quality_score": "HIGH",
+      "reason": "brand + product + size match"
+    },
+    {
+      "product_id": 49,
+      "savealot_name": "Malt O Meal Cereal, Frosted Flakes 30 oz",
+      "matched_name": "Malt-O-Meal Frosted Flakes Cereal, Family Size, Crunchy 37 oz Resealable Bag",
+      "price": "5.86",
+      "quality_score": "MEDIUM",
+      "reason": "brand match, similar product (sim 0.43), size differs"
+    }
+  ]
+}

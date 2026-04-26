@@ -1,0 +1,502 @@
+{
+  "matchedAt": "2026-04-26T05:27:02.219Z",
+  "counts": {
+    "EXACT": 0,
+    "HIGH": 0,
+    "SUBSTITUTE": 6,
+    "LOW": 25,
+    "NOT_FOUND": 18
+  },
+  "rows": [
+    {
+      "id": 1,
+      "salName": "Badia Cinnamon Powder, 2 Oz",
+      "aldiName": "Millville Apple Cinnamon Fruit & Grain Bars",
+      "price": "2.19",
+      "confidence": "LOW",
+      "points": 25,
+      "notes": "kw:1(+10) brand:private_label(+0) variant:match(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 2,
+      "salName": "Wada Farms Town Country Idaho Potatoes, 5 Lb",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 3,
+      "salName": "Spam Classic Canned Meat, 12 Oz",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 4,
+      "salName": "Spam Maple-Flavored Luncheon Loaf",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 5,
+      "salName": "Spam Bacon With Real Hormel Canned Meat, 12 Oz",
+      "aldiName": "Never Any! Hickory Smoked No Sugar Added Uncured Bacon",
+      "price": "5.29",
+      "confidence": "LOW",
+      "points": 20,
+      "notes": "cat:sal_only(canned_meat)(-5) kw:1(+10) brand:private_label(+0) size:close(12.0≈12.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 6,
+      "salName": "Red Baron Deep Dish Singles Four Cheese Pizza, 2 Count, 11.20 Oz",
+      "aldiName": "Mama Cozzi's Pizza Kitchen Pepperoni French Bread Pizza",
+      "price": "3.29",
+      "confidence": "LOW",
+      "points": 50,
+      "notes": "cat:pizza(+25) kw:1(+10) brand:private_label(+0) size:close(11.2≈11.3oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 7,
+      "salName": "Red Baron Pizza, Deep Dish, Pepperoni, Singles 2 ea",
+      "aldiName": "Mama Cozzi's Pizza Kitchen Pepperoni French Bread Pizza",
+      "price": "3.29",
+      "confidence": "SUBSTITUTE",
+      "points": 75,
+      "notes": "cat:pizza(+25) kw:2(+20) brand:private_label(+0) variant:match(+15) size:close(11.2≈11.3oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 8,
+      "salName": "Post Honey Bunches Of Oats Crunchy Honey Roasted Cereal, 18 Oz",
+      "aldiName": "Millville Crunchy Granola Raisin Bran Crunch",
+      "price": "3.05",
+      "confidence": "LOW",
+      "points": 20,
+      "notes": "cat:sal_only(cereal)(-5) kw:1(+10) brand:private_label(+0) size:close(18.0≈18.2oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 9,
+      "salName": "King Noodle Cup, Lobster Taste Langosta",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 10,
+      "salName": "Instant With Seafood Soup Noodle",
+      "aldiName": "Stonemill Seaside Seafood Seasoning",
+      "price": "1.89",
+      "confidence": "LOW",
+      "points": 25,
+      "notes": "cat:sal_only(soup)(-5) kw:1(+10) variant:match(+15) size:ok(+5)",
+      "status": "FOUND"
+    },
+    {
+      "id": 11,
+      "salName": "Pure Sesame Oil",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 12,
+      "salName": "Hi-Chew Sweet & Sour Watermelon 1.76 OZ (50 G)",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 13,
+      "salName": "Hi-Chew Strawberry 1.76 OZ (50 G)",
+      "aldiName": "Little Journey Strawberry Banana Rice Rusks",
+      "price": "2.19",
+      "confidence": "LOW",
+      "points": 35,
+      "notes": "cat:sal_only(candy_chew)(-5) kw:1(+10) brand:private_label(+0) variant:match(+15) size:close(1.8≈1.8oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 14,
+      "salName": "100% Pure Coconut Water 33.8floz",
+      "aldiName": "Nature's Nectar Pure Coconut Water",
+      "price": "2.55",
+      "confidence": "SUBSTITUTE",
+      "points": 60,
+      "notes": "cat:coconut_water(+25) kw:2(+20) brand:private_label(+0) size:close(33.8≈33.8oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 15,
+      "salName": "Nutella Chocolate Hazelnut Spread, Perfect Topping for Valentine's Day Treats",
+      "aldiName": "Friendly Farms Whipped Dairy Topping",
+      "price": "2.75",
+      "confidence": "LOW",
+      "points": 20,
+      "notes": "cat:sal_only(hazelnut_spread)(-5) kw:1(+10) brand:private_label(+0) size:close(13.0≈13.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 16,
+      "salName": "Coconut Juice 17.6 FL OZ (520 ML)",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 17,
+      "salName": "Dole Manzana Rojas 3 Lb",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 18,
+      "salName": "Hi-chew Fantasy Mix Bag 3oz(85g)",
+      "aldiName": "PurAqua Grape Sugar Free Hydration Drink Mix Sticks",
+      "price": "3.55",
+      "confidence": "LOW",
+      "points": 20,
+      "notes": "cat:sal_only(candy_chew)(-5) kw:1(+10) brand:private_label(+0) size:close(3.0≈2.8oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 19,
+      "salName": "Jolly Rancher Hard Candy Original Flavors",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 20,
+      "salName": "Imperial 28% Vegetable Oil Spread, 45 Oz",
+      "aldiName": "Imperial Spread Quarters",
+      "price": "1.39",
+      "confidence": "LOW",
+      "points": 35,
+      "notes": "cat:sal_only(butter_spread)(-5) kw:1(+10) brand:exact(+40) size:far(45.0 vs 16.0oz)(-10)",
+      "status": "FOUND"
+    },
+    {
+      "id": 21,
+      "salName": "Cola Mini Cans",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 22,
+      "salName": "Heinz Tomato Ketchup Art Of The Burger",
+      "aldiName": "Simply Nature Organic Ketchup",
+      "price": "2.39",
+      "confidence": "LOW",
+      "points": 40,
+      "notes": "cat:ketchup(+25) kw:1(+10) brand:private_label(+0) size:ok(+5)",
+      "status": "FOUND"
+    },
+    {
+      "id": 23,
+      "salName": "Ever Wet Spray Tire Shine Cans",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 24,
+      "salName": "BARS COTTO SALAMI 16 OZ",
+      "aldiName": "Appleton Farms Original Sliced Salami",
+      "price": "9.35",
+      "confidence": "LOW",
+      "points": 50,
+      "notes": "cat:salami(+25) kw:1(+10) brand:private_label(+0) size:close(16.0≈16.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 25,
+      "salName": "Short Grain Rice",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 26,
+      "salName": "Purina Purina Dog Chow Complete Adult Dry Dog Food Kibble Beef Flavor 18.5 lb",
+      "aldiName": "Black Angus Choice Beef Top Sirloin Steak",
+      "price": "15.39",
+      "confidence": "LOW",
+      "points": 25,
+      "notes": "kw:1(+10) variant:match(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 27,
+      "salName": "Kraft Barbecue Sauce, Original, Slow Simmered 18 oz",
+      "aldiName": "Burman's Original BBQ Sauce",
+      "price": "1.89",
+      "confidence": "LOW",
+      "points": 50,
+      "notes": "cat:bbq_sauce(+25) kw:1(+10) brand:private_label(+0) size:close(18.0≈18.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 28,
+      "salName": "Kraft Singles American Cheese Slices, 16 Count, 12 Oz",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 29,
+      "salName": "Kraft Cheez Whiz Dip Original Cheese Dip, 15 Oz",
+      "aldiName": "Priano Four Cheese Alfredo Sauce",
+      "price": "1.95",
+      "confidence": "LOW",
+      "points": 20,
+      "notes": "cat:sal_only(cheese_dip)(-5) kw:1(+10) brand:private_label(+0) size:close(15.0≈15.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 30,
+      "salName": "Kraft Original Flavor Macaroni & Cheese Sauce Mix, 7.25 Oz",
+      "aldiName": "Park Street Deli Macaroni and Cheese",
+      "price": "3.25",
+      "confidence": "LOW",
+      "points": 35,
+      "notes": "cat:mac_cheese(+25) kw:2(+20) brand:private_label(+0) size:far(7.3 vs 20.0oz)(-10)",
+      "status": "FOUND"
+    },
+    {
+      "id": 31,
+      "salName": "Velveeta Original Shells Pasta & Cheese Sauce, 12 Oz",
+      "aldiName": "Cheese Club Shells and Cheese",
+      "price": "1.35",
+      "confidence": "SUBSTITUTE",
+      "points": 60,
+      "notes": "cat:shells_cheese(+25) kw:2(+20) brand:private_label(+0) size:close(12.0≈12.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 32,
+      "salName": "Lay's Stax Original Potato Crisps, 5 3/4 Oz",
+      "aldiName": "Simply Nature Sweet Potato Chips",
+      "price": "4.15",
+      "confidence": "LOW",
+      "points": 40,
+      "notes": "cat:potato_chips(+25) kw:1(+10) brand:private_label(+0) size:ok(+5)",
+      "status": "FOUND"
+    },
+    {
+      "id": 33,
+      "salName": "Idahoan Loaded Baked Mashed Potatoes, 4 Oz",
+      "aldiName": "Chef's Cupboard Homestyle Roasted Garlic Mashed Potatoes",
+      "price": "1.09",
+      "confidence": "SUBSTITUTE",
+      "points": 60,
+      "notes": "cat:mashed_potato(+25) kw:2(+20) brand:private_label(+0) size:close(4.0≈4.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 34,
+      "salName": "Pearl Milling Company Original Syrup, 24 Fl Oz",
+      "aldiName": "Millville Original Pancake Syrup",
+      "price": "2.55",
+      "confidence": "LOW",
+      "points": 50,
+      "notes": "cat:syrup(+25) kw:1(+10) brand:private_label(+0) size:close(24.0≈24.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 35,
+      "salName": "Dawn Dawn Ultra Liquid Dish Soap, Original, 18oz 18 fl oz",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 36,
+      "salName": "Badia Garlic Powder, 10.5 Oz",
+      "aldiName": "Park Street Deli Garlic Topped Hummus",
+      "price": "2.85",
+      "confidence": "LOW",
+      "points": 25,
+      "notes": "kw:1(+10) brand:private_label(+0) size:close(10.5≈10.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 37,
+      "salName": "Badia Complete Seasoning® 12 Oz",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 38,
+      "salName": "The Hershey Company Hershey Almond White Box Vend 36 Count",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 39,
+      "salName": "Kit Kat Crisp Wafers, In Milk Chocolate, Snack Size 10.78 oz",
+      "aldiName": "Choceur Milk Chocolate Almonds",
+      "price": "6.15",
+      "confidence": "LOW",
+      "points": 45,
+      "notes": "cat:compat(choc_wafer~choc_bar)(+10) kw:2(+20) brand:private_label(+0) size:close(10.8≈10.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 40,
+      "salName": "Hershey's Milk Chocolate Extra Large Candy Bar Full size Bar",
+      "aldiName": "Choceur Milk Chocolate Bar",
+      "price": "2.45",
+      "confidence": "LOW",
+      "points": 50,
+      "notes": "cat:choc_bar(+25) kw:2(+20) brand:private_label(+0) size:ok(+5)",
+      "status": "FOUND"
+    },
+    {
+      "id": 41,
+      "salName": "RAGU PASTA SAUCE OLD WORLD STYLE WITH MEAT 24 OZ",
+      "aldiName": "Priano Four Cheese Pasta Sauce",
+      "price": "2.15",
+      "confidence": "SUBSTITUTE",
+      "points": 60,
+      "notes": "cat:pasta_sauce(+25) kw:2(+20) brand:private_label(+0) size:close(24.0≈24.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 42,
+      "salName": "Café Molido",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": 43,
+      "salName": "Dannon Danimals Strawberry Explosion Flavor Smoothie, 3.1 Fl Oz, 6 Count",
+      "aldiName": "Little Journey Apple Banana Strawberry Yogurt Baby Food Puree",
+      "price": "0.99",
+      "confidence": "LOW",
+      "points": 30,
+      "notes": "kw:1(+10) brand:private_label(+0) variant:match(+15) size:ok(+5)",
+      "status": "FOUND"
+    },
+    {
+      "id": 44,
+      "salName": "Pringles Potato Crisps Chips, Original 5.2 oz",
+      "aldiName": "Simply Nature Sweet Potato Chips",
+      "price": "4.15",
+      "confidence": "LOW",
+      "points": 50,
+      "notes": "cat:potato_chips(+25) kw:2(+20) brand:private_label(+0) size:ok(+5)",
+      "status": "FOUND"
+    },
+    {
+      "id": 45,
+      "salName": "I Can't Believe It's Not Butter! The Original 45% Vegetable Oil Spread, 15 Oz",
+      "aldiName": "Countryside Creamery Tastes Like Butter Spread",
+      "price": "3.25",
+      "confidence": "LOW",
+      "points": 20,
+      "notes": "cat:sal_only(butter_spread)(-5) kw:1(+10) brand:private_label(+0) size:close(15.0≈15.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 46,
+      "salName": "Goya Tomato Sauce, Spanish Style 8 Oz",
+      "aldiName": "Happy Harvest Tomato Sauce",
+      "price": "0.55",
+      "confidence": "SUBSTITUTE",
+      "points": 60,
+      "notes": "cat:tomato_sauce(+25) kw:2(+20) brand:private_label(+0) size:close(8.0≈8.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 47,
+      "salName": "Goya Premium Green Pigeon Peas",
+      "aldiName": "Happy Harvest Medium Sweet Peas",
+      "price": "0.85",
+      "confidence": "LOW",
+      "points": 20,
+      "notes": "cat:sal_only(pigeon_peas)(-5) kw:1(+10) brand:private_label(+0) size:close(15.0≈15.0oz)(+15)",
+      "status": "FOUND"
+    },
+    {
+      "id": 48,
+      "salName": "Maruchan Instant Lunch Chicken Flavor Ramen Noodles with Vegetables",
+      "aldiName": "Chef's Cupboard Chunky Chicken Noodle Soup",
+      "price": "1.65",
+      "confidence": "LOW",
+      "points": 40,
+      "notes": "cat:noodle_soup(+25) kw:1(+10) brand:private_label(+0) variant:match(+15) size:far(2.3 vs 18.6oz)(-10)",
+      "status": "FOUND"
+    },
+    {
+      "id": 49,
+      "salName": "Malt O Meal Cereal, Frosted Flakes 30 oz",
+      "aldiName": "",
+      "price": "",
+      "confidence": "N/A",
+      "points": 0,
+      "notes": "",
+      "status": "NOT_FOUND"
+    }
+  ]
+}

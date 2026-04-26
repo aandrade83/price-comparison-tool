@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(npx tsx *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(npx drizzle-kit *)",
+      "Bash(node *)",
+      "WebFetch(domain:nominatim.openstreetmap.org)",
+      "WebFetch(domain:walmart.io)",
+      "WebSearch",
+      "WebFetch(domain:developer.walmartlabs.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(npx tsc *)",
+      "WebFetch(domain:www.aldi.us)",
+      "WebFetch(domain:info.aldi.us)",
+      "WebFetch(domain:storelocator.aldi.us)",
+      "WebFetch(domain:apify.com)",
+      "WebFetch(domain:www.postman.com)",
+      "WebFetch(domain:stores.aldi.us)",
+      "WebFetch(domain:overpass-api.de)",
+      "WebFetch(domain:help.aldi.us)",
+      "WebFetch(domain:shop.aldi.us)",
+      "WebFetch(domain:www.instacart.com)",
+      "WebFetch(domain:docs.instacart.com)",
+      "WebFetch(domain:developers.oxylabs.io)",
+      "Bash(npx next *)",
+      "Bash(grep -v \"Warning\\\\|SECURITY\\\\|SSL\\\\|pg-connection\\\\|major version\\\\|currently\\\\|prepare\\\\|See https\\\\|Use \\\\`node\\\\|injected env\")"
+    ]
+  }
+}
